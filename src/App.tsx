@@ -54,12 +54,12 @@ class App extends React.Component<{}, AppState> {
     // console.log("Fetch data : start");
     fetch("recommended-shows.json")
       .then(res => {
-        console.log("Success", res);
+        // console.log("Success", res);
         return res.json();
       })
       .then(
         result => {
-          console.log("SetState with: ", result);
+          // console.log("SetState with: ", result);
           const nextState: AppState = {
             showDates: result as ShowDate[],
             error: undefined
