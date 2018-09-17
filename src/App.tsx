@@ -119,17 +119,19 @@ class App extends React.Component<{}, AppState> {
     );
 
     return (
-      <table className="table table-condensed table-striped">
-        <thead className="thead-dark">
-          <tr>
-            <th>Day</th>
-            <th>Date</th>
-            <th>Artists</th>
-            <th>Venue</th>
-          </tr>
-        </thead>
-        <tbody>{tableRows}</tbody>
-      </table>
+      <div className="table-responsive">
+        <table className="table table-striped table-sm">
+          <thead className="thead-dark">
+            <tr>
+              <th>Day</th>
+              <th>Date</th>
+              <th>Artists</th>
+              <th>Venue</th>
+            </tr>
+          </thead>
+          <tbody>{tableRows}</tbody>
+        </table>
+      </div>
     );
   }
 }
