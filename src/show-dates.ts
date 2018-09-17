@@ -6,7 +6,7 @@
 // }
 
 export interface ShowDate {
-  date: string;
+  date: Date;
 
   shows: Show[];
 }

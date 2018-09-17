@@ -1,4 +1,5 @@
 import * as React from "react";
+import * as moment from "moment";
 import "./App.css";
 
 // import logo from './logo.svg';
@@ -7,7 +8,7 @@ import { ShowDate } from "./show-dates";
 class App extends React.Component {
   showDates: ShowDate[] = [
     {
-      date: "2018-09-17",
+      date: new Date("2018-09-17T20:00:00.000Z"),
       shows: [
         {
           artists: [
@@ -20,7 +21,7 @@ class App extends React.Component {
       ]
     },
     {
-      date: "2018-09-21",
+      date: new Date("2018-09-21T20:00:00.000Z"),
       shows: [
         {
           artists: [
@@ -58,10 +59,13 @@ class App extends React.Component {
       return <div>Loading Shows...</div>;
     }
 
+    // moment().format('MMMM Do YYYY, h:mm:ss a')
+
     const tableRows = this.showDates.map(showDate =>
       showDate.shows.map((show, showIndex) => (
         <tr key={showIndex}>
-          <td>{showDate.date.toString()}</td>
+          <td>{moment(showDate.date).format("dddd")}</td>
+          <td>{moment(showDate.date).format("DD-MMM-YYYY")}</td>
           <td>
             <ul>
               {show.artists.map((artist, artistIndex) => (
@@ -76,8 +80,9 @@ class App extends React.Component {
 
     return (
       <table className="table">
-        <thead>
+        <thead className="thead-dark">
           <tr>
+            <th>Day</th>
             <th>Date</th>
             <th>Artists</th>
             <th>Venue</th>
