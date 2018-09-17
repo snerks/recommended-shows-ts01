@@ -12,7 +12,7 @@ class App extends React.Component {
         {
           artists: [
             {
-              name: "Chuck Prophet and Stepanie Finch"
+              name: "Chuck Prophet and Stephanie Finch"
             }
           ],
           venue: "Hen and Chicken"
