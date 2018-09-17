@@ -104,14 +104,14 @@ class App extends React.Component<{}, AppState> {
     const tableRows = showDates.map(showDate =>
       showDate.shows.map((show, showIndex) => (
         <tr key={showIndex}>
-          <td>{moment(showDate.date).format("dddd")}</td>
+          <td>{moment(showDate.date).format("ddd")}</td>
           <td>{moment(showDate.date).format("DD-MMM-YYYY")}</td>
           <td>
-            <ul>
+            <div>
               {show.artists.map((artist, artistIndex) => (
-                <li key={artistIndex}>{artist.name}</li>
+                <p key={artistIndex}>{artist.name}</p>
               ))}
-            </ul>
+            </div>
           </td>
           <td>{show.venue}</td>
         </tr>
@@ -119,7 +119,7 @@ class App extends React.Component<{}, AppState> {
     );
 
     return (
-      <table className="table">
+      <table className="table table-condensed table-striped">
         <thead className="thead-dark">
           <tr>
             <th>Day</th>
