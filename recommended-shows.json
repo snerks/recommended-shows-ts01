@@ -27,5 +27,34 @@
         "venue": "Exchange"
       }
     ]
+  },
+  {
+    "date": "2018-09-22",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Chiyoda Ku"
+          },
+          {
+            "name": "No Violet"
+          }
+        ],
+        "venue": "Crofters Rights"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-23",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Get The Blessing"
+          }
+        ],
+        "venue": "Wardrobe Theatre"
+      }
+    ]
   }
 ]
