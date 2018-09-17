@@ -6,6 +6,9 @@
         "artists": [
           {
             "name": "Chuck Prophet and Stephanie Finch"
+          },
+          {
+            "name": "Jesse Malin"
           }
         ],
         "venue": "Hen and Chicken"
@@ -54,6 +57,30 @@
           }
         ],
         "venue": "Wardrobe Theatre"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-20",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Parrots"
+          },
+          {
+            "name": "Black Midi"
+          }
+        ],
+        "venue": "Simple Things"
+      },
+      {
+        "artists": [
+          {
+            "name": "Modulus III"
+          }
+        ],
+        "venue": "Left Bank"
       }
     ]
   }
