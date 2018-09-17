@@ -1,0 +1,31 @@
+[
+  {
+    "date": "2018-09-17",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Chuck Prophet and Stephanie Finch"
+          }
+        ],
+        "venue": "Hen and Chicken"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-21",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Nightingales"
+          },
+          {
+            "name": "Stewart Lee"
+          }
+        ],
+        "venue": "Exchange"
+      }
+    ]
+  }
+]
