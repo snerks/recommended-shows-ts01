@@ -9,10 +9,15 @@ interface AppState {
   showDates: ShowDate[];
 
   error?: any;
+
+  showPastEvents: boolean;
 }
 
 class App extends React.Component<{}, AppState> {
-  constructor(props: {}, state: AppState = { showDates: [] }) {
+  constructor(
+    props: {},
+    state: AppState = { showDates: [], showPastEvents: false }
+  ) {
     super(props, state);
 
     this.state = state;
@@ -62,7 +67,8 @@ class App extends React.Component<{}, AppState> {
           // console.log("SetState with: ", result);
           const nextState: AppState = {
             showDates: result as ShowDate[],
-            error: undefined
+            error: undefined,
+            showPastEvents: false
           };
 
           this.setState(nextState);
@@ -77,6 +83,42 @@ class App extends React.Component<{}, AppState> {
         }
       );
   }
+
+  handleShowPastEventsChange = () => {
+    this.setState((prevState, props) => {
+      const nextState = { ...prevState };
+      nextState.showPastEvents = !prevState.showPastEvents;
+
+      return nextState;
+    });
+  };
+
+  visibleShowDateFilter = (showDate: ShowDate) => {
+    if (!this.state) {
+      return true;
+    }
+
+    const { showPastEvents } = this.state;
+
+    const currentDateTime = new Date();
+
+    let willShowEvent = false;
+
+    if (showPastEvents) {
+      willShowEvent = true;
+    } else {
+      const eventDateTime = new Date(showDate.date);
+      const isPastEvent = eventDateTime <= currentDateTime;
+
+      // console.log("isPastEvent = " + isPastEvent);
+
+      willShowEvent = !isPastEvent;
+    }
+
+    // console.log("willShowEvent = " + willShowEvent);
+
+    return willShowEvent;
+  };
 
   public render() {
     // return (
@@ -101,7 +143,34 @@ class App extends React.Component<{}, AppState> {
       return <div>Loading Shows...</div>;
     }
 
-    const tableRows = showDates.map(showDate =>
+    // const currentDateTime = new Date();
+
+    // console.log("showPastEvents = " + showPastEvents);
+    // console.log("showDates.length = " + showDates.length);
+
+    // const visibleShowDates = showDates.filter(showDate => {
+    //   let willShowEvent = false;
+    //   if (showPastEvents) {
+    //     willShowEvent = true;
+    //   } else {
+    //     const eventDateTime = new Date(showDate.date);
+    //     const isPastEvent = eventDateTime <= currentDateTime;
+
+    //     // console.log("isPastEvent = " + isPastEvent);
+
+    //     willShowEvent = !isPastEvent;
+    //   }
+
+    //   console.log("willShowEvent = " + willShowEvent);
+
+    //   return willShowEvent;
+    // });
+
+    const visibleShowDates = showDates.filter(this.visibleShowDateFilter);
+
+    // console.log("visibleShowDates.length = " + visibleShowDates.length);
+
+    const tableRows = visibleShowDates.map(showDate =>
       showDate.shows.map((show, showIndex) => (
         <tr key={showIndex}>
           <td>{moment(showDate.date).format("ddd")}</td>
@@ -120,6 +189,49 @@ class App extends React.Component<{}, AppState> {
 
     return (
       <div className="table-responsive">
+        <form style={{ margin: 30 }}>
+          {/* <div className="form-group form-check">
+            <input
+              type="checkbox"
+              className="form-check-input"
+              id="exampleCheck1"
+              onChange={() => this.handleShowPastEventsChange()}
+            />
+            <label className="form-check-label" htmlFor="exampleCheck1">
+              Show Past Events
+            </label>
+          </div> */}
+
+          <div className="form-group row">
+            {/* <div className="col-sm-2">Checkbox</div> */}
+            {/* <div className="col-sm-10">
+              <div className="form-check">
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  id="gridCheck1"
+                  onChange={() => this.handleShowPastEventsChange()}
+                />
+                <label className="form-check-label" htmlFor="gridCheck1">
+                  Show Past Events
+                </label>
+              </div>
+            </div> */}
+
+            <div className="custom-control custom-checkbox">
+              <input
+                type="checkbox"
+                className="custom-control-input"
+                id="customCheck1"
+                onChange={() => this.handleShowPastEventsChange()}
+              />
+              <label className="custom-control-label" htmlFor="customCheck1">
+                Show Past Events
+              </label>
+            </div>
+          </div>
+        </form>
+
         <table className="table table-striped table-sm">
           <thead className="thead-dark">
             <tr>
