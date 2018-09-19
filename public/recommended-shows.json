@@ -100,6 +100,19 @@
     ]
   },
   {
+    "date": "2018-09-26",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Kit Hawes & Aron Carlow"
+          }
+        ],
+        "venue": "Kingsdown Vaults"
+      }
+    ]
+  },
+  {
     "date": "2018-09-27",
     "shows": [
       {
@@ -117,6 +130,14 @@
           }
         ],
         "venue": "Gallimaufry"
+      },
+      {
+        "artists": [
+          {
+            "name": "Half Waif"
+          }
+        ],
+        "venue": "Crofters Rights"
       }
     ]
   },
@@ -144,6 +165,14 @@
           }
         ],
         "venue": "Left Bank"
+      },
+      {
+        "artists": [
+          {
+            "name": "Coims"
+          }
+        ],
+        "venue": "Unitarian Church"
       }
     ]
   },
@@ -198,6 +227,27 @@
     ]
   },
   {
+    "date": "2018-10-05",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Spindle Ensemble"
+          }
+        ],
+        "venue": "St. Janes"
+      },
+      {
+        "artists": [
+          {
+            "name": "Suzanne Ciani"
+          }
+        ],
+        "venue": "Colston Hall Foyer"
+      }
+    ]
+  },
+  {
     "date": "2018-10-06",
     "shows": [
       {
@@ -210,6 +260,14 @@
           }
         ],
         "venue": "Exchange"
+      },
+      {
+        "artists": [
+          {
+            "name": "KPM Allstars"
+          }
+        ],
+        "venue": "British Library"
       }
     ]
   },
@@ -272,6 +330,22 @@
     ]
   },
   {
+    "date": "2018-10-13",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Fantasy Morricone"
+          },
+          {
+            "name": "Underscore"
+          }
+        ],
+        "venue": "All Hallows Hall"
+      }
+    ]
+  },
+  {
     "date": "2018-10-16",
     "shows": [
       {
@@ -281,6 +355,14 @@
           }
         ],
         "venue": "SWX"
+      },
+      {
+        "artists": [
+          {
+            "name": "Idles (Afterparty)"
+          }
+        ],
+        "venue": "Exchange"
       }
     ]
   },
@@ -315,6 +397,14 @@
           }
         ],
         "venue": "Mothers Ruin"
+      },
+      {
+        "artists": [
+          {
+            "name": "Wasabi"
+          }
+        ],
+        "venue": "Forge"
       }
     ]
   },
@@ -356,6 +446,40 @@
     ]
   },
   {
+    "date": "2018-10-25",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Marcus King"
+          }
+        ],
+        "venue": "The Fleece"
+      },
+      {
+        "artists": [
+          {
+            "name": "Gaz Brookfield"
+          }
+        ],
+        "venue": "Bank Tavern"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-26",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Halloween All-Dayer"
+          }
+        ],
+        "venue": "Old England"
+      }
+    ]
+  },
+  {
     "date": "2018-10-31",
     "shows": [
       {
@@ -378,6 +502,19 @@
           }
         ],
         "venue": "Rough Trade Bristol"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-04",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Go-Kart Mozart"
+          }
+        ],
+        "venue": "Exchange"
       }
     ]
   },
@@ -424,6 +561,45 @@
     ]
   },
   {
+    "date": "2018-11-22",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Lonely Tourist"
+          }
+        ],
+        "venue": "Bank Tavern"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-24",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Blurt"
+          }
+        ],
+        "venue": "Bell (Bath)"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-29",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Dan Stuart"
+          }
+        ],
+        "venue": "Hen and Chicken"
+      }
+    ]
+  },
+  {
     "date": "2018-12-01",
     "shows": [
       {
@@ -446,6 +622,19 @@
           }
         ],
         "venue": "Fleece"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-09",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Skids"
+          }
+        ],
+        "venue": "Fiddlers"
       }
     ]
   },
