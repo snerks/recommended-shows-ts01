@@ -3,7 +3,7 @@ import * as moment from "moment";
 import "./App.css";
 
 // import logo from './logo.svg';
-import { ShowDate } from "./show-dates";
+import { ShowDate } from "./models/show-dates";
 
 interface AppState {
   showDates: ShowDate[];
@@ -25,48 +25,13 @@ class App extends React.Component<{}, AppState> {
     this.state = state;
   }
 
-  // showDates: ShowDate[] = [
-  //   {
-  //     date: new Date("2018-09-17T20:00:00.000Z"),
-  //     shows: [
-  //       {
-  //         artists: [
-  //           {
-  //             name: "Chuck Prophet and Stephanie Finch"
-  //           }
-  //         ],
-  //         venue: "Hen and Chicken"
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     date: new Date("2018-09-21T20:00:00.000Z"),
-  //     shows: [
-  //       {
-  //         artists: [
-  //           {
-  //             name: "Nightingales"
-  //           },
-  //           {
-  //             name: "Stewart Lee"
-  //           }
-  //         ],
-  //         venue: "Exchange"
-  //       }
-  //     ]
-  //   }
-  // ];
-
   componentDidMount() {
-    // console.log("Fetch data : start");
     fetch("recommended-shows.json")
       .then(res => {
-        // console.log("Success", res);
         return res.json();
       })
       .then(
         result => {
-          // console.log("SetState with: ", result);
           const nextState: AppState = {
             showDates: result as ShowDate[],
             error: undefined,
@@ -134,12 +99,8 @@ class App extends React.Component<{}, AppState> {
       const eventDateTime = new Date(showDate.date);
       const isPastEvent = eventDateTime <= currentDateTime;
 
-      // console.log("isPastEvent = " + isPastEvent);
-
       willShowEvent = !isPastEvent;
     }
-
-    // console.log("willShowEvent = " + willShowEvent);
 
     return willShowEvent;
   };
@@ -182,12 +143,6 @@ class App extends React.Component<{}, AppState> {
         ""
       );
 
-      // console.log("showsText = " + showsText);
-      // console.log(
-      //   "showsText.indexOf(artistsSearchTerm) = " +
-      //     showsText.indexOf(artistsSearchTerm)
-      // );
-
       return (
         showsText.toLowerCase().indexOf(artistsSearchTerm.toLowerCase()) > -1
       );
@@ -224,9 +179,6 @@ class App extends React.Component<{}, AppState> {
                 Filter Artists
               </label>
               <div className="input-group mb-10 mr-sm-2">
-                {/* <div className="input-group-prepend">
-              <div className="input-group-text">&#8981;</div>
-            </div> */}
                 <input
                   type="text"
                   className="form-control"
@@ -245,14 +197,6 @@ class App extends React.Component<{}, AppState> {
             </div>
             <div className="col-4">
               <div className="form-check mb-2 mr-sm-2">
-                {/* <input
-              className="form-check-input"
-              type="checkbox"
-              id="inlineFormCheck"
-            />
-            <label className="form-check-label" htmlFor="inlineFormCheck">
-              Remember me
-            </label> */}
                 <div className="custom-control custom-checkbox">
                   <input
                     type="checkbox"
@@ -271,65 +215,6 @@ class App extends React.Component<{}, AppState> {
             </div>
           </div>
         </form>
-
-        {/* <form className="form-inline" style={{ margin: 30 }}>
-          <label className="sr-only" htmlFor="inlineFormInputGroupUsername2">
-            Filter Artists
-          </label>
-          <div className="input-group mb-10 mr-sm-2">
-            <input
-              type="text"
-              className="form-control"
-              id="inlineFormInputGroupUsername2"
-              placeholder="Filter Artists"
-              onChange={this.handleArtistsSearchTermChange}
-            />
-          </div>
-
-          <div className="form-check mb-2 mr-sm-2">
-            <div className="custom-control custom-checkbox">
-              <input
-                type="checkbox"
-                className="custom-control-input"
-                id="customCheck1"
-                onChange={() => this.handleShowPastEventsChange()}
-              />
-              <label className="custom-control-label" htmlFor="customCheck1">
-                Show Past Events
-              </label>
-            </div>
-          </div>
-        </form> */}
-
-        {/* <form style={{ margin: 30 }}>
-          <div className="form-group row">
-            <div className="custom-control custom-checkbox">
-              <input
-                type="checkbox"
-                className="custom-control-input"
-                id="customCheck1"
-                onChange={() => this.handleShowPastEventsChange()}
-              />
-              <label className="custom-control-label" htmlFor="customCheck1">
-                Show Past Events
-              </label>
-            </div>
-          </div>
-
-          <div className="form-row">
-            <div className="col">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Filter Artists"
-                onChange={this.handleArtistsSearchTermChange}
-              />
-            </div>
-            <div className="col">
-              <input type="text" className="form-control" placeholder="Venue" />
-            </div>
-          </div>
-        </form> */}
 
         <table className="table table-striped table-sm">
           <thead className="thead-dark">
