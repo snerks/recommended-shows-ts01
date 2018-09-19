@@ -11,6 +11,8 @@ interface AppState {
   error?: any;
 
   showPastEvents: boolean;
+
+  artistsSearchTerm?: string;
 }
 
 class App extends React.Component<{}, AppState> {
@@ -85,9 +87,31 @@ class App extends React.Component<{}, AppState> {
   }
 
   handleShowPastEventsChange = () => {
-    this.setState((prevState, props) => {
+    this.setState(prevState => {
       const nextState = { ...prevState };
       nextState.showPastEvents = !prevState.showPastEvents;
+
+      return nextState;
+    });
+  };
+
+  handleArtistsSearchTermChange = (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    if (!event) {
+      return;
+    }
+
+    if (!event.target) {
+      return;
+    }
+
+    const inputValue = event.target.value; // Cache the value of e.target.value
+
+    this.setState(prevState => {
+      const nextState = { ...prevState };
+
+      nextState.artistsSearchTerm = inputValue;
 
       return nextState;
     });
@@ -133,7 +157,7 @@ class App extends React.Component<{}, AppState> {
     // </div>
     // );
 
-    const { showDates, error } = this.state;
+    const { showDates, error, artistsSearchTerm } = this.state;
 
     if (error) {
       return <div>Error: {JSON.stringify(error)}</div>;
@@ -166,7 +190,81 @@ class App extends React.Component<{}, AppState> {
     //   return willShowEvent;
     // });
 
-    const visibleShowDates = showDates.filter(this.visibleShowDateFilter);
+    const inDateRangeShowDates = showDates.filter(this.visibleShowDateFilter);
+
+    const artistFilterShowDates = inDateRangeShowDates.filter(showDate => {
+      if (!artistsSearchTerm) {
+        return true;
+      }
+
+      const showsText = showDate.shows.reduce(
+        (previousShowsResult, currentShow, currentShowIndex) => {
+          const currentShowArtistsText = currentShow.artists.reduce(
+            (previousArtistsResult, currentArtist, currentArtistIndex) => {
+              const currentArtistText = currentArtist.name;
+
+              return currentArtistIndex === 0
+                ? currentArtistText
+                : previousArtistsResult + " " + currentArtistText;
+            },
+            ""
+          );
+
+          return currentShowIndex === 0
+            ? currentShowArtistsText
+            : previousShowsResult + " " + currentShowArtistsText;
+        },
+        ""
+      );
+
+      // console.log("showsText = " + showsText);
+      // console.log(
+      //   "showsText.indexOf(artistsSearchTerm) = " +
+      //     showsText.indexOf(artistsSearchTerm)
+      // );
+
+      return (
+        showsText.toLowerCase().indexOf(artistsSearchTerm.toLowerCase()) > -1
+      );
+    });
+
+    const visibleShowDates = artistFilterShowDates;
+
+    // const visibleShowDates = artistFilterShowDates.filter(showDate => {
+    //   if (!artistsSearchTerm) {
+    //     return true;
+    //   }
+
+    //   const showsText = showDate.shows.reduce(
+    //     (previousShowsResult, currentShow, currentShowIndex) => {
+    //       const currentShowArtistsText = currentShow.artists.reduce(
+    //         (previousArtistsResult, currentArtist, currentArtistIndex) => {
+    //           const currentArtistText = currentArtist.name;
+
+    //           return currentArtistIndex === 0
+    //             ? currentArtistText
+    //             : previousArtistsResult + " " + currentArtistText;
+    //         },
+    //         ""
+    //       );
+
+    //       return currentShowIndex === 0
+    //         ? currentShowArtistsText
+    //         : previousShowsResult + " " + currentShowArtistsText;
+    //     },
+    //     ""
+    //   );
+
+    //   console.log("showsText = " + showsText);
+    //   console.log(
+    //     "showsText.indexOf(artistsSearchTerm) = " +
+    //       showsText.indexOf(artistsSearchTerm)
+    //   );
+
+    //   return (
+    //     showsText.toLowerCase().indexOf(artistsSearchTerm.toLowerCase()) > -1
+    //   );
+    // });
 
     // console.log("visibleShowDates.length = " + visibleShowDates.length);
 
@@ -190,34 +288,71 @@ class App extends React.Component<{}, AppState> {
     return (
       <div className="table-responsive">
         <form style={{ margin: 30 }}>
-          {/* <div className="form-group form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="exampleCheck1"
-              onChange={() => this.handleShowPastEventsChange()}
-            />
-            <label className="form-check-label" htmlFor="exampleCheck1">
-              Show Past Events
-            </label>
-          </div> */}
-
-          <div className="form-group row">
-            {/* <div className="col-sm-2">Checkbox</div> */}
-            {/* <div className="col-sm-10">
-              <div className="form-check">
-                <input
-                  className="form-check-input"
-                  type="checkbox"
-                  id="gridCheck1"
-                  onChange={() => this.handleShowPastEventsChange()}
-                />
-                <label className="form-check-label" htmlFor="gridCheck1">
-                  Show Past Events
-                </label>
-              </div>
+          <div className="form-row">
+            <div className="col-8">
+              <label
+                className="sr-only"
+                htmlFor="inlineFormInputGroupUsername2"
+              >
+                Filter Artists
+              </label>
+              <div className="input-group mb-10 mr-sm-2">
+                {/* <div className="input-group-prepend">
+              <div className="input-group-text">&#8981;</div>
             </div> */}
+                <input
+                  type="text"
+                  className="form-control"
+                  id="inlineFormInputGroupUsername2"
+                  placeholder="Filter Artists"
+                  onChange={this.handleArtistsSearchTermChange}
+                />
+              </div>
+            </div>
+            <div className="col-4">
+              <div className="form-check mb-2 mr-sm-2">
+                {/* <input
+              className="form-check-input"
+              type="checkbox"
+              id="inlineFormCheck"
+            />
+            <label className="form-check-label" htmlFor="inlineFormCheck">
+              Remember me
+            </label> */}
+                <div className="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    className="custom-control-input"
+                    id="customCheck1"
+                    onChange={() => this.handleShowPastEventsChange()}
+                  />
+                  <label
+                    className="custom-control-label"
+                    htmlFor="customCheck1"
+                  >
+                    Show Past Events
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
 
+        {/* <form className="form-inline" style={{ margin: 30 }}>
+          <label className="sr-only" htmlFor="inlineFormInputGroupUsername2">
+            Filter Artists
+          </label>
+          <div className="input-group mb-10 mr-sm-2">
+            <input
+              type="text"
+              className="form-control"
+              id="inlineFormInputGroupUsername2"
+              placeholder="Filter Artists"
+              onChange={this.handleArtistsSearchTermChange}
+            />
+          </div>
+
+          <div className="form-check mb-2 mr-sm-2">
             <div className="custom-control custom-checkbox">
               <input
                 type="checkbox"
@@ -230,7 +365,37 @@ class App extends React.Component<{}, AppState> {
               </label>
             </div>
           </div>
-        </form>
+        </form> */}
+
+        {/* <form style={{ margin: 30 }}>
+          <div className="form-group row">
+            <div className="custom-control custom-checkbox">
+              <input
+                type="checkbox"
+                className="custom-control-input"
+                id="customCheck1"
+                onChange={() => this.handleShowPastEventsChange()}
+              />
+              <label className="custom-control-label" htmlFor="customCheck1">
+                Show Past Events
+              </label>
+            </div>
+          </div>
+
+          <div className="form-row">
+            <div className="col">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Filter Artists"
+                onChange={this.handleArtistsSearchTermChange}
+              />
+            </div>
+            <div className="col">
+              <input type="text" className="form-control" placeholder="Venue" />
+            </div>
+          </div>
+        </form> */}
 
         <table className="table table-striped table-sm">
           <thead className="thead-dark">
