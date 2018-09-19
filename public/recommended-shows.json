@@ -264,6 +264,17 @@
       {
         "artists": [
           {
+            "name": "The Heads"
+          },
+          {
+            "name": "Blurt"
+          }
+        ],
+        "venue": "Exchange"
+      },
+      {
+        "artists": [
+          {
             "name": "KPM Allstars"
           }
         ],
@@ -442,6 +453,14 @@
           }
         ],
         "venue": "The Fleece"
+      },
+      {
+        "artists": [
+          {
+            "name": "Jo Passed"
+          }
+        ],
+        "venue": "Grain Barge"
       }
     ]
   },
@@ -511,6 +530,14 @@
       {
         "artists": [
           {
+            "name": "Blancmange"
+          }
+        ],
+        "venue": "The Fleece"
+      },
+      {
+        "artists": [
+          {
             "name": "Go-Kart Mozart"
           }
         ],
@@ -528,6 +555,19 @@
           }
         ],
         "venue": "Exchange (upgraded from Crofters Rights)"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-07",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Hugh Cornwell"
+          }
+        ],
+        "venue": "The Fleece"
       }
     ]
   },
@@ -557,6 +597,19 @@
           }
         ],
         "venue": "The Louisiana"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-13",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Tricot"
+          }
+        ],
+        "venue": "The Fleece"
       }
     ]
   },
@@ -596,6 +649,14 @@
           }
         ],
         "venue": "Hen and Chicken"
+      },
+      {
+        "artists": [
+          {
+            "name": "Hugar"
+          }
+        ],
+        "venue": "Hy-Brasil"
       }
     ]
   },
@@ -609,6 +670,14 @@
           }
         ],
         "venue": "Fiddlers"
+      },
+      {
+        "artists": [
+          {
+            "name": "999"
+          }
+        ],
+        "venue": "Hy-Brasil"
       }
     ]
   },
@@ -622,6 +691,19 @@
           }
         ],
         "venue": "Fleece"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-08",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Lonely Tourist"
+          }
+        ],
+        "venue": "Mother's Ruin"
       }
     ]
   },
@@ -652,6 +734,19 @@
     ]
   },
   {
+    "date": "2018-12-14",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "LT???"
+          }
+        ],
+        "venue": "TB???"
+      }
+    ]
+  },
+  {
     "date": "2018-12-15",
     "shows": [
       {
@@ -665,7 +760,39 @@
       {
         "artists": [
           {
-            "name": "Lonely Tourist"
+            "name": "Gaz Brookfield"
+          }
+        ],
+        "venue": "SWX"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-18",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Clutch"
+          }
+        ],
+        "venue": "O2 Academy"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-20",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Mark Morriss"
+          },
+          {
+            "name": "Nigel Clarke"
+          },
+          {
+            "name": "Chris Helme"
           }
         ],
         "venue": "Thunderbolt"
