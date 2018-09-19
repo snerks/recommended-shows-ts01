@@ -106,7 +106,7 @@ class App extends React.Component<{}, AppState> {
       return;
     }
 
-    const inputValue = event.target.value; // Cache the value of e.target.value
+    const inputValue = event.target.value ? event.target.value.trim() : "";
 
     this.setState(prevState => {
       const nextState = { ...prevState };
@@ -145,18 +145,6 @@ class App extends React.Component<{}, AppState> {
   };
 
   public render() {
-    // return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <h1 className="App-title">Welcome to React</h1>
-    //   </header>
-    //   <p className="App-intro">
-    //     To get started, edit <code>src/App.tsx</code> and save to reload.
-    //   </p>
-    // </div>
-    // );
-
     const { showDates, error, artistsSearchTerm } = this.state;
 
     if (error) {
@@ -166,29 +154,6 @@ class App extends React.Component<{}, AppState> {
     if (!showDates || showDates.length === 0) {
       return <div>Loading Shows...</div>;
     }
-
-    // const currentDateTime = new Date();
-
-    // console.log("showPastEvents = " + showPastEvents);
-    // console.log("showDates.length = " + showDates.length);
-
-    // const visibleShowDates = showDates.filter(showDate => {
-    //   let willShowEvent = false;
-    //   if (showPastEvents) {
-    //     willShowEvent = true;
-    //   } else {
-    //     const eventDateTime = new Date(showDate.date);
-    //     const isPastEvent = eventDateTime <= currentDateTime;
-
-    //     // console.log("isPastEvent = " + isPastEvent);
-
-    //     willShowEvent = !isPastEvent;
-    //   }
-
-    //   console.log("willShowEvent = " + willShowEvent);
-
-    //   return willShowEvent;
-    // });
 
     const inDateRangeShowDates = showDates.filter(this.visibleShowDateFilter);
 
@@ -230,44 +195,6 @@ class App extends React.Component<{}, AppState> {
 
     const visibleShowDates = artistFilterShowDates;
 
-    // const visibleShowDates = artistFilterShowDates.filter(showDate => {
-    //   if (!artistsSearchTerm) {
-    //     return true;
-    //   }
-
-    //   const showsText = showDate.shows.reduce(
-    //     (previousShowsResult, currentShow, currentShowIndex) => {
-    //       const currentShowArtistsText = currentShow.artists.reduce(
-    //         (previousArtistsResult, currentArtist, currentArtistIndex) => {
-    //           const currentArtistText = currentArtist.name;
-
-    //           return currentArtistIndex === 0
-    //             ? currentArtistText
-    //             : previousArtistsResult + " " + currentArtistText;
-    //         },
-    //         ""
-    //       );
-
-    //       return currentShowIndex === 0
-    //         ? currentShowArtistsText
-    //         : previousShowsResult + " " + currentShowArtistsText;
-    //     },
-    //     ""
-    //   );
-
-    //   console.log("showsText = " + showsText);
-    //   console.log(
-    //     "showsText.indexOf(artistsSearchTerm) = " +
-    //       showsText.indexOf(artistsSearchTerm)
-    //   );
-
-    //   return (
-    //     showsText.toLowerCase().indexOf(artistsSearchTerm.toLowerCase()) > -1
-    //   );
-    // });
-
-    // console.log("visibleShowDates.length = " + visibleShowDates.length);
-
     const tableRows = visibleShowDates.map(showDate =>
       showDate.shows.map((show, showIndex) => (
         <tr key={showIndex}>
@@ -289,7 +216,7 @@ class App extends React.Component<{}, AppState> {
       <div className="table-responsive">
         <form style={{ margin: "10px 15px 10px 15px" }}>
           <div className="form-row">
-            <div className="col-8">
+            <div className="col-6">
               <label
                 className="sr-only"
                 htmlFor="inlineFormInputGroupUsername2"
@@ -308,6 +235,13 @@ class App extends React.Component<{}, AppState> {
                   onChange={this.handleArtistsSearchTermChange}
                 />
               </div>
+            </div>
+            <div className="col-2">
+              <span className="badge badge-dark">
+                {visibleShowDates.length}
+              </span>{" "}
+              item
+              {visibleShowDates.length !== 1 ? "s" : ""}
             </div>
             <div className="col-4">
               <div className="form-check mb-2 mr-sm-2">
