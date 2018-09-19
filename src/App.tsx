@@ -287,7 +287,7 @@ class App extends React.Component<{}, AppState> {
 
     return (
       <div className="table-responsive">
-        <form style={{ margin: 30 }}>
+        <form style={{ margin: "10px 15px 0 15px" }}>
           <div className="form-row">
             <div className="col-8">
               <label
@@ -330,7 +330,7 @@ class App extends React.Component<{}, AppState> {
                     className="custom-control-label"
                     htmlFor="customCheck1"
                   >
-                    Show Past Events
+                    Past Events
                   </label>
                 </div>
               </div>
