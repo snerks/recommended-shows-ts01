@@ -287,7 +287,7 @@ class App extends React.Component<{}, AppState> {
 
     return (
       <div className="table-responsive">
-        <form style={{ margin: "10px 15px 0 15px" }}>
+        <form style={{ margin: "10px 15px 10px 15px" }}>
           <div className="form-row">
             <div className="col-8">
               <label
