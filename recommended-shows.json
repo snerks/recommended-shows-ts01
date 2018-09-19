@@ -16,6 +16,19 @@
     ]
   },
   {
+    "date": "2018-09-18",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Pigs (x7)"
+          }
+        ],
+        "venue": "Rough Trade Bristol"
+      }
+    ]
+  },
+  {
     "date": "2018-09-21",
     "shows": [
       {
@@ -37,10 +50,10 @@
       {
         "artists": [
           {
-            "name": "Chiyoda Ku"
+            "name": "No Violet"
           },
           {
-            "name": "No Violet"
+            "name": "Chiyoda Ku"
           }
         ],
         "venue": "Crofters Rights"
@@ -74,8 +87,77 @@
     ]
   },
   {
+    "date": "2018-09-25",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Vodun"
+          }
+        ],
+        "venue": "Crofters Rights"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-27",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Mush"
+          }
+        ],
+        "venue": "Hy-Brasil"
+      },
+      {
+        "artists": [
+          {
+            "name": "Modulus III"
+          }
+        ],
+        "venue": "Gallimaufry"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-28",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Sasquatch"
+          },
+          {
+            "name": "Sigiriya"
+          },
+          {
+            "name": "The Rollbars"
+          }
+        ],
+        "venue": "Old England"
+      },
+      {
+        "artists": [
+          {
+            "name": "Denny Ilett (presents Santana)"
+          }
+        ],
+        "venue": "Left Bank"
+      }
+    ]
+  },
+  {
     "date": "2018-09-29",
     "shows": [
+      {
+        "artists": [
+          {
+            "name": "Doe"
+          }
+        ],
+        "venue": "Rough Trade Bristol"
+      },
       {
         "artists": [
           {
@@ -98,7 +180,7 @@
             "name": "Get The Blessing"
           }
         ],
-        "venue": "Rough Trade"
+        "venue": "Rough Trade Bristol (18:30)"
       }
     ]
   },
@@ -116,6 +198,35 @@
     ]
   },
   {
+    "date": "2018-10-06",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Steve Davis"
+          },
+          {
+            "name": "Kavus Torabi"
+          }
+        ],
+        "venue": "Exchange"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-08",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Lite"
+          }
+        ],
+        "venue": "Exchange"
+      }
+    ]
+  },
+  {
     "date": "2018-10-09",
     "shows": [
       {
@@ -125,6 +236,22 @@
           }
         ],
         "venue": "SWX"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-10",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Aiming for Enrike"
+          },
+          {
+            "name": "Kusanagi"
+          }
+        ],
+        "venue": "Crofters Rights"
       }
     ]
   },
@@ -229,6 +356,19 @@
     ]
   },
   {
+    "date": "2018-10-31",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Snail Mail"
+          }
+        ],
+        "venue": "Thekla"
+      }
+    ]
+  },
+  {
     "date": "2018-11-01",
     "shows": [
       {
@@ -237,7 +377,7 @@
             "name": "BC Camplight"
           }
         ],
-        "venue": "Rough Trade"
+        "venue": "Rough Trade Bristol"
       }
     ]
   },
@@ -250,7 +390,7 @@
             "name": "The Beths"
           }
         ],
-        "venue": "Crofters Rights"
+        "venue": "Exchange (upgraded from Crofters Rights)"
       }
     ]
   },
@@ -293,6 +433,19 @@
           }
         ],
         "venue": "Fiddlers"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-04",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Buffalo Tom"
+          }
+        ],
+        "venue": "Fleece"
       }
     ]
   },
