@@ -96,8 +96,10 @@ class App extends React.Component<{}, AppState> {
     if (showPastEvents) {
       willShowEvent = true;
     } else {
-      const eventDateTime = new Date(showDate.date);
-      const isPastEvent = eventDateTime <= currentDateTime;
+      const eventDate = new Date(showDate.date);
+      const eventDateEndOfDay = moment(eventDate).endOf("day");
+
+      const isPastEvent = eventDateEndOfDay.isBefore(currentDateTime);
 
       willShowEvent = !isPastEvent;
     }
