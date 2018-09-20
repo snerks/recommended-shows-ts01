@@ -38,6 +38,9 @@
           },
           {
             "name": "Stewart Lee"
+          },
+          {
+            "name": "The Courtesy Group"
           }
         ],
         "venue": "Exchange"
@@ -102,6 +105,14 @@
   {
     "date": "2018-09-26",
     "shows": [
+      {
+        "artists": [
+          {
+            "name": "The Brackish"
+          }
+        ],
+        "venue": "Old England (Ents24)"
+      },
       {
         "artists": [
           {
@@ -173,6 +184,14 @@
           }
         ],
         "venue": "Unitarian Church"
+      },
+      {
+        "artists": [
+          {
+            "name": "45s"
+          }
+        ],
+        "venue": "Mother's Ruin"
       }
     ]
   },
@@ -210,6 +229,14 @@
           }
         ],
         "venue": "Rough Trade Bristol (18:30)"
+      },
+      {
+        "artists": [
+          {
+            "name": "Mono"
+          }
+        ],
+        "venue": "The Fleece"
       }
     ]
   },
@@ -405,9 +432,15 @@
         "artists": [
           {
             "name": "John"
+          },
+          {
+            "name": "Milo's Planes"
+          },
+          {
+            "name": "Pork Pie"
           }
         ],
-        "venue": "Mothers Ruin"
+        "venue": "Mother's Ruin"
       },
       {
         "artists": [
@@ -440,6 +473,19 @@
           }
         ],
         "venue": "Left Bank"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-23",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "John Challis (Only Fools and Boycie)"
+          }
+        ],
+        "venue": "1532 Performing Arts Centre"
       }
     ]
   },
@@ -521,6 +567,14 @@
           }
         ],
         "venue": "Rough Trade Bristol"
+      },
+      {
+        "artists": [
+          {
+            "name": "Stanley Clarke"
+          }
+        ],
+        "venue": "Fiddlers"
       }
     ]
   },
@@ -572,6 +626,19 @@
     ]
   },
   {
+    "date": "2018-11-08",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Kurt Vile"
+          }
+        ],
+        "venue": "St. Philip's Gate"
+      }
+    ]
+  },
+  {
     "date": "2018-11-10",
     "shows": [
       {
@@ -583,7 +650,7 @@
             "name": "Body Hound"
           }
         ],
-        "venue": "Mothers Ruin"
+        "venue": "Mother's Ruin"
       }
     ]
   },
@@ -614,6 +681,27 @@
     ]
   },
   {
+    "date": "2018-11-17",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Mr. Ben and The Bens"
+          }
+        ],
+        "venue": "Old England"
+      },
+      {
+        "artists": [
+          {
+            "name": "Soeur"
+          }
+        ],
+        "venue": "Crofters Rights"
+      }
+    ]
+  },
+  {
     "date": "2018-11-22",
     "shows": [
       {
@@ -636,6 +724,19 @@
           }
         ],
         "venue": "Bell (Bath)"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-28",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Glenn Tilbrook"
+          }
+        ],
+        "venue": "St. George's Hall"
       }
     ]
   },
