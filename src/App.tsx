@@ -150,7 +150,17 @@ class App extends React.Component<{}, AppState> {
       );
     });
 
-    const visibleShowDates = artistFilterShowDates;
+    const visibleShowDates1 = artistFilterShowDates;
+
+    const visibleShowDates = visibleShowDates1.sort(
+      (lhs: ShowDate, rhs: ShowDate) => {
+        const lhsDate = new Date(lhs.date);
+        const rhsDate = new Date(rhs.date);
+
+        const result = lhsDate.getTime() - rhsDate.getTime();
+        return result;
+      }
+    );
 
     const tableRows = visibleShowDates.map(showDate =>
       showDate.shows.map((show, showIndex) => (
