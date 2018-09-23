@@ -166,7 +166,14 @@ class App extends React.Component<{}, AppState> {
       const addedDate = new Date(show.addedDate);
       const currentDate = new Date();
 
-      const result = addedDate.getTime() - currentDate.getTime();
+      const millisecondsSinceAdded =
+        currentDate.getTime() - addedDate.getTime();
+
+      const thresholdInDays = 3;
+      const millisecondsPerDay = 1000 * 60 * 60 * 24;
+      const thresholdInMilliseconds = thresholdInDays * millisecondsPerDay;
+
+      const result = millisecondsSinceAdded < thresholdInMilliseconds;
 
       return result;
     };
