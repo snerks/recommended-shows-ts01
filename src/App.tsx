@@ -158,6 +158,19 @@ class App extends React.Component<{}, AppState> {
       return result;
     });
 
+    const isRecentlyAdded = (show: Show) => {
+      if (!show.addedDate) {
+        return false;
+      }
+
+      const addedDate = new Date(show.addedDate);
+      const currentDate = new Date();
+
+      const result = addedDate.getTime() - currentDate.getTime();
+
+      return result;
+    };
+
     const tableRows = visibleShowDates.map((show: Show, showIndex: number) => (
       <tr key={showIndex}>
         <td>{moment(show.date).format("ddd")}</td>
@@ -170,6 +183,18 @@ class App extends React.Component<{}, AppState> {
           </div>
         </td>
         <td>{show.venue}</td>
+        <td>
+          {isRecentlyAdded(show) && (
+            <span className="badge badge-info" style={{ marginRight: 10 }}>
+              New
+            </span>
+          )}
+          {show.isSoldOut && (
+            <span className="badge badge-danger" style={{ marginRight: 10 }}>
+              Sold Out
+            </span>
+          )}
+        </td>
       </tr>
     ));
 
@@ -229,6 +254,7 @@ class App extends React.Component<{}, AppState> {
               <th>Date</th>
               <th>Artists</th>
               <th>Venue</th>
+              <th>&#160;</th>
             </tr>
           </thead>
           <tbody>{tableRows}</tbody>

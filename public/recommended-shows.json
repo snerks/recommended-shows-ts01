@@ -54,7 +54,9 @@
         "name": "Get The Blessing"
       }
     ],
-    "venue": "Wardrobe Theatre"
+    "venue": "Wardrobe Theatre",
+
+    "isSoldOut": true
   },
   {
     "date": "2018-09-24",
@@ -312,7 +314,8 @@
         "name": "Idles"
       }
     ],
-    "venue": "SWX"
+    "venue": "SWX",
+    "isSoldOut": true
   },
   {
     "date": "2018-10-16",
@@ -339,7 +342,8 @@
         "name": "Sham 69"
       }
     ],
-    "venue": "The Fleece"
+    "venue": "The Fleece",
+    "isSoldOut": true
   },
   {
     "date": "2018-10-19",
@@ -693,7 +697,8 @@
         "name": "Clutch"
       }
     ],
-    "venue": "O2 Academy"
+    "venue": "O2 Academy",
+    "isSoldOut": true
   },
   {
     "date": "2018-12-20",
@@ -709,5 +714,15 @@
       }
     ],
     "venue": "Thunderbolt"
+  },
+  {
+    "addedDate": "2018-09-23",
+    "date": "2019-02-28",
+    "venue": "St Philips Gate",
+    "artists": [
+      {
+        "name": "Blue Oyster Cult"
+      }
+    ]
   }
 ]

@@ -6,6 +6,7 @@
 
 export interface Show {
   addedDate?: Date;
+  isSoldOut: boolean;
 
   date: Date;
   venue: string;
