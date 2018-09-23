@@ -189,6 +189,12 @@
     "artists": [
       {
         "name": "Mono"
+      },
+      {
+        "name": "A Storm Of Light"
+      },
+      {
+        "name": "Jo Quail"
       }
     ],
     "venue": "The Fleece"
@@ -391,6 +397,20 @@
     "venue": "Left Bank"
   },
   {
+    "addedDate": "2018-09-23",
+    "isSoldOut": false,
+    "date": "2018-10-21",
+    "venue": "The Fleece",
+    "artists": [
+      {
+        "name": "David Murray"
+      },
+      {
+        "name": "Saul Williams"
+      }
+    ]
+  },
+  {
     "date": "2018-10-23",
     "artists": [
       {
@@ -443,6 +463,28 @@
       }
     ],
     "venue": "Old England"
+  },
+  {
+    "addedDate": "2018-09-23",
+    "isSoldOut": false,
+    "date": "2018-10-26",
+    "venue": "The Fleece",
+    "artists": [
+      {
+        "name": "The Lovely Eggs"
+      }
+    ]
+  },
+  {
+    "addedDate": "2018-09-23",
+    "isSoldOut": false,
+    "date": "2018-10-31",
+    "venue": "The Fleece",
+    "artists": [
+      {
+        "name": "The Sheepdogs"
+      }
+    ]
   },
   {
     "date": "2018-10-31",
@@ -596,6 +638,9 @@
     "artists": [
       {
         "name": "Dan Stuart"
+      },
+      {
+        "name": "Sid Griffin"
       }
     ],
     "venue": "Hen and Chicken"
@@ -626,6 +671,17 @@
       }
     ],
     "venue": "Hy-Brasil"
+  },
+  {
+    "addedDate": "2018-09-23",
+    "isSoldOut": false,
+    "date": "2018-12-02",
+    "venue": "The Lanes",
+    "artists": [
+      {
+        "name": "Goldie Lookin Chain Xmas Bash Full Band"
+      }
+    ]
   },
   {
     "date": "2018-12-04",
@@ -722,6 +778,9 @@
     "artists": [
       {
         "name": "Blue Oyster Cult"
+      },
+      {
+        "name": "Temperance Movement"
       }
     ]
   }
