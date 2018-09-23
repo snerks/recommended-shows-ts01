@@ -1,0 +1,903 @@
+[
+  {
+    "date": "2018-09-17",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Chuck Prophet and Stephanie Finch"
+          },
+          {
+            "name": "Jesse Malin"
+          }
+        ],
+        "venue": "Hen and Chicken"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-18",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Pigs (x7)"
+          }
+        ],
+        "venue": "Rough Trade Bristol"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-21",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Nightingales"
+          },
+          {
+            "name": "Stewart Lee"
+          },
+          {
+            "name": "The Courtesy Group"
+          }
+        ],
+        "venue": "Exchange"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-22",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "No Violet"
+          },
+          {
+            "name": "Chiyoda Ku"
+          }
+        ],
+        "venue": "Crofters Rights"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-23",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Get The Blessing"
+          }
+        ],
+        "venue": "Wardrobe Theatre"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-24",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Bleeding Knees Club"
+          }
+        ],
+        "venue": "Old England"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-25",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Vodun"
+          }
+        ],
+        "venue": "Crofters Rights"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-26",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "The Brackish"
+          }
+        ],
+        "venue": "Old England (Ents24)"
+      },
+      {
+        "artists": [
+          {
+            "name": "Kit Hawes & Aaron Catlow"
+          }
+        ],
+        "venue": "Kingsdown Vaults"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-27",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Mush"
+          }
+        ],
+        "venue": "Hy-Brasil"
+      },
+      {
+        "artists": [
+          {
+            "name": "Modulus III"
+          }
+        ],
+        "venue": "Gallimaufry"
+      },
+      {
+        "artists": [
+          {
+            "name": "Half Waif"
+          }
+        ],
+        "venue": "Crofters Rights"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-28",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Sasquatch"
+          },
+          {
+            "name": "Sigiriya"
+          },
+          {
+            "name": "The Rollbars"
+          }
+        ],
+        "venue": "Old England"
+      },
+      {
+        "artists": [
+          {
+            "name": "Denny Ilett (presents Santana)"
+          }
+        ],
+        "venue": "Left Bank"
+      },
+      {
+        "artists": [
+          {
+            "name": "Coims"
+          }
+        ],
+        "venue": "Unitarian Church"
+      },
+      {
+        "artists": [
+          {
+            "name": "45s"
+          }
+        ],
+        "venue": "Mothers Ruin"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-29",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Doe"
+          }
+        ],
+        "venue": "Rough Trade Bristol"
+      },
+      {
+        "artists": [
+          {
+            "name": "Osiris"
+          },
+          {
+            "name": "Kavus Torabi"
+          }
+        ],
+        "venue": "Cube Cinema"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-01",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Get The Blessing"
+          }
+        ],
+        "venue": "Rough Trade Bristol (18:30)"
+      },
+      {
+        "artists": [
+          {
+            "name": "Mono"
+          }
+        ],
+        "venue": "The Fleece"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-02",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Glenn Hughes"
+          }
+        ],
+        "venue": "O2 Academy"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-05",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Spindle Ensemble"
+          }
+        ],
+        "venue": "St. Janes"
+      },
+      {
+        "artists": [
+          {
+            "name": "Suzanne Ciani"
+          }
+        ],
+        "venue": "Colston Hall Foyer"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-06",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Steve Davis"
+          },
+          {
+            "name": "Kavus Torabi"
+          }
+        ],
+        "venue": "Exchange"
+      },
+      {
+        "artists": [
+          {
+            "name": "The Heads"
+          },
+          {
+            "name": "Blurt"
+          }
+        ],
+        "venue": "Exchange"
+      },
+      {
+        "artists": [
+          {
+            "name": "KPM Allstars"
+          }
+        ],
+        "venue": "British Library"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-08",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Lite"
+          }
+        ],
+        "venue": "Exchange"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-09",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "The Coral"
+          }
+        ],
+        "venue": "SWX"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-10",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Aiming for Enrike"
+          },
+          {
+            "name": "Kusanagi"
+          }
+        ],
+        "venue": "Crofters Rights"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-12",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "The Orb"
+          },
+          {
+            "name": "System 7"
+          }
+        ],
+        "venue": "SWX"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-13",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Fantasy Morricone"
+          },
+          {
+            "name": "Underscore"
+          }
+        ],
+        "venue": "All Hallows Hall"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-16",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Idles"
+          }
+        ],
+        "venue": "SWX"
+      },
+      {
+        "artists": [
+          {
+            "name": "Idles (Afterparty)"
+          }
+        ],
+        "venue": "Exchange"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-18",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Innes Sibun - Rory Gallagher Tribute"
+          }
+        ],
+        "venue": "Steam Tavern"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-19",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Sham 69"
+          }
+        ],
+        "venue": "The Fleece"
+      },
+      {
+        "artists": [
+          {
+            "name": "John"
+          },
+          {
+            "name": "Milo's Planes"
+          },
+          {
+            "name": "Pork Pie"
+          }
+        ],
+        "venue": "Mothers Ruin"
+      },
+      {
+        "artists": [
+          {
+            "name": "Wasabi"
+          }
+        ],
+        "venue": "Forge"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-20",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Parrots"
+          },
+          {
+            "name": "Black Midi"
+          }
+        ],
+        "venue": "Simple Things"
+      },
+      {
+        "artists": [
+          {
+            "name": "Modulus III"
+          }
+        ],
+        "venue": "Left Bank"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-23",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "John Challis (Only Fools and Boycie)"
+          }
+        ],
+        "venue": "1532 Performing Arts Centre"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-24",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Tom Robinson Band"
+          }
+        ],
+        "venue": "The Fleece"
+      },
+      {
+        "artists": [
+          {
+            "name": "Jo Passed"
+          }
+        ],
+        "venue": "Grain Barge"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-25",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Marcus King"
+          }
+        ],
+        "venue": "The Fleece"
+      },
+      {
+        "artists": [
+          {
+            "name": "Gaz Brookfield"
+          }
+        ],
+        "venue": "Bank Tavern"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-26",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Halloween All-Dayer"
+          }
+        ],
+        "venue": "Old England"
+      }
+    ]
+  },
+  {
+    "date": "2018-10-31",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Snail Mail"
+          }
+        ],
+        "venue": "Thekla"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-01",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "BC Camplight"
+          }
+        ],
+        "venue": "Rough Trade Bristol"
+      },
+      {
+        "artists": [
+          {
+            "name": "Stanley Clarke"
+          }
+        ],
+        "venue": "Fiddlers"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-04",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Blancmange"
+          }
+        ],
+        "venue": "The Fleece"
+      },
+      {
+        "artists": [
+          {
+            "name": "Go-Kart Mozart"
+          }
+        ],
+        "venue": "Exchange"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-05",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "The Beths"
+          }
+        ],
+        "venue": "Exchange (upgraded from Crofters Rights)"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-07",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Hugh Cornwell"
+          }
+        ],
+        "venue": "The Fleece"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-08",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Kurt Vile"
+          }
+        ],
+        "venue": "St. Philip's Gate"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-10",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Wot Gorilla"
+          },
+          {
+            "name": "Body Hound"
+          }
+        ],
+        "venue": "Mothers Ruin"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-11",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Rews"
+          }
+        ],
+        "venue": "The Louisiana"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-13",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Tricot"
+          }
+        ],
+        "venue": "The Fleece"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-17",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Mr. Ben and The Bens"
+          }
+        ],
+        "venue": "Old England"
+      },
+      {
+        "artists": [
+          {
+            "name": "Soeur"
+          }
+        ],
+        "venue": "Crofters Rights"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-22",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Lonely Tourist"
+          }
+        ],
+        "venue": "Bank Tavern"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-24",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Blurt"
+          }
+        ],
+        "venue": "Bell (Bath)"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-28",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Glenn Tilbrook"
+          }
+        ],
+        "venue": "St. George's Hall"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-29",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Dan Stuart"
+          }
+        ],
+        "venue": "Hen and Chicken"
+      },
+      {
+        "artists": [
+          {
+            "name": "Hugar"
+          }
+        ],
+        "venue": "Hy-Brasil"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-01",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "The Magpie Salute"
+          }
+        ],
+        "venue": "Fiddlers"
+      },
+      {
+        "artists": [
+          {
+            "name": "999"
+          }
+        ],
+        "venue": "Hy-Brasil"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-04",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Buffalo Tom"
+          }
+        ],
+        "venue": "Fleece"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-08",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Lonely Tourist"
+          }
+        ],
+        "venue": "Mothers Ruin"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-09",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Skids"
+          }
+        ],
+        "venue": "Fiddlers"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-10",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Beak"
+          }
+        ],
+        "venue": "TBA"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-14",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "LT???"
+          }
+        ],
+        "venue": "TB???"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-15",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Eddie and the Hotrods"
+          }
+        ],
+        "venue": "Exchange"
+      },
+      {
+        "artists": [
+          {
+            "name": "Gaz Brookfield"
+          }
+        ],
+        "venue": "SWX"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-18",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Clutch"
+          }
+        ],
+        "venue": "O2 Academy"
+      }
+    ]
+  },
+  {
+    "date": "2018-12-20",
+    "shows": [
+      {
+        "artists": [
+          {
+            "name": "Mark Morriss"
+          },
+          {
+            "name": "Nigel Clarke"
+          },
+          {
+            "name": "Chris Helme"
+          }
+        ],
+        "venue": "Thunderbolt"
+      }
+    ]
+  }
+]

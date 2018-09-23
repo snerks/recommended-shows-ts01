@@ -3,10 +3,10 @@ import * as moment from "moment";
 import "./App.css";
 
 // import logo from './logo.svg';
-import { ShowDate } from "./models/show-dates";
+import { Show } from "./models/show-dates";
 
 interface AppState {
-  showDates: ShowDate[];
+  shows: Show[];
 
   error?: any;
 
@@ -18,7 +18,7 @@ interface AppState {
 class App extends React.Component<{}, AppState> {
   constructor(
     props: {},
-    state: AppState = { showDates: [], showPastEvents: false }
+    state: AppState = { shows: [], showPastEvents: false }
   ) {
     super(props, state);
 
@@ -33,7 +33,7 @@ class App extends React.Component<{}, AppState> {
       .then(
         result => {
           const nextState: AppState = {
-            showDates: result as ShowDate[],
+            shows: result as Show[],
             error: undefined,
             showPastEvents: false
           };
@@ -82,7 +82,7 @@ class App extends React.Component<{}, AppState> {
     });
   };
 
-  visibleShowDateFilter = (showDate: ShowDate) => {
+  visibleShowFilter = (show: Show) => {
     if (!this.state) {
       return true;
     }
@@ -96,7 +96,7 @@ class App extends React.Component<{}, AppState> {
     if (showPastEvents) {
       willShowEvent = true;
     } else {
-      const eventDate = new Date(showDate.date);
+      const eventDate = new Date(show.date);
       const eventDateEndOfDay = moment(eventDate).endOf("day");
 
       const isPastEvent = eventDateEndOfDay.isBefore(currentDateTime);
@@ -108,76 +108,70 @@ class App extends React.Component<{}, AppState> {
   };
 
   public render() {
-    const { showDates, error, artistsSearchTerm } = this.state;
+    const { shows, error, artistsSearchTerm } = this.state;
 
     if (error) {
       return <div>Error: {JSON.stringify(error)}</div>;
     }
 
-    if (!showDates || showDates.length === 0) {
+    if (!shows || shows.length === 0) {
       return <div>Loading Shows...</div>;
     }
 
-    const inDateRangeShowDates = showDates.filter(this.visibleShowDateFilter);
+    // console.log(`Shows.length = [${shows.length}]`);
 
-    const artistFilterShowDates = inDateRangeShowDates.filter(showDate => {
+    const inDateRangeShowDates = shows.filter(this.visibleShowFilter);
+
+    // console.log(
+    //   `inDateRangeShowDates.length = [${inDateRangeShowDates.length}]`
+    // );
+
+    const artistFilterShowDates = inDateRangeShowDates.filter(show => {
       if (!artistsSearchTerm) {
         return true;
       }
 
-      const showsText = showDate.shows.reduce(
-        (previousShowsResult, currentShow, currentShowIndex) => {
-          const currentShowArtistsText = currentShow.artists.reduce(
-            (previousArtistsResult, currentArtist, currentArtistIndex) => {
-              const currentArtistText = currentArtist.name;
+      const showText = show.artists.reduce(
+        (previousArtistsResult, currentArtist, currentArtistIndex) => {
+          const currentArtistText = currentArtist.name;
 
-              return currentArtistIndex === 0
-                ? currentArtistText
-                : previousArtistsResult + " " + currentArtistText;
-            },
-            ""
-          );
-
-          return currentShowIndex === 0
-            ? currentShowArtistsText
-            : previousShowsResult + " " + currentShowArtistsText;
+          return currentArtistIndex === 0
+            ? currentArtistText
+            : previousArtistsResult + " " + currentArtistText;
         },
         ""
       );
 
       return (
-        showsText.toLowerCase().indexOf(artistsSearchTerm.toLowerCase()) > -1
+        showText.toLowerCase().indexOf(artistsSearchTerm.toLowerCase()) > -1
       );
     });
 
     const visibleShowDates1 = artistFilterShowDates;
 
-    const visibleShowDates = visibleShowDates1.sort(
-      (lhs: ShowDate, rhs: ShowDate) => {
-        const lhsDate = new Date(lhs.date);
-        const rhsDate = new Date(rhs.date);
+    const visibleShowDates = visibleShowDates1.sort((lhs: Show, rhs: Show) => {
+      const lhsDate = new Date(lhs.date);
+      const rhsDate = new Date(rhs.date);
 
-        const result = lhsDate.getTime() - rhsDate.getTime();
-        return result;
-      }
-    );
+      const result = lhsDate.getTime() - rhsDate.getTime();
 
-    const tableRows = visibleShowDates.map(showDate =>
-      showDate.shows.map((show, showIndex) => (
-        <tr key={showIndex}>
-          <td>{moment(showDate.date).format("ddd")}</td>
-          <td>{moment(showDate.date).format("DD-MMM-YYYY")}</td>
-          <td>
-            <div>
-              {show.artists.map((artist, artistIndex) => (
-                <p key={artistIndex}>{artist.name}</p>
-              ))}
-            </div>
-          </td>
-          <td>{show.venue}</td>
-        </tr>
-      ))
-    );
+      return result;
+    });
+
+    const tableRows = visibleShowDates.map((show: Show, showIndex: number) => (
+      <tr key={showIndex}>
+        <td>{moment(show.date).format("ddd")}</td>
+        <td>{moment(show.date).format("DD-MMM-YYYY")}</td>
+        <td>
+          <div>
+            {show.artists.map((artist, artistIndex) => (
+              <p key={artistIndex}>{artist.name}</p>
+            ))}
+          </div>
+        </td>
+        <td>{show.venue}</td>
+      </tr>
+    ));
 
     return (
       <div className="table-responsive">

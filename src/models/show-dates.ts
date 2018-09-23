@@ -1,10 +1,13 @@
-export interface ShowDate {
-  date: Date;
+// export interface ShowDate {
+//   date: Date;
 
-  shows: Show[];
-}
+//   shows: Show[];
+// }
 
 export interface Show {
+  addedDate?: Date;
+
+  date: Date;
   venue: string;
 
   artists: Artist[];
