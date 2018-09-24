@@ -95,6 +95,19 @@
     "venue": "Kingsdown Vaults"
   },
   {
+    "addedDate": "2018-09-24",
+    "date": "2018-09-27",
+    "venue": "El Rincon",
+    "artists": [
+      {
+        "name": "Pete Judge"
+      },
+      {
+        "name": "Jim Barr"
+      }
+    ]
+  },
+  {
     "date": "2018-09-27",
     "artists": [
       {
