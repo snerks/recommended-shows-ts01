@@ -811,5 +811,18 @@
         "name": "Billy Bremner's Rockfiles"
       }
     ]
+  },
+  {
+    "addedDate": "2018-09-25",
+    "date": "2019-02-01",
+    "venue": "O2 Academy",
+    "artists": [
+      {
+        "name": "Dodgy"
+      },
+      {
+        "name": "Babybird"
+      }
+    ]
   }
 ]
