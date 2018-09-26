@@ -553,6 +553,17 @@
     "venue": "Fiddlers"
   },
   {
+    "addedDate": "2018-09-26",
+    "isSoldOut": false,
+    "date": "2018-11-01",
+    "venue": "The Louisiana",
+    "artists": [
+      {
+        "name": "The KVB"
+      }
+    ]
+  },
+  {
     "date": "2018-11-04",
     "artists": [
       {
