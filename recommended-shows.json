@@ -127,6 +127,17 @@
     "venue": "Crofters Rights"
   },
   {
+    "addedDate": "2018-09-26",
+    "isSoldOut": true,
+    "date": "2018-09-26",
+    "artists": [
+      {
+        "name": "The Darkness"
+      }
+    ],
+    "venue": "Fleece"
+  },
+  {
     "date": "2018-09-28",
     "artists": [
       {
