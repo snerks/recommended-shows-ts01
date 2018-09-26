@@ -349,6 +349,17 @@
     "venue": "Exchange"
   },
   {
+    "addedDate": "2018-09-26",
+    "isSoldOut": false,
+    "date": "2018-10-18",
+    "venue": "Canteen",
+    "artists": [
+      {
+        "name": "Strobes"
+      }
+    ]
+  },
+  {
     "date": "2018-10-18",
     "artists": [
       {
@@ -791,19 +802,6 @@
   },
   {
     "addedDate": "2018-09-23",
-    "date": "2019-02-28",
-    "venue": "St Philips Gate",
-    "artists": [
-      {
-        "name": "Blue Oyster Cult"
-      },
-      {
-        "name": "Temperance Movement"
-      }
-    ]
-  },
-  {
-    "addedDate": "2018-09-23",
     "date": "2019-01-23",
     "venue": "100 Club",
     "artists": [
@@ -822,6 +820,19 @@
       },
       {
         "name": "Babybird"
+      }
+    ]
+  },
+  {
+    "addedDate": "2018-09-23",
+    "date": "2019-02-28",
+    "venue": "St Philips Gate",
+    "artists": [
+      {
+        "name": "Blue Oyster Cult"
+      },
+      {
+        "name": "Temperance Movement"
       }
     ]
   }
