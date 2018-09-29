@@ -417,6 +417,16 @@
     "venue": "Forge"
   },
   {
+    "date": "2018-10-19",
+    "addedDate": "2018-09-29",
+    "artists": [
+      {
+        "name": "Saint Agnes"
+      }
+    ],
+    "venue": "Old England"
+  },
+  {
     "date": "2018-10-20",
     "artists": [
       {
@@ -618,6 +628,9 @@
       },
       {
         "name": "Body Hound"
+      },
+      {
+        "name": "Twisted Ankles"
       }
     ],
     "venue": "Mothers Ruin"
@@ -858,6 +871,17 @@
       },
       {
         "name": "Temperance Movement"
+      }
+    ]
+  },
+  {
+    "addedDate": "2018-09-29",
+    "isSoldOut": false,
+    "date": "2019-03-28",
+    "venue": "The Exchange",
+    "artists": [
+      {
+        "name": "Pigs Pigs Pigs Pigs Pigs Pigs Pigs"
       }
     ]
   }
