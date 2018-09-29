@@ -201,6 +201,11 @@ class App extends React.Component<{}, AppState> {
               Sold Out
             </span>
           )}
+          {show.isCancelled && (
+            <span className="badge badge-warning" style={{ marginRight: 10 }}>
+              Cancelled
+            </span>
+          )}
         </td>
       </tr>
     ));
