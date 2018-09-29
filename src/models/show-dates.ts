@@ -13,6 +13,8 @@ export interface Show {
   venue: string;
 
   artists: Artist[];
+
+  notes?: string;
 }
 
 export interface Artist {

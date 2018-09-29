@@ -206,6 +206,7 @@ class App extends React.Component<{}, AppState> {
               Cancelled
             </span>
           )}
+          {show.notes && <span style={{ marginRight: 10 }}>{show.notes}</span>}
         </td>
       </tr>
     ));
