@@ -776,13 +776,20 @@
     "venue": "Fiddlers"
   },
   {
+    "addedDate": "2018-10-01",
     "date": "2018-12-10",
     "artists": [
       {
         "name": "Beak"
+      },
+      {
+        "name": "Pigs Pigs Pigs Pigs Pigs Pigs Pigs"
+      },
+      {
+        "name": "Slagheap"
       }
     ],
-    "venue": "TBA"
+    "venue": "Fiddlers"
   },
   {
     "date": "2018-12-14",
