@@ -6,6 +6,9 @@ import "./App.css";
 import { Show } from "./models/show-dates";
 
 interface AppState {
+  lastViewedDateTime?: Date;
+  lastUpdatedDateTime: Date;
+
   shows: Show[];
 
   error?: any;
@@ -18,11 +21,41 @@ interface AppState {
 class App extends React.Component<{}, AppState> {
   constructor(
     props: {},
-    state: AppState = { shows: [], showPastEvents: false }
+    state: AppState = {
+      lastViewedDateTime: new Date(),
+      lastUpdatedDateTime: new Date(),
+      shows: [],
+      showPastEvents: false
+    }
   ) {
     super(props, state);
 
-    this.state = state;
+    const lastViewedDateTimeText = localStorage.getItem("lastViewedDateTime");
+    let lastViewedDateTimeOrCurrent = new Date("January 01, 2018");
+
+    if (lastViewedDateTimeText) {
+      try {
+        lastViewedDateTimeOrCurrent = new Date(
+          parseInt(lastViewedDateTimeText, 10)
+        );
+      } catch (error) {
+        lastViewedDateTimeOrCurrent = new Date();
+      }
+    }
+
+    const currentDateTime = new Date();
+    const currentDateTimeTicks = currentDateTime.getTime();
+    // new Date().getTime() * 10000 + 621355968000000000;
+
+    localStorage.setItem(
+      "lastViewedDateTime",
+      currentDateTimeTicks.toString(10)
+    );
+
+    this.state = {
+      ...state,
+      lastViewedDateTime: lastViewedDateTimeOrCurrent
+    };
   }
 
   componentDidMount() {
@@ -33,7 +66,8 @@ class App extends React.Component<{}, AppState> {
       .then(
         result => {
           const nextState: AppState = {
-            shows: result as Show[],
+            lastUpdatedDateTime: new Date(result.lastUpdated),
+            shows: result.shows as Show[],
             error: undefined,
             showPastEvents: false
           };
@@ -108,7 +142,13 @@ class App extends React.Component<{}, AppState> {
   };
 
   public render() {
-    const { shows, error, artistsSearchTerm } = this.state;
+    const {
+      lastViewedDateTime,
+      lastUpdatedDateTime,
+      shows,
+      error,
+      artistsSearchTerm
+    } = this.state;
 
     if (error) {
       return <div>Error: {JSON.stringify(error)}</div>;
@@ -193,7 +233,7 @@ class App extends React.Component<{}, AppState> {
         <td>
           {isRecentlyAdded(show) && (
             <span className="badge badge-info" style={{ marginRight: 10 }}>
-              New
+              New!
             </span>
           )}
           {show.isSoldOut && (
@@ -210,6 +250,10 @@ class App extends React.Component<{}, AppState> {
         </td>
       </tr>
     ));
+
+    const haveNewUpdates = lastViewedDateTime
+      ? lastUpdatedDateTime > lastViewedDateTime
+      : true;
 
     return (
       <div className="table-responsive">
@@ -237,9 +281,12 @@ class App extends React.Component<{}, AppState> {
                 {visibleShowDates.length}
               </span>{" "}
               item
-              {visibleShowDates.length !== 1 ? "s" : ""}
+              {visibleShowDates.length !== 1 ? "s" : ""}{" "}
             </div>
-            <div className="col-4">
+            <div className="col-1">
+              {haveNewUpdates && <span className="badge badge-info">New!</span>}
+            </div>
+            <div className="col-3">
               <div className="form-check mb-2 mr-sm-2">
                 <div className="custom-control custom-checkbox">
                   <input
@@ -256,6 +303,15 @@ class App extends React.Component<{}, AppState> {
                   </label>
                 </div>
               </div>
+              {/* <div>
+                Last Updated:{" "}
+                {moment(lastUpdatedDateTime).format("DD-MMM-YYYY HH:mm")}
+              </div>
+              <div>
+                Last Viewed:{" "}
+                {moment(lastViewedDateTime).format("DD-MMM-YYYY HH:mm")}
+              </div>
+              <div>New Items: {haveNewUpdates ? "Yes!" : "No"}</div> */}
             </div>
           </div>
         </form>

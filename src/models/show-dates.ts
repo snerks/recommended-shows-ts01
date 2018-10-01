@@ -4,6 +4,11 @@
 //   shows: Show[];
 // }
 
+export interface ShowsInfo {
+  lastUpdated: Date;
+  shows: Show[];
+}
+
 export interface Show {
   addedDate?: Date;
   isSoldOut: boolean;
