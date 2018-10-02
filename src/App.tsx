@@ -225,15 +225,42 @@ class App extends React.Component<{}, AppState> {
         show.venue
       );
 
+      const priceBadge = show.priceText &&
+        show.priceText.indexOf("£") === 0 && (
+          <span className="badge badge-info" style={{ marginRight: 10 }}>
+            {show.priceText}
+          </span>
+        );
+
+      const priceLink = show.detailsUri ? (
+        <a href={show.detailsUri}>{priceBadge}</a>
+      ) : (
+        priceBadge
+      );
+
       return (
         <tr key={showIndex}>
           <td>{moment(show.date).format("ddd")}</td>
           <td>{moment(show.date).format("DD-MMM-YYYY")}</td>
           <td>
             <div>
-              {show.artists.map((artist, artistIndex) => (
-                <p key={artistIndex}>{artist.name}</p>
-              ))}
+              {show.artists.map((artist, artistIndex) => {
+                const stageTimeBadge = artist.stageTime && (
+                  <span
+                    className="badge badge-pill badge-primary"
+                    style={{ marginRight: 10 }}
+                    title="Stage Time"
+                  >
+                    {artist.stageTime}
+                  </span>
+                );
+
+                return (
+                  <p key={artistIndex}>
+                    {artist.name} {stageTimeBadge}
+                  </p>
+                );
+              })}
             </div>
           </td>
           <td>{venueCell}</td>
@@ -253,6 +280,7 @@ class App extends React.Component<{}, AppState> {
                 Cancelled
               </span>
             )}
+            {priceLink}
             {show.notes && (
               <span style={{ marginRight: 10 }}>{show.notes}</span>
             )}

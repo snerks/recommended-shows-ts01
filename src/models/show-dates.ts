@@ -14,6 +14,8 @@ export interface Show {
   isSoldOut: boolean;
   isCancelled: boolean;
 
+  priceText?: string;
+
   date: Date;
   venue: string;
 
@@ -26,4 +28,5 @@ export interface Show {
 
 export interface Artist {
   name: string;
+  stageTime?: string;
 }

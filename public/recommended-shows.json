@@ -229,13 +229,21 @@
       "venue": "The Fleece"
     },
     {
+      "eventIdBts": 17570,
+      "isNew": true,
+      "addedDate": "2018-09-22",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£32.50",
       "date": "2018-10-02",
+      "venue": "O2 Academy",
       "artists": [
         {
-          "name": "Glenn Hughes"
+          "name": "Glenn Hughes Performs Classic Deep Purple Live",
+          "stageTime": "20:45"
         }
       ],
-      "venue": "O2 Academy"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17570"
     },
     {
       "date": "2018-10-05",
@@ -256,31 +264,36 @@
       "venue": "Colston Hall Foyer"
     },
     {
+      "eventIdBts": 18838,
+      "isNew": true,
+      "addedDate": "2018-09-22",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£8.00",
       "date": "2018-10-06",
+      "venue": "The Exchange",
       "artists": [
         {
-          "name": "Steve Davis"
-        },
-        {
-          "name": "Kavus Torabi"
+          "name": "Steve Davis And Kavus Torabi"
         }
       ],
-      "venue": "Exchange"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18838"
     },
     {
+      "eventIdBts": 18976,
+      "isNew": true,
+      "addedDate": "2018-09-22",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£16.50",
       "date": "2018-10-06",
+      "venue": "The Exchange",
       "artists": [
         {
           "name": "The Heads"
-        },
-        {
-          "name": "Blurt"
-        },
-        {
-          "name": "Nols"
         }
       ],
-      "venue": "Exchange"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18976"
     },
     {
       "date": "2018-10-06",
@@ -292,13 +305,20 @@
       "venue": "British Library"
     },
     {
+      "eventIdBts": 18585,
+      "isNew": true,
+      "addedDate": "2018-09-22",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£11.00",
       "date": "2018-10-08",
+      "venue": "The Exchange",
       "artists": [
         {
           "name": "Lite"
         }
       ],
-      "venue": "Exchange"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18585"
     },
     {
       "date": "2018-10-09",
@@ -349,14 +369,20 @@
       "venue": "All Hallows Hall"
     },
     {
+      "eventIdBts": 18487,
+      "isNew": false,
+      "addedDate": "2018-09-22",
+      "isSoldOut": true,
+      "isCancelled": false,
+      "priceText": "SOLD OUT",
       "date": "2018-10-16",
+      "venue": "SWX",
       "artists": [
         {
           "name": "Idles"
         }
       ],
-      "venue": "SWX",
-      "isSoldOut": true
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18487"
     },
     {
       "date": "2018-10-16",
@@ -543,13 +569,20 @@
       ]
     },
     {
+      "eventIdBts": 18422,
+      "isNew": true,
+      "addedDate": "2018-09-22",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£11.00",
       "date": "2018-10-31",
+      "venue": "Bristol Thekla",
       "artists": [
         {
           "name": "Snail Mail"
         }
       ],
-      "venue": "Thekla"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18422"
     },
     {
       "date": "2018-11-01",
@@ -600,13 +633,21 @@
       "venue": "Exchange"
     },
     {
+      "eventIdBts": 19030,
+      "isNew": true,
+      "addedDate": "2018-09-22",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£9.00",
       "date": "2018-11-05",
+      "venue": "The Exchange",
       "artists": [
         {
           "name": "The Beths"
         }
       ],
-      "venue": "Exchange (upgraded from Crofters Rights)"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19030",
+      "notes": "Upgraded from Crofters Rights"
     },
     {
       "date": "2018-11-07",
@@ -618,13 +659,21 @@
       "venue": "The Fleece"
     },
     {
+      "eventIdBts": 18141,
+      "isNew": true,
+      "addedDate": "2018-09-22",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£22.00",
       "date": "2018-11-08",
+      "venue": "Anson Rooms",
       "artists": [
         {
-          "name": "Kurt Vile"
+          "name": "Kurt Vile And The Violators"
         }
       ],
-      "venue": "St. Philip's Gate"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18141",
+      "notes": "Moved from St. Philips Gate"
     },
     {
       "date": "2018-11-10",
