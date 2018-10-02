@@ -218,38 +218,48 @@ class App extends React.Component<{}, AppState> {
       return result;
     };
 
-    const tableRows = visibleShowDates.map((show: Show, showIndex: number) => (
-      <tr key={showIndex}>
-        <td>{moment(show.date).format("ddd")}</td>
-        <td>{moment(show.date).format("DD-MMM-YYYY")}</td>
-        <td>
-          <div>
-            {show.artists.map((artist, artistIndex) => (
-              <p key={artistIndex}>{artist.name}</p>
-            ))}
-          </div>
-        </td>
-        <td>{show.venue}</td>
-        <td>
-          {isRecentlyAdded(show) && (
-            <span className="badge badge-info" style={{ marginRight: 10 }}>
-              New!
-            </span>
-          )}
-          {show.isSoldOut && (
-            <span className="badge badge-warning" style={{ marginRight: 10 }}>
-              Sold Out
-            </span>
-          )}
-          {show.isCancelled && (
-            <span className="badge badge-danger" style={{ marginRight: 10 }}>
-              Cancelled
-            </span>
-          )}
-          {show.notes && <span style={{ marginRight: 10 }}>{show.notes}</span>}
-        </td>
-      </tr>
-    ));
+    const tableRows = visibleShowDates.map((show: Show, showIndex: number) => {
+      const venueCell = show.detailsUri ? (
+        <a href={show.detailsUri}>{show.venue}</a>
+      ) : (
+        show.venue
+      );
+
+      return (
+        <tr key={showIndex}>
+          <td>{moment(show.date).format("ddd")}</td>
+          <td>{moment(show.date).format("DD-MMM-YYYY")}</td>
+          <td>
+            <div>
+              {show.artists.map((artist, artistIndex) => (
+                <p key={artistIndex}>{artist.name}</p>
+              ))}
+            </div>
+          </td>
+          <td>{venueCell}</td>
+          <td>
+            {isRecentlyAdded(show) && (
+              <span className="badge badge-info" style={{ marginRight: 10 }}>
+                New!
+              </span>
+            )}
+            {show.isSoldOut && (
+              <span className="badge badge-warning" style={{ marginRight: 10 }}>
+                Sold Out
+              </span>
+            )}
+            {show.isCancelled && (
+              <span className="badge badge-danger" style={{ marginRight: 10 }}>
+                Cancelled
+              </span>
+            )}
+            {show.notes && (
+              <span style={{ marginRight: 10 }}>{show.notes}</span>
+            )}
+          </td>
+        </tr>
+      );
+    });
 
     const haveNewUpdates = lastViewedDateTime
       ? lastUpdatedDateTime > lastViewedDateTime

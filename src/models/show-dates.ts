@@ -20,6 +20,8 @@ export interface Show {
   artists: Artist[];
 
   notes?: string;
+
+  detailsUri?: string;
 }
 
 export interface Artist {
