@@ -788,7 +788,7 @@
           "name": "Beak"
         },
         {
-          "name": "Pigs Pigs Pigs Pigs Pigs Pigs Pigs"
+          "name": "Pigs (x7)"
         },
         {
           "name": "Slagheap"
@@ -910,7 +910,7 @@
       "venue": "The Exchange",
       "artists": [
         {
-          "name": "Pigs Pigs Pigs Pigs Pigs Pigs Pigs"
+          "name": "Pigs (x7)"
         }
       ]
     }
