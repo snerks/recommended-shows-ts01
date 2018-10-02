@@ -553,6 +553,7 @@
     },
     {
       "date": "2018-11-01",
+      "isSoldOut": true,
       "artists": [
         {
           "name": "BC Camplight"
