@@ -247,12 +247,30 @@
     },
     {
       "date": "2018-10-05",
+      "priceText": "£2.00",
+      "artists": [
+        {
+          "name": "Prudent Primate"
+        }
+      ],
+      "venue": "Left Bank",
+      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05&event_id=48669",
+      "isNew": true,
+      "addedDate": "2018-10-02"
+    },
+    {
+      "date": "2018-10-05",
+      "priceText": "£7.00",
       "artists": [
         {
           "name": "Spindle Ensemble"
+        },
+        {
+          "name": "Heather Jane"
         }
       ],
-      "venue": "St. Janes"
+      "venue": "St Anne's Church",
+      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05&event_id=47866"
     },
     {
       "date": "2018-10-05",
@@ -291,6 +309,12 @@
       "artists": [
         {
           "name": "The Heads"
+        },
+        {
+          "name": "Blurt"
+        },
+        {
+          "name": "Nols"
         }
       ],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18976"
