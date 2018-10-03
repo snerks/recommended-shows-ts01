@@ -238,6 +238,13 @@ class App extends React.Component<{}, AppState> {
         priceBadge
       );
 
+      const onSaleDateBadge = show.onSaleDate && (
+        <span className="badge badge-primary" style={{ marginRight: 10 }}>
+          {"On sale: "}
+          {moment(show.onSaleDate).format("ddd DD-MMM-YYYY")}
+        </span>
+      );
+
       return (
         <tr key={showIndex}>
           <td>{moment(show.date).format("ddd")}</td>
@@ -281,6 +288,7 @@ class App extends React.Component<{}, AppState> {
               </span>
             )}
             {priceLink}
+            {onSaleDateBadge}
             {show.notes && (
               <span style={{ marginRight: 10 }}>{show.notes}</span>
             )}

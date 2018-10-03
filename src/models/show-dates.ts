@@ -14,6 +14,8 @@ export interface Show {
   isSoldOut: boolean;
   isCancelled: boolean;
 
+  onSaleDate?: Date;
+
   priceText?: string;
 
   date: Date;
