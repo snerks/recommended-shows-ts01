@@ -969,7 +969,8 @@
         {
           "name": "Bill Ryder Jones"
         }
-      ]
+      ],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19364"
     },
     {
       "addedDate": "2018-10-03",
@@ -995,6 +996,22 @@
           "name": "Temperance Movement"
         }
       ]
+    },
+    {
+      "eventIdBts": 19413,
+      "isNew": true,
+      "addedDate": "2018-10-05",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£17.50",
+      "date": "2019-03-14",
+      "venue": "Bristol Thekla",
+      "artists": [
+        {
+          "name": "Ulrich Schnauss"
+        }
+      ],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19413"
     },
     {
       "addedDate": "2018-09-29",
