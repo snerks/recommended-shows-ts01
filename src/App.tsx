@@ -59,7 +59,13 @@ class App extends React.Component<{}, AppState> {
   }
 
   componentDidMount() {
-    fetch("recommended-shows.json")
+    // const urlBase = "https://snerks.github.io/recommended-shows-ts01/";
+    const urlBase = "";
+
+    const fileName = "recommended-shows.json";
+    const url = `${urlBase}${fileName}`;
+
+    fetch(url)
       .then(res => {
         return res.json();
       })
@@ -252,6 +258,19 @@ class App extends React.Component<{}, AppState> {
           <td>
             <div>
               {show.artists.map((artist, artistIndex) => {
+                const videoBadge = artist.videoUrl && (
+                  <span
+                    className="badge badge-danger"
+                    style={{ marginRight: 10 }}
+                  >
+                    {"Video"}
+                  </span>
+                );
+
+                const videoLink = artist.videoUrl ? (
+                  <a href={artist.videoUrl}>{videoBadge}</a>
+                ) : null;
+
                 const stageTimeBadge = artist.stageTime && (
                   <span
                     className="badge badge-pill badge-primary"
@@ -264,7 +283,7 @@ class App extends React.Component<{}, AppState> {
 
                 return (
                   <p key={artistIndex}>
-                    {artist.name} {stageTimeBadge}
+                    {artist.name} {stageTimeBadge} {videoLink}
                   </p>
                 );
               })}

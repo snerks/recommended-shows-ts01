@@ -31,4 +31,6 @@ export interface Show {
 export interface Artist {
   name: string;
   stageTime?: string;
+
+  videoUrl?: string;
 }
