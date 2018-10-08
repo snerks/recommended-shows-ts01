@@ -354,7 +354,9 @@
           "name": "She Drew The Gun"
         }
       ],
-      "venue": "SWX"
+      "venue": "SWX",
+      "priceText": "£22.00",
+      "detailsUri": "https://www.ents24.com/bristol-events/swx-bristol/the-coral/5324350"
     },
     {
       "date": "2018-10-10",
@@ -364,12 +366,43 @@
         },
         {
           "name": "Kusanagi"
+        },
+        {
+          "name": "Seven Colour Drive"
+        },
+        {
+          "name": "Common Spit"
         }
       ],
-      "venue": "Crofters Rights"
+      "venue": "Crofters Rights",
+      "priceText": "£5.00",
+      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-10&event_id=48228"
     },
     {
+      "date": "2018-10-11",
+      "isNew": true,
+      "addedDate": "2018-10-08",
+      "artists": [
+        {
+          "name": "The Moms",
+          "videoUrl": "https://www.youtube.com/watch?v=n-js-UfI1g4"
+        },
+        {
+          "name": "The Run Up"
+        }
+      ],
+      "venue": "Mothers Ruin",
+      "detailsUri": "https://www.ents24.com/bristol-events/the-mothers-ruin/the-moms/5400510"
+    },
+    {
+      "eventIdBts": 18723,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£27.50",
       "date": "2018-10-12",
+      "venue": "SWX",
       "artists": [
         {
           "name": "The Orb"
@@ -378,10 +411,17 @@
           "name": "System 7"
         }
       ],
-      "venue": "SWX"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18723"
     },
     {
+      "eventIdBts": 19282,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£8.00",
       "date": "2018-10-13",
+      "venue": "All Hallows Hall",
       "artists": [
         {
           "name": "Fantasy Morricone"
@@ -390,7 +430,7 @@
           "name": "Underscore"
         }
       ],
-      "venue": "All Hallows Hall"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19282"
     },
     {
       "eventIdBts": 18487,
@@ -404,6 +444,9 @@
       "artists": [
         {
           "name": "Idles"
+        },
+        {
+          "name": "Heavy Lungs"
         }
       ],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18487"
@@ -415,7 +458,9 @@
           "name": "Idles (Afterparty)"
         }
       ],
-      "venue": "Exchange"
+      "venue": "Exchange",
+      "priceText": "£5.00",
+      "detailsUri": "https://www.ents24.com/bristol-events/exchange/bruiser-official-idles-afterparty/5413656"
     },
     {
       "addedDate": "2018-09-26",
@@ -426,7 +471,9 @@
         {
           "name": "Strobes"
         }
-      ]
+      ],
+      "priceText": "£0.00",
+      "detailsUri": "http://www.canteenbristol.co.uk/livemusic/strobes-3/"
     },
     {
       "date": "2018-10-18",
@@ -438,14 +485,23 @@
       "venue": "Steam Tavern"
     },
     {
+      "eventIdBts": 17642,
+      "isNew": false,
+      "isSelected": true,
       "date": "2018-10-19",
+      "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17642",
+      "priceText": "SOLD OUT",
+      "isSoldOut": true,
+      "isCancelled": false,
       "artists": [
         {
           "name": "Sham 69"
+        },
+        {
+          "name": "Criminal Mind"
         }
-      ],
-      "venue": "The Fleece",
-      "isSoldOut": true
+      ]
     },
     {
       "date": "2018-10-19",
@@ -503,10 +559,32 @@
       "venue": "Left Bank"
     },
     {
-      "addedDate": "2018-09-23",
+      "eventIdBts": 17912,
+      "isNew": false,
+      "addedDate": "2018-10-08",
       "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£25.00",
+      "date": "2018-10-21",
+      "venue": "SWX",
+      "artists": [
+        {
+          "name": "Stephen Malkmus And The Jicks"
+        }
+      ],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17912"
+    },
+    {
+      "eventIdBts": 18995,
+      "addedDate": "2018-09-23",
+      "isNew": false,
+      "isSelected": true,
       "date": "2018-10-21",
       "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18995",
+      "priceText": "£14.00",
+      "isSoldOut": false,
+      "isCancelled": false,
       "artists": [
         {
           "name": "David Murray"
@@ -526,31 +604,52 @@
       "venue": "1532 Performing Arts Centre"
     },
     {
+      "eventIdBts": 17937,
+      "isNew": false,
+      "isSelected": true,
       "date": "2018-10-24",
+      "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17937",
+      "priceText": "£20.00",
+      "isSoldOut": false,
+      "isCancelled": false,
       "artists": [
         {
           "name": "Tom Robinson Band"
         }
-      ],
-      "venue": "The Fleece"
+      ]
     },
     {
+      "eventIdBts": 18533,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£8.00",
       "date": "2018-10-24",
+      "venue": "Grain Barge",
       "artists": [
         {
           "name": "Jo Passed"
         }
       ],
-      "venue": "Grain Barge"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18533"
     },
     {
+      "eventIdBts": 18275,
+      "isNew": false,
+      "isSelected": true,
       "date": "2018-10-25",
+      "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18275",
+      "priceText": "£22.00",
+      "isSoldOut": false,
+      "isCancelled": false,
       "artists": [
         {
           "name": "Marcus King"
         }
-      ],
-      "venue": "The Fleece"
+      ]
     },
     {
       "date": "2018-10-25",
@@ -571,10 +670,15 @@
       "venue": "Old England"
     },
     {
-      "addedDate": "2018-09-23",
-      "isSoldOut": false,
+      "eventIdBts": 18314,
+      "isNew": false,
+      "isSelected": true,
       "date": "2018-10-26",
       "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18314",
+      "priceText": "£11.00",
+      "isSoldOut": false,
+      "isCancelled": false,
       "artists": [
         {
           "name": "The Lovely Eggs"
@@ -582,10 +686,17 @@
       ]
     },
     {
+      "eventIdBts": 18767,
       "addedDate": "2018-09-23",
-      "isSoldOut": false,
+      "isNew": false,
+
+      "isSelected": true,
       "date": "2018-10-31",
       "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18767",
+      "priceText": "£11.00",
+      "isSoldOut": false,
+      "isCancelled": false,
       "artists": [
         {
           "name": "The Sheepdogs"
@@ -609,14 +720,20 @@
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18422"
     },
     {
-      "date": "2018-11-01",
+      "eventIdBts": 18397,
+      "isNew": false,
+      "addedDate": "2018-10-01",
       "isSoldOut": true,
+      "isCancelled": false,
+      "priceText": "SOLD OUT",
+      "date": "2018-11-01",
+      "venue": "Rough Trade",
       "artists": [
         {
-          "name": "BC Camplight"
+          "name": "Bc Camplight"
         }
       ],
-      "venue": "Rough Trade Bristol"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18397"
     },
     {
       "date": "2018-11-01",
@@ -625,36 +742,57 @@
           "name": "Stanley Clarke"
         }
       ],
-      "venue": "Fiddlers"
+      "venue": "Fiddlers",
+      "priceText": "£35.10",
+      "detailsUri": "https://www.ents24.com/bristol-events/fiddlers-club/stanley-clarke/5393937"
     },
     {
+      "eventIdBts": 18475,
+      "isNew": false,
       "addedDate": "2018-09-26",
       "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£10.00",
       "date": "2018-11-01",
       "venue": "The Louisiana",
       "artists": [
         {
           "name": "The KVB"
         }
-      ]
+      ],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18475"
     },
     {
+      "eventIdBts": 18131,
+      "isNew": false,
+      "isSelected": true,
       "date": "2018-11-04",
+      "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18131",
+      "priceText": "£21.50",
+      "isSoldOut": false,
+      "isCancelled": false,
       "artists": [
         {
           "name": "Blancmange"
         }
-      ],
-      "venue": "The Fleece"
+      ]
     },
     {
+      "eventIdBts": 19355,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£15.00",
       "date": "2018-11-04",
+      "venue": "The Exchange",
       "artists": [
         {
-          "name": "Go-Kart Mozart"
+          "name": "Go Kart Mozart"
         }
       ],
-      "venue": "Exchange"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19355"
     },
     {
       "eventIdBts": 19030,
@@ -668,19 +806,32 @@
       "artists": [
         {
           "name": "The Beths"
+        },
+        {
+          "name": "Bedford Falls"
+        },
+        {
+          "name": "Slagheap"
         }
       ],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19030",
       "notes": "Upgraded from Crofters Rights"
     },
     {
+      "eventIdBts": 18683,
+      "isNew": false,
+      "isSelected": true,
       "date": "2018-11-07",
+      "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18683",
+      "priceText": "£22.00",
+      "isSoldOut": false,
+      "isCancelled": false,
       "artists": [
         {
           "name": "Hugh Cornwell"
         }
-      ],
-      "venue": "The Fleece"
+      ]
     },
     {
       "eventIdBts": 18141,
@@ -700,7 +851,30 @@
       "notes": "Moved from St. Philips Gate"
     },
     {
+      "eventIdBts": 18142,
+      "isNew": false,
+      "addedDate": "2018-10-08",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£34.00",
+      "date": "2018-11-09",
+      "venue": "O2 Academy",
+      "artists": [
+        {
+          "name": "MC 50"
+        }
+      ],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18142"
+    },
+    {
+      "eventIdBts": 19200,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£5.50",
       "date": "2018-11-10",
+      "venue": "Mothers Ruin",
       "artists": [
         {
           "name": "Wot Gorilla"
@@ -712,7 +886,7 @@
           "name": "Twisted Ankles"
         }
       ],
-      "venue": "Mothers Ruin"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19200"
     },
     {
       "date": "2018-11-11",
@@ -721,16 +895,25 @@
           "name": "Rews"
         }
       ],
-      "venue": "The Louisiana"
+      "venue": "The Louisiana",
+      "priceText": "£8.00",
+      "detailsUri": "https://www.ents24.com/bristol-events/the-louisiana/rews/5395803"
     },
     {
+      "eventIdBts": 18696,
+      "isNew": false,
+      "isSelected": true,
       "date": "2018-11-13",
+      "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18696",
+      "priceText": "£14.00",
+      "isSoldOut": false,
+      "isCancelled": false,
       "artists": [
         {
           "name": "Tricot"
         }
-      ],
-      "venue": "The Fleece"
+      ]
     },
     {
       "date": "2018-11-17",
@@ -778,63 +961,109 @@
       "venue": "St. George's Hall"
     },
     {
+      "eventIdBts": 18751,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£15.50",
       "date": "2018-11-29",
+      "venue": "Hen And Chicken",
       "artists": [
         {
-          "name": "Dan Stuart"
+          "name": "Dan Stuart (Green On Red)"
         },
         {
-          "name": "Sid Griffin"
+          "name": "Sid Griffin (Long Ryders)"
+        },
+        {
+          "name": "Tom Heymann"
         }
       ],
-      "venue": "Hen and Chicken"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18751"
     },
     {
+      "eventIdBts": 18704,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£10.00",
       "date": "2018-11-29",
+      "venue": "Hy Brasil Music Club",
       "artists": [
         {
           "name": "Hugar"
         }
       ],
-      "venue": "Hy-Brasil"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18704"
     },
     {
+      "eventIdBts": 19032,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£27.50",
       "date": "2018-12-01",
+      "venue": "Fiddlers",
       "artists": [
         {
-          "name": "The Magpie Salute"
+          "name": "Magpie Salute"
         }
       ],
-      "venue": "Fiddlers"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19032"
     },
     {
+      "eventIdBts": 19291,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£11.00",
       "date": "2018-12-01",
+      "venue": "Hy Brasil Music Club",
       "artists": [
         {
           "name": "999"
+        },
+        {
+          "name": "Support"
         }
       ],
-      "venue": "Hy-Brasil"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19291"
     },
     {
+      "eventIdBts": 17939,
+      "isNew": false,
       "addedDate": "2018-09-23",
       "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£16.50",
       "date": "2018-12-02",
       "venue": "The Lanes",
       "artists": [
         {
           "name": "Goldie Lookin Chain Xmas Bash Full Band"
         }
-      ]
+      ],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17939"
     },
     {
+      "eventIdBts": 17823,
+      "isNew": false,
+      "isSelected": true,
       "date": "2018-12-04",
+      "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17823",
+      "priceText": "SOLD OUT",
+      "isSoldOut": true,
+      "isCancelled": false,
       "artists": [
         {
           "name": "Buffalo Tom"
         }
-      ],
-      "venue": "Fleece"
+      ]
     },
     {
       "date": "2018-12-08",
@@ -846,17 +1075,30 @@
       "venue": "Mothers Ruin"
     },
     {
+      "eventIdBts": 18617,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£24.50",
       "date": "2018-12-09",
+      "venue": "Fiddlers",
       "artists": [
         {
-          "name": "Skids"
+          "name": "The Skids"
         }
       ],
-      "venue": "Fiddlers"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18617"
     },
     {
+      "eventIdBts": 19379,
+      "isNew": false,
       "addedDate": "2018-10-01",
+      "isSoldOut": true,
+      "isCancelled": false,
+      "priceText": "SOLD OUT",
       "date": "2018-12-10",
+      "venue": "Fiddlers",
       "artists": [
         {
           "name": "Beak"
@@ -868,7 +1110,7 @@
           "name": "Slagheap"
         }
       ],
-      "venue": "Fiddlers"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19379"
     },
     {
       "date": "2018-12-14",
@@ -880,22 +1122,36 @@
       "venue": "TB???"
     },
     {
+      "eventIdBts": 17771,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£16.50",
       "date": "2018-12-15",
+      "venue": "The Exchange",
       "artists": [
         {
-          "name": "Eddie and the Hotrods"
+          "name": "Eddie And The Hotrods"
         }
       ],
-      "venue": "Exchange"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17771"
     },
     {
+      "eventIdBts": 17224,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£11.00",
       "date": "2018-12-15",
+      "venue": "SWX",
       "artists": [
         {
           "name": "Gaz Brookfield"
         }
       ],
-      "venue": "SWX"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17224"
     },
     {
       "date": "2018-12-18",
@@ -908,21 +1164,26 @@
       "isSoldOut": true
     },
     {
+      "eventIdBts": 19118,
+      "isNew": false,
       "addedDate": "2018-09-16",
-
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£16.50",
       "date": "2018-12-20",
+      "venue": "The Thunderbolt",
       "artists": [
         {
-          "name": "Mark Morriss"
+          "name": "Mark Morris (The Bluetones)"
         },
         {
-          "name": "Nigel Clarke"
+          "name": "Nigel Clarke (Dodgy)"
         },
         {
-          "name": "Chris Helme"
+          "name": "Chris Helme (The Seahorses)"
         }
       ],
-      "venue": "Thunderbolt"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19118"
     },
     {
       "addedDate": "2018-09-23",
@@ -935,7 +1196,12 @@
       ]
     },
     {
-      "addedDate": "2018-09-25",
+      "eventIdBts": 19309,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£23.50",
       "date": "2019-02-01",
       "venue": "O2 Academy",
       "artists": [
@@ -945,11 +1211,16 @@
         {
           "name": "Babybird"
         }
-      ]
+      ],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19309"
     },
     {
+      "eventIdBts": 19357,
+      "isNew": false,
       "addedDate": "2018-10-02",
       "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£16.50",
       "date": "2019-02-16",
       "venue": "The Exchange",
       "artists": [
@@ -960,11 +1231,14 @@
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19357"
     },
     {
+      "eventIdBts": 19364,
+      "isNew": true,
       "addedDate": "2018-10-03",
       "isSoldOut": false,
-      "onSaleDate": "2018-10-05",
+      "isCancelled": false,
+      "priceText": "£16.50",
       "date": "2019-02-17",
-      "venue": "Thekla",
+      "venue": "Bristol Thekla",
       "artists": [
         {
           "name": "Bill Ryder Jones"
@@ -976,16 +1250,23 @@
       "addedDate": "2018-10-03",
       "isSoldOut": false,
       "onSaleDate": "2018-10-05",
+      "priceText": "£30.25",
       "date": "2019-02-18",
       "venue": "SWX",
       "artists": [
         {
           "name": "Cake"
         }
-      ]
+      ],
+      "detailsUri": "https://tickets.ents24.com/event/cake/swx-bristol/1273845?aff=ents24&inf=45703c99bde2fbb1"
     },
     {
+      "eventIdBts": 18884,
+      "isNew": false,
       "addedDate": "2018-09-23",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£32.50",
       "date": "2019-02-28",
       "venue": "St Philips Gate",
       "artists": [
@@ -995,7 +1276,8 @@
         {
           "name": "Temperance Movement"
         }
-      ]
+      ],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18884"
     },
     {
       "eventIdBts": 19413,
@@ -1014,15 +1296,20 @@
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19413"
     },
     {
+      "eventIdBts": 19311,
+      "isNew": false,
       "addedDate": "2018-09-29",
       "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£13.50",
       "date": "2019-03-28",
       "venue": "The Exchange",
       "artists": [
         {
           "name": "Pigs (x7)"
         }
-      ]
+      ],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19311"
     }
   ]
 }
