@@ -469,7 +469,8 @@
       "venue": "Canteen",
       "artists": [
         {
-          "name": "Strobes"
+          "name": "Strobes",
+          "stageTime": "21:30"
         }
       ],
       "priceText": "£0.00",
