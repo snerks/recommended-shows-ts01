@@ -927,6 +927,7 @@
     },
     {
       "date": "2018-11-17",
+      "isSoldOut": true,
       "artists": [
         {
           "name": "Soeur"
@@ -1027,9 +1028,6 @@
       "artists": [
         {
           "name": "999"
-        },
-        {
-          "name": "Support"
         }
       ],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19291"
@@ -1053,7 +1051,6 @@
     {
       "eventIdBts": 17823,
       "isNew": false,
-      "isSelected": true,
       "date": "2018-12-04",
       "venue": "The Fleece",
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17823",
@@ -1063,6 +1060,19 @@
       "artists": [
         {
           "name": "Buffalo Tom"
+        }
+      ]
+    },
+    {
+      "addedDate": "2018-10-08",
+      "date": "2018-12-06",
+      "venue": "Rough Trade Bristol",
+      "detailsUri": "https://www.ents24.com/bristol-events/rough-trade/duds/5402818",
+      "priceText": "£8.80",
+      "artists": [
+        {
+          "name": "Duds",
+          "videoUrl": "https://www.youtube.com/watch?v=y-Ubuw6P-uk"
         }
       ]
     },
@@ -1250,7 +1260,6 @@
     {
       "addedDate": "2018-10-03",
       "isSoldOut": false,
-      "onSaleDate": "2018-10-05",
       "priceText": "£30.25",
       "date": "2019-02-18",
       "venue": "SWX",
