@@ -1001,6 +1001,19 @@
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18704"
     },
     {
+      "addedDate": "2018-10-10",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "date": "2018-11-30",
+      "venue": "La Demeurée (Caen)",
+      "artists": [
+        {
+          "name": "Piniol"
+        }
+      ],
+      "detailsUri": "https://www.songkick.com/concerts/35390099-piniol-at-la-demeuree"
+    },
+    {
       "eventIdBts": 19032,
       "isNew": false,
       "addedDate": "2018-10-01",
