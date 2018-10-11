@@ -1333,6 +1333,18 @@
         }
       ],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19311"
+    },
+    {
+      "addedDate": "2018-10-11",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "date": "2019-05-10",
+      "venue": "Bristol Fiddlers",
+      "artists": [
+        {
+          "name": "Wreckless Eric"
+        }
+      ]
     }
   ]
 }
