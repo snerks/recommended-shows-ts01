@@ -10,6 +10,7 @@ export interface ShowsInfo {
 }
 
 export interface Show {
+  id: string;
   addedDate?: Date;
   isSoldOut: boolean;
   isCancelled: boolean;

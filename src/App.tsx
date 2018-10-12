@@ -253,7 +253,7 @@ class App extends React.Component<{}, AppState> {
 
       return (
         <tr key={showIndex}>
-          <td>{moment(show.date).format("ddd")}</td>
+          <td title={show.id}>{moment(show.date).format("ddd")}</td>
           <td>{moment(show.date).format("DD-MMM-YYYY")}</td>
           <td>
             <div>

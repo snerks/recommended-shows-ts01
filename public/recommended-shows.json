@@ -1,232 +1,153 @@
 {
-  "lastUpdated": "2018-10-02T10:28+01:00",
+  "lastUpdated": "2018-10-12T11:34:28.911Z",
   "shows": [
     {
       "date": "2018-09-17",
       "artists": [
-        {
-          "name": "Chuck Prophet and Stephanie Finch"
-        },
-        {
-          "name": "Jesse Malin"
-        }
+        { "name": "Chuck Prophet and Stephanie Finch" },
+        { "name": "Jesse Malin" }
       ],
-      "venue": "Hen and Chicken"
+      "venue": "Hen and Chicken",
+      "id": "dc43d3a0-5586-41f5-89f4-7c0ee3bb04a8"
     },
     {
       "date": "2018-09-18",
-      "artists": [
-        {
-          "name": "Pigs (x7)"
-        }
-      ],
-      "venue": "Rough Trade Bristol"
+      "artists": [{ "name": "Pigs (x7)" }],
+      "venue": "Rough Trade Bristol",
+      "id": "92bf78f0-393f-4bb4-9756-dbce1e368469"
     },
     {
       "date": "2018-09-21",
       "artists": [
-        {
-          "name": "Nightingales"
-        },
-        {
-          "name": "Stewart Lee"
-        },
-        {
-          "name": "The Courtesy Group"
-        }
+        { "name": "Nightingales" },
+        { "name": "Stewart Lee" },
+        { "name": "The Courtesy Group" }
       ],
-      "venue": "Exchange"
+      "venue": "Exchange",
+      "id": "55afd946-0e30-485d-9e03-0f4c3e964620"
     },
     {
       "date": "2018-09-22",
-      "artists": [
-        {
-          "name": "No Violet"
-        },
-        {
-          "name": "Chiyoda Ku"
-        }
-      ],
-      "venue": "Crofters Rights"
+      "artists": [{ "name": "No Violet" }, { "name": "Chiyoda Ku" }],
+      "venue": "Crofters Rights",
+      "id": "0fcd247b-cb52-417c-bb58-68659679a2d5"
     },
     {
       "date": "2018-09-23",
-      "artists": [
-        {
-          "name": "Get The Blessing"
-        }
-      ],
+      "artists": [{ "name": "Get The Blessing" }],
       "venue": "Wardrobe Theatre",
-
-      "isSoldOut": true
+      "isSoldOut": true,
+      "id": "3060c92f-e544-4964-b08e-bf93a9861a98"
     },
     {
       "date": "2018-09-24",
-      "artists": [
-        {
-          "name": "Bleeding Knees Club"
-        }
-      ],
-      "venue": "Old England"
+      "artists": [{ "name": "Bleeding Knees Club" }],
+      "venue": "Old England",
+      "id": "77f696a7-2a24-4bef-9e62-f7e3110e4307"
     },
     {
       "date": "2018-09-25",
-      "artists": [
-        {
-          "name": "Vodun"
-        }
-      ],
-      "venue": "Crofters Rights"
+      "artists": [{ "name": "Vodun" }],
+      "venue": "Crofters Rights",
+      "id": "5b3b1eca-53ae-4c7b-9a54-f03147a2cf06"
     },
     {
       "date": "2018-09-26",
-      "artists": [
-        {
-          "name": "Kit Hawes & Aaron Catlow"
-        }
-      ],
-      "venue": "Kingsdown Vaults"
-    },
-    {
-      "addedDate": "2018-09-24",
-      "date": "2018-09-27",
-      "venue": "El Rincon",
-      "artists": [
-        {
-          "name": "Pete Judge"
-        },
-        {
-          "name": "Jim Barr"
-        }
-      ]
-    },
-    {
-      "date": "2018-09-27",
-      "artists": [
-        {
-          "name": "Mush"
-        }
-      ],
-      "venue": "Hy-Brasil"
-    },
-    {
-      "date": "2018-09-27",
-      "artists": [
-        {
-          "name": "Modulus III"
-        }
-      ],
-      "venue": "Gallimaufry"
-    },
-    {
-      "addedDate": "2018-09-26",
-      "date": "2018-09-27",
-      "artists": [
-        {
-          "name": "Half Waif"
-        }
-      ],
-      "venue": "Crofters Rights"
+      "artists": [{ "name": "Kit Hawes \u0026 Aaron Catlow" }],
+      "venue": "Kingsdown Vaults",
+      "id": "96558430-83ef-4f9a-b572-c4f70de94b09"
     },
     {
       "addedDate": "2018-09-26",
       "isSoldOut": true,
       "date": "2018-09-26",
-      "artists": [
-        {
-          "name": "The Darkness"
-        }
-      ],
-      "venue": "Fleece"
+      "artists": [{ "name": "The Darkness" }],
+      "venue": "Fleece",
+      "id": "a30abab1-384d-41ec-bf1c-b0d1e264ad8f"
+    },
+    {
+      "addedDate": "2018-09-24",
+      "date": "2018-09-27",
+      "venue": "El Rincon",
+      "artists": [{ "name": "Pete Judge" }, { "name": "Jim Barr" }],
+      "id": "0d663602-0016-4150-82be-d9e8099f9c8f"
+    },
+    {
+      "date": "2018-09-27",
+      "artists": [{ "name": "Modulus III" }],
+      "venue": "Gallimaufry",
+      "id": "3816f332-ca59-4c27-851f-bcc1ecde84d4"
+    },
+    {
+      "addedDate": "2018-09-26",
+      "date": "2018-09-27",
+      "artists": [{ "name": "Half Waif" }],
+      "venue": "Crofters Rights",
+      "id": "277e9812-defb-464b-9d33-9646b34285e4"
+    },
+    {
+      "date": "2018-09-27",
+      "artists": [{ "name": "Mush" }],
+      "venue": "Hy-Brasil",
+      "id": "c597bd67-a177-4a5a-8bc8-a000e5f5c6c1"
+    },
+    {
+      "date": "2018-09-28",
+      "artists": [{ "name": "Denny Ilett (presents Santana)" }],
+      "venue": "Left Bank",
+      "id": "b9c8d286-0458-42dc-bbac-012b8fdd002d"
     },
     {
       "date": "2018-09-28",
       "artists": [
-        {
-          "name": "Sasquatch"
-        },
-        {
-          "name": "Sigiriya"
-        },
-        {
-          "name": "The Rollbars"
-        }
+        { "name": "Sasquatch" },
+        { "name": "Sigiriya" },
+        { "name": "The Rollbars" }
       ],
-      "venue": "Old England"
+      "venue": "Old England",
+      "id": "1c01b2ed-1fca-4686-834f-8b615edda26e"
     },
     {
       "date": "2018-09-28",
-      "artists": [
-        {
-          "name": "Denny Ilett (presents Santana)"
-        }
-      ],
-      "venue": "Left Bank"
+      "artists": [{ "name": "45s" }],
+      "venue": "Mothers Ruin",
+      "id": "76f039b5-2bcd-404e-ac38-31100dd73294"
     },
     {
       "date": "2018-09-28",
-      "artists": [
-        {
-          "name": "Coims"
-        }
-      ],
-      "venue": "Unitarian Church"
-    },
-    {
-      "date": "2018-09-28",
-      "artists": [
-        {
-          "name": "45s"
-        }
-      ],
-      "venue": "Mothers Ruin"
+      "artists": [{ "name": "Coims" }],
+      "venue": "Unitarian Church",
+      "id": "bd1d1805-f7ff-405f-8bdb-2d99099c94f7"
     },
     {
       "date": "2018-09-29",
-      "artists": [
-        {
-          "name": "Doe"
-        }
-      ],
-      "venue": "Rough Trade Bristol"
+      "artists": [{ "name": "Doe" }],
+      "venue": "Rough Trade Bristol",
+      "id": "21b31c28-a53b-4d57-bce8-5110eaa339b8"
     },
     {
       "date": "2018-09-29",
       "isCancelled": true,
       "notes": "Electrical fire at The Cube",
-      "artists": [
-        {
-          "name": "Osiris"
-        },
-        {
-          "name": "Kavus Torabi"
-        }
-      ],
-      "venue": "Cube Cinema"
+      "artists": [{ "name": "Osiris" }, { "name": "Kavus Torabi" }],
+      "venue": "Cube Cinema",
+      "id": "b077f1a7-d47d-4228-b2a1-a05bfec2eb5e"
+    },
+    {
+      "date": "2018-10-01",
+      "artists": [{ "name": "Get The Blessing" }],
+      "venue": "Rough Trade Bristol (18:30)",
+      "id": "4ad6376b-4621-4a15-a414-d6aea9a15167"
     },
     {
       "date": "2018-10-01",
       "artists": [
-        {
-          "name": "Get The Blessing"
-        }
+        { "name": "Mono" },
+        { "name": "A Storm Of Light" },
+        { "name": "Jo Quail" }
       ],
-      "venue": "Rough Trade Bristol (18:30)"
-    },
-    {
-      "date": "2018-10-01",
-      "artists": [
-        {
-          "name": "Mono"
-        },
-        {
-          "name": "A Storm Of Light"
-        },
-        {
-          "name": "Jo Quail"
-        }
-      ],
-      "venue": "The Fleece"
+      "venue": "The Fleece",
+      "id": "49a5551e-57fb-438b-b0fa-126fc1a4956c"
     },
     {
       "eventIdBts": 17570,
@@ -243,43 +164,32 @@
           "stageTime": "20:45"
         }
       ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17570"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17570",
+      "id": "c9e18a79-391c-4446-8d56-e5f8e91cfce6"
     },
     {
       "date": "2018-10-05",
       "priceText": "£2.00",
-      "artists": [
-        {
-          "name": "Prudent Primate"
-        }
-      ],
+      "artists": [{ "name": "Prudent Primate" }],
       "venue": "Left Bank",
-      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05&event_id=48669",
+      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05\u0026event_id=48669",
       "isNew": true,
-      "addedDate": "2018-10-02"
+      "addedDate": "2018-10-02",
+      "id": "7c9d126c-ffd7-4e25-a45e-265ed298112a"
     },
     {
       "date": "2018-10-05",
       "priceText": "£7.00",
-      "artists": [
-        {
-          "name": "Spindle Ensemble"
-        },
-        {
-          "name": "Heather Jane"
-        }
-      ],
+      "artists": [{ "name": "Spindle Ensemble" }, { "name": "Heather Jane" }],
       "venue": "St Anne's Church",
-      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05&event_id=47866"
+      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05\u0026event_id=47866",
+      "id": "42db1dcc-d95d-4248-b60a-2bf7edc4f351"
     },
     {
       "date": "2018-10-05",
-      "artists": [
-        {
-          "name": "Suzanne Ciani"
-        }
-      ],
-      "venue": "Colston Hall Foyer"
+      "artists": [{ "name": "Suzanne Ciani" }],
+      "venue": "Colston Hall Foyer",
+      "id": "2d31a04b-ab32-4c87-8f03-d920d0e41a64"
     },
     {
       "eventIdBts": 18838,
@@ -290,12 +200,9 @@
       "priceText": "£8.00",
       "date": "2018-10-06",
       "venue": "The Exchange",
-      "artists": [
-        {
-          "name": "Steve Davis And Kavus Torabi"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18838"
+      "artists": [{ "name": "Steve Davis And Kavus Torabi" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18838",
+      "id": "e7d76575-ae48-4929-8837-b46a7fc434e9"
     },
     {
       "eventIdBts": 18976,
@@ -307,26 +214,18 @@
       "date": "2018-10-06",
       "venue": "The Exchange",
       "artists": [
-        {
-          "name": "The Heads"
-        },
-        {
-          "name": "Blurt"
-        },
-        {
-          "name": "Nols"
-        }
+        { "name": "The Heads" },
+        { "name": "Blurt" },
+        { "name": "Nols" }
       ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18976"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18976",
+      "id": "7c68c80b-0f30-4d8a-b112-2ca7947c700b"
     },
     {
       "date": "2018-10-06",
-      "artists": [
-        {
-          "name": "KPM Allstars"
-        }
-      ],
-      "venue": "British Library"
+      "artists": [{ "name": "KPM Allstars" }],
+      "venue": "British Library",
+      "id": "54fab167-4c75-4169-90aa-9ad04ff8fa5a"
     },
     {
       "eventIdBts": 18585,
@@ -337,46 +236,30 @@
       "priceText": "£11.00",
       "date": "2018-10-08",
       "venue": "The Exchange",
-      "artists": [
-        {
-          "name": "Lite"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18585"
+      "artists": [{ "name": "Lite" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18585",
+      "id": "99084573-9c68-40f4-bdb3-f7b5133b73c4"
     },
     {
       "date": "2018-10-09",
-      "artists": [
-        {
-          "name": "The Coral"
-        },
-        {
-          "name": "She Drew The Gun"
-        }
-      ],
+      "artists": [{ "name": "The Coral" }, { "name": "She Drew The Gun" }],
       "venue": "SWX",
       "priceText": "£22.00",
-      "detailsUri": "https://www.ents24.com/bristol-events/swx-bristol/the-coral/5324350"
+      "detailsUri": "https://www.ents24.com/bristol-events/swx-bristol/the-coral/5324350",
+      "id": "602792f7-e8a0-499d-a2ae-6ac195aa11cc"
     },
     {
       "date": "2018-10-10",
       "artists": [
-        {
-          "name": "Aiming for Enrike"
-        },
-        {
-          "name": "Kusanagi"
-        },
-        {
-          "name": "Seven Colour Drive"
-        },
-        {
-          "name": "Common Spit"
-        }
+        { "name": "Aiming for Enrike" },
+        { "name": "Kusanagi" },
+        { "name": "Seven Colour Drive" },
+        { "name": "Common Spit" }
       ],
       "venue": "Crofters Rights",
       "priceText": "£5.00",
-      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-10&event_id=48228"
+      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-10\u0026event_id=48228",
+      "id": "6da4b8e3-613e-48e4-8352-c81b409d28a9"
     },
     {
       "date": "2018-10-11",
@@ -387,12 +270,11 @@
           "name": "The Moms",
           "videoUrl": "https://www.youtube.com/watch?v=n-js-UfI1g4"
         },
-        {
-          "name": "The Run Up"
-        }
+        { "name": "The Run Up" }
       ],
       "venue": "Mothers Ruin",
-      "detailsUri": "https://www.ents24.com/bristol-events/the-mothers-ruin/the-moms/5400510"
+      "detailsUri": "https://www.ents24.com/bristol-events/the-mothers-ruin/the-moms/5400510",
+      "id": "cbe04b17-24aa-4b1e-bed7-770d33a3ef41"
     },
     {
       "eventIdBts": 18723,
@@ -403,15 +285,9 @@
       "priceText": "£27.50",
       "date": "2018-10-12",
       "venue": "SWX",
-      "artists": [
-        {
-          "name": "The Orb"
-        },
-        {
-          "name": "System 7"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18723"
+      "artists": [{ "name": "The Orb" }, { "name": "System 7" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18723",
+      "id": "1cb9c197-a5e4-4e29-8406-1a7aec9d112f"
     },
     {
       "eventIdBts": 19282,
@@ -422,15 +298,9 @@
       "priceText": "£8.00",
       "date": "2018-10-13",
       "venue": "All Hallows Hall",
-      "artists": [
-        {
-          "name": "Fantasy Morricone"
-        },
-        {
-          "name": "Underscore"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19282"
+      "artists": [{ "name": "Fantasy Morricone" }, { "name": "Underscore" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19282",
+      "id": "ed4b7184-d85a-401e-9fd9-f6fec3718e52"
     },
     {
       "eventIdBts": 18487,
@@ -441,49 +311,33 @@
       "priceText": "SOLD OUT",
       "date": "2018-10-16",
       "venue": "SWX",
-      "artists": [
-        {
-          "name": "Idles"
-        },
-        {
-          "name": "Heavy Lungs"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18487"
+      "artists": [{ "name": "Idles" }, { "name": "Heavy Lungs" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18487",
+      "id": "c944ecb2-d870-4599-b6b9-5dee8a4ac03d"
     },
     {
       "date": "2018-10-16",
-      "artists": [
-        {
-          "name": "Idles (Afterparty)"
-        }
-      ],
+      "artists": [{ "name": "Idles (Afterparty)" }],
       "venue": "Exchange",
       "priceText": "£5.00",
-      "detailsUri": "https://www.ents24.com/bristol-events/exchange/bruiser-official-idles-afterparty/5413656"
+      "detailsUri": "https://www.ents24.com/bristol-events/exchange/bruiser-official-idles-afterparty/5413656",
+      "id": "a557951b-48d0-45fc-8acb-2c335311a972"
     },
     {
       "addedDate": "2018-09-26",
       "isSoldOut": false,
       "date": "2018-10-18",
       "venue": "Canteen",
-      "artists": [
-        {
-          "name": "Strobes",
-          "stageTime": "21:30"
-        }
-      ],
+      "artists": [{ "name": "Strobes", "stageTime": "21:30" }],
       "priceText": "£0.00",
-      "detailsUri": "http://www.canteenbristol.co.uk/livemusic/strobes-3/"
+      "detailsUri": "http://www.canteenbristol.co.uk/livemusic/strobes-3/",
+      "id": "fab5d2e8-0c0b-468c-8343-c09bd521bc4f"
     },
     {
       "date": "2018-10-18",
-      "artists": [
-        {
-          "name": "Innes Sibun - Rory Gallagher Tribute"
-        }
-      ],
-      "venue": "Steam Tavern"
+      "artists": [{ "name": "Innes Sibun - Rory Gallagher Tribute" }],
+      "venue": "Steam Tavern",
+      "id": "94054ef3-727b-4d59-8689-517ed001ae2f"
     },
     {
       "eventIdBts": 17642,
@@ -495,69 +349,43 @@
       "priceText": "SOLD OUT",
       "isSoldOut": true,
       "isCancelled": false,
-      "artists": [
-        {
-          "name": "Sham 69"
-        },
-        {
-          "name": "Criminal Mind"
-        }
-      ]
-    },
-    {
-      "date": "2018-10-19",
-      "artists": [
-        {
-          "name": "John"
-        },
-        {
-          "name": "Milo's Planes"
-        },
-        {
-          "name": "Pork Pie"
-        }
-      ],
-      "venue": "Mothers Ruin"
-    },
-    {
-      "date": "2018-10-19",
-      "artists": [
-        {
-          "name": "Wasabi"
-        }
-      ],
-      "venue": "Forge"
+      "artists": [{ "name": "Sham 69" }, { "name": "Criminal Mind" }],
+      "id": "79a318fd-7ae3-493d-93cf-c6b001634f51"
     },
     {
       "date": "2018-10-19",
       "addedDate": "2018-09-29",
+      "artists": [{ "name": "Saint Agnes" }],
+      "venue": "Old England",
+      "id": "ae550a46-7b48-4125-86d9-5b0ef29c45a0"
+    },
+    {
+      "date": "2018-10-19",
       "artists": [
-        {
-          "name": "Saint Agnes"
-        }
+        { "name": "John" },
+        { "name": "Milo's Planes" },
+        { "name": "Pork Pie" }
       ],
-      "venue": "Old England"
+      "venue": "Mothers Ruin",
+      "id": "78f30b4c-def8-4ff2-8b63-46f9af180c2a"
+    },
+    {
+      "date": "2018-10-19",
+      "artists": [{ "name": "Wasabi" }],
+      "venue": "Forge",
+      "id": "23093c07-e1fd-45e7-8dab-f2b72952c7f7"
     },
     {
       "date": "2018-10-20",
-      "artists": [
-        {
-          "name": "Parrots"
-        },
-        {
-          "name": "Black Midi"
-        }
-      ],
-      "venue": "Simple Things"
+      "artists": [{ "name": "Parrots" }, { "name": "Black Midi" }],
+      "venue": "Simple Things",
+      "id": "ffa7e285-a4a8-45a3-8455-6f05dc2cc699"
     },
     {
       "date": "2018-10-20",
-      "artists": [
-        {
-          "name": "Modulus III"
-        }
-      ],
-      "venue": "Left Bank"
+      "artists": [{ "name": "Modulus III" }],
+      "venue": "Left Bank",
+      "id": "b87deac3-e48c-42f9-b876-f92f6fa0c23b"
     },
     {
       "eventIdBts": 17912,
@@ -568,12 +396,9 @@
       "priceText": "£25.00",
       "date": "2018-10-21",
       "venue": "SWX",
-      "artists": [
-        {
-          "name": "Stephen Malkmus And The Jicks"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17912"
+      "artists": [{ "name": "Stephen Malkmus And The Jicks" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17912",
+      "id": "d3a3245b-a500-43a5-9f14-576e863c9ae5"
     },
     {
       "eventIdBts": 18995,
@@ -586,23 +411,14 @@
       "priceText": "£14.00",
       "isSoldOut": false,
       "isCancelled": false,
-      "artists": [
-        {
-          "name": "David Murray"
-        },
-        {
-          "name": "Saul Williams"
-        }
-      ]
+      "artists": [{ "name": "David Murray" }, { "name": "Saul Williams" }],
+      "id": "6f4895e3-c2e7-4ab1-b4f7-1eeeb8e24cd5"
     },
     {
       "date": "2018-10-23",
-      "artists": [
-        {
-          "name": "John Challis (Only Fools and Boycie)"
-        }
-      ],
-      "venue": "1532 Performing Arts Centre"
+      "artists": [{ "name": "John Challis (Only Fools and Boycie)" }],
+      "venue": "1532 Performing Arts Centre",
+      "id": "8607a044-0c5e-437c-bd4c-9c28f44eafff"
     },
     {
       "eventIdBts": 17937,
@@ -614,11 +430,8 @@
       "priceText": "£20.00",
       "isSoldOut": false,
       "isCancelled": false,
-      "artists": [
-        {
-          "name": "Tom Robinson Band"
-        }
-      ]
+      "artists": [{ "name": "Tom Robinson Band" }],
+      "id": "6d974c0d-af4b-4e70-8904-0a7dc5d68dc2"
     },
     {
       "eventIdBts": 18533,
@@ -629,12 +442,9 @@
       "priceText": "£8.00",
       "date": "2018-10-24",
       "venue": "Grain Barge",
-      "artists": [
-        {
-          "name": "Jo Passed"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18533"
+      "artists": [{ "name": "Jo Passed" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18533",
+      "id": "e0c236f3-db85-4bc2-bc91-76d0e1613ea1"
     },
     {
       "eventIdBts": 18275,
@@ -646,29 +456,20 @@
       "priceText": "£22.00",
       "isSoldOut": false,
       "isCancelled": false,
-      "artists": [
-        {
-          "name": "Marcus King"
-        }
-      ]
+      "artists": [{ "name": "Marcus King" }],
+      "id": "371a7100-4d0d-41aa-8a3b-bb8da7c42809"
     },
     {
       "date": "2018-10-25",
-      "artists": [
-        {
-          "name": "Gaz Brookfield"
-        }
-      ],
-      "venue": "Bank Tavern"
+      "artists": [{ "name": "Gaz Brookfield" }],
+      "venue": "Bank Tavern",
+      "id": "3079a656-27e8-4bad-89d9-6e00e8b7d72b"
     },
     {
       "date": "2018-10-26",
-      "artists": [
-        {
-          "name": "Halloween All-Dayer"
-        }
-      ],
-      "venue": "Old England"
+      "artists": [{ "name": "Halloween All-Dayer" }],
+      "venue": "Old England",
+      "id": "8db4e727-7850-481c-afb2-7234b156f815"
     },
     {
       "eventIdBts": 18314,
@@ -680,17 +481,13 @@
       "priceText": "£11.00",
       "isSoldOut": false,
       "isCancelled": false,
-      "artists": [
-        {
-          "name": "The Lovely Eggs"
-        }
-      ]
+      "artists": [{ "name": "The Lovely Eggs" }],
+      "id": "b0b39c0c-2570-4faf-bb28-5a4de524d71c"
     },
     {
       "eventIdBts": 18767,
       "addedDate": "2018-09-23",
       "isNew": false,
-
       "isSelected": true,
       "date": "2018-10-31",
       "venue": "The Fleece",
@@ -698,11 +495,8 @@
       "priceText": "£11.00",
       "isSoldOut": false,
       "isCancelled": false,
-      "artists": [
-        {
-          "name": "The Sheepdogs"
-        }
-      ]
+      "artists": [{ "name": "The Sheepdogs" }],
+      "id": "ccad7465-c058-47bd-a07c-e4663a1ab344"
     },
     {
       "eventIdBts": 18422,
@@ -713,12 +507,9 @@
       "priceText": "£11.00",
       "date": "2018-10-31",
       "venue": "Bristol Thekla",
-      "artists": [
-        {
-          "name": "Snail Mail"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18422"
+      "artists": [{ "name": "Snail Mail" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18422",
+      "id": "76ee2a15-fbe2-4bae-a2a6-5884d50f8703"
     },
     {
       "eventIdBts": 18397,
@@ -729,23 +520,17 @@
       "priceText": "SOLD OUT",
       "date": "2018-11-01",
       "venue": "Rough Trade",
-      "artists": [
-        {
-          "name": "BC Camplight"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18397"
+      "artists": [{ "name": "BC Camplight" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18397",
+      "id": "47ea81c2-6c43-47b1-abf8-7c3874908185"
     },
     {
       "date": "2018-11-01",
-      "artists": [
-        {
-          "name": "Stanley Clarke"
-        }
-      ],
+      "artists": [{ "name": "Stanley Clarke" }],
       "venue": "Fiddlers",
       "priceText": "£35.10",
-      "detailsUri": "https://www.ents24.com/bristol-events/fiddlers-club/stanley-clarke/5393937"
+      "detailsUri": "https://www.ents24.com/bristol-events/fiddlers-club/stanley-clarke/5393937",
+      "id": "b467dca5-5366-4b37-be3c-276b4e9e32a7"
     },
     {
       "eventIdBts": 18475,
@@ -756,12 +541,9 @@
       "priceText": "£10.00",
       "date": "2018-11-01",
       "venue": "The Louisiana",
-      "artists": [
-        {
-          "name": "The KVB"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18475"
+      "artists": [{ "name": "The KVB" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18475",
+      "id": "1f8b9092-9596-44d4-ba54-4aa7d300c907"
     },
     {
       "eventIdBts": 18131,
@@ -773,11 +555,8 @@
       "priceText": "£21.50",
       "isSoldOut": false,
       "isCancelled": false,
-      "artists": [
-        {
-          "name": "Blancmange"
-        }
-      ]
+      "artists": [{ "name": "Blancmange" }],
+      "id": "41bcb14a-81c7-46e0-8606-a3f70e0874fe"
     },
     {
       "eventIdBts": 19355,
@@ -788,12 +567,9 @@
       "priceText": "£15.00",
       "date": "2018-11-04",
       "venue": "The Exchange",
-      "artists": [
-        {
-          "name": "Go Kart Mozart"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19355"
+      "artists": [{ "name": "Go Kart Mozart" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19355",
+      "id": "984bb926-6218-4e1e-932e-3e2166d04f2b"
     },
     {
       "eventIdBts": 19030,
@@ -805,18 +581,13 @@
       "date": "2018-11-05",
       "venue": "The Exchange",
       "artists": [
-        {
-          "name": "The Beths"
-        },
-        {
-          "name": "Bedford Falls"
-        },
-        {
-          "name": "Slagheap"
-        }
+        { "name": "The Beths" },
+        { "name": "Bedford Falls" },
+        { "name": "Slagheap" }
       ],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19030",
-      "notes": "Upgraded from Crofters Rights"
+      "notes": "Upgraded from Crofters Rights",
+      "id": "ab0d2086-c189-4974-b05d-63bfd8a83e6a"
     },
     {
       "eventIdBts": 18683,
@@ -828,11 +599,8 @@
       "priceText": "£22.00",
       "isSoldOut": false,
       "isCancelled": false,
-      "artists": [
-        {
-          "name": "Hugh Cornwell"
-        }
-      ]
+      "artists": [{ "name": "Hugh Cornwell" }],
+      "id": "f2597a0d-350f-421f-ba21-20d8c3aeb486"
     },
     {
       "eventIdBts": 18141,
@@ -843,13 +611,10 @@
       "priceText": "£22.00",
       "date": "2018-11-08",
       "venue": "Anson Rooms",
-      "artists": [
-        {
-          "name": "Kurt Vile And The Violators"
-        }
-      ],
+      "artists": [{ "name": "Kurt Vile And The Violators" }],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18141",
-      "notes": "Moved from St. Philips Gate"
+      "notes": "Moved from St. Philips Gate",
+      "id": "ae4a725a-2167-43a6-9117-79f4033c9a7c"
     },
     {
       "eventIdBts": 18142,
@@ -860,12 +625,9 @@
       "priceText": "£34.00",
       "date": "2018-11-09",
       "venue": "O2 Academy",
-      "artists": [
-        {
-          "name": "MC 50"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18142"
+      "artists": [{ "name": "MC 50" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18142",
+      "id": "2e1e4423-3eaa-4e75-9352-89998a59b66a"
     },
     {
       "eventIdBts": 19200,
@@ -877,28 +639,20 @@
       "date": "2018-11-10",
       "venue": "Mothers Ruin",
       "artists": [
-        {
-          "name": "Wot Gorilla"
-        },
-        {
-          "name": "Body Hound"
-        },
-        {
-          "name": "Twisted Ankles"
-        }
+        { "name": "Wot Gorilla" },
+        { "name": "Body Hound" },
+        { "name": "Twisted Ankles" }
       ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19200"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19200",
+      "id": "12dc3945-6579-4093-88a9-de772e2b3609"
     },
     {
       "date": "2018-11-11",
-      "artists": [
-        {
-          "name": "Rews"
-        }
-      ],
+      "artists": [{ "name": "Rews" }],
       "venue": "The Louisiana",
       "priceText": "£8.00",
-      "detailsUri": "https://www.ents24.com/bristol-events/the-louisiana/rews/5395803"
+      "detailsUri": "https://www.ents24.com/bristol-events/the-louisiana/rews/5395803",
+      "id": "6b430165-2dcd-4f87-b751-b3539006778f"
     },
     {
       "eventIdBts": 18696,
@@ -910,57 +664,39 @@
       "priceText": "£14.00",
       "isSoldOut": false,
       "isCancelled": false,
-      "artists": [
-        {
-          "name": "Tricot"
-        }
-      ]
+      "artists": [{ "name": "Tricot" }],
+      "id": "619c58dd-ebc7-49f4-ac40-3bfdd650a40e"
     },
     {
       "date": "2018-11-17",
-      "artists": [
-        {
-          "name": "Mr. Ben and The Bens"
-        }
-      ],
-      "venue": "Old England"
+      "artists": [{ "name": "Mr. Ben and The Bens" }],
+      "venue": "Old England",
+      "id": "27a17d83-6d03-43ec-9998-b04d22c74ef1"
     },
     {
       "date": "2018-11-17",
       "isSoldOut": true,
-      "artists": [
-        {
-          "name": "Soeur"
-        }
-      ],
-      "venue": "Crofters Rights"
+      "artists": [{ "name": "Soeur" }],
+      "venue": "Crofters Rights",
+      "id": "66c4e40f-edc1-4a47-8df7-02d8d27601e8"
     },
     {
       "date": "2018-11-22",
-      "artists": [
-        {
-          "name": "Lonely Tourist"
-        }
-      ],
-      "venue": "Bank Tavern"
+      "artists": [{ "name": "Lonely Tourist" }],
+      "venue": "Bank Tavern",
+      "id": "a481dad2-8f89-4746-a442-3f98a3d0149c"
     },
     {
       "date": "2018-11-24",
-      "artists": [
-        {
-          "name": "Blurt"
-        }
-      ],
-      "venue": "Bell (Bath)"
+      "artists": [{ "name": "Blurt" }],
+      "venue": "Bell (Bath)",
+      "id": "7a4cbccd-a333-4e77-8e7c-e2b8f1aa332f"
     },
     {
       "date": "2018-11-28",
-      "artists": [
-        {
-          "name": "Glenn Tilbrook"
-        }
-      ],
-      "venue": "St. George's Hall"
+      "artists": [{ "name": "Glenn Tilbrook" }],
+      "venue": "St. George's Hall",
+      "id": "61989730-8a1a-4fd1-88e6-0b418ed771b2"
     },
     {
       "eventIdBts": 18751,
@@ -972,17 +708,12 @@
       "date": "2018-11-29",
       "venue": "Hen And Chicken",
       "artists": [
-        {
-          "name": "Dan Stuart (Green On Red)"
-        },
-        {
-          "name": "Sid Griffin (Long Ryders)"
-        },
-        {
-          "name": "Tom Heymann"
-        }
+        { "name": "Dan Stuart (Green On Red)" },
+        { "name": "Sid Griffin (Long Ryders)" },
+        { "name": "Tom Heymann" }
       ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18751"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18751",
+      "id": "e5959634-25c1-43e0-8403-1e7df37e2487"
     },
     {
       "eventIdBts": 18704,
@@ -993,12 +724,9 @@
       "priceText": "£10.00",
       "date": "2018-11-29",
       "venue": "Hy Brasil Music Club",
-      "artists": [
-        {
-          "name": "Hugar"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18704"
+      "artists": [{ "name": "Hugar" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18704",
+      "id": "259d34c0-f150-4569-8500-6eee66c357fa"
     },
     {
       "addedDate": "2018-10-10",
@@ -1006,12 +734,9 @@
       "isCancelled": false,
       "date": "2018-11-30",
       "venue": "La Demeurée (Caen)",
-      "artists": [
-        {
-          "name": "Piniol"
-        }
-      ],
-      "detailsUri": "https://www.songkick.com/concerts/35390099-piniol-at-la-demeuree"
+      "artists": [{ "name": "Piniol" }],
+      "detailsUri": "https://www.songkick.com/concerts/35390099-piniol-at-la-demeuree",
+      "id": "cb69fd36-e72b-49d5-b29d-a1d6a7887fd8"
     },
     {
       "eventIdBts": 19032,
@@ -1022,12 +747,9 @@
       "priceText": "£27.50",
       "date": "2018-12-01",
       "venue": "Fiddlers",
-      "artists": [
-        {
-          "name": "Magpie Salute"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19032"
+      "artists": [{ "name": "Magpie Salute" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19032",
+      "id": "44e3f84b-3a57-4139-a25b-2bae586f6c7c"
     },
     {
       "eventIdBts": 19291,
@@ -1038,12 +760,9 @@
       "priceText": "£11.00",
       "date": "2018-12-01",
       "venue": "Hy Brasil Music Club",
-      "artists": [
-        {
-          "name": "999"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19291"
+      "artists": [{ "name": "999" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19291",
+      "id": "3cde3fe3-c9be-4250-aef3-986c4c56cd0d"
     },
     {
       "eventIdBts": 17939,
@@ -1054,12 +773,9 @@
       "priceText": "£16.50",
       "date": "2018-12-02",
       "venue": "The Lanes",
-      "artists": [
-        {
-          "name": "Goldie Lookin Chain Xmas Bash Full Band"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17939"
+      "artists": [{ "name": "Goldie Lookin Chain Xmas Bash Full Band" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17939",
+      "id": "8779be69-9bba-4605-ada8-2b6c285dbd6d"
     },
     {
       "eventIdBts": 17823,
@@ -1070,11 +786,17 @@
       "priceText": "SOLD OUT",
       "isSoldOut": true,
       "isCancelled": false,
-      "artists": [
-        {
-          "name": "Buffalo Tom"
-        }
-      ]
+      "artists": [{ "name": "Buffalo Tom" }],
+      "id": "75f6bce7-bc14-4f5d-bfc1-8fae9fb3df17"
+    },
+    {
+      "addedDate": "2018-10-11",
+      "venue": "Thekla",
+      "date": "2018-12-05",
+      "artists": [{ "name": "Pinegrove" }],
+      "isSoldOut": false,
+      "isCancelled": false,
+      "id": "fe7e7145-805b-495a-a5a6-20c02bc1a56c"
     },
     {
       "addedDate": "2018-10-08",
@@ -1087,16 +809,14 @@
           "name": "Duds",
           "videoUrl": "https://www.youtube.com/watch?v=y-Ubuw6P-uk"
         }
-      ]
+      ],
+      "id": "e34b17b7-5c5d-4457-aa70-87ee5648a129"
     },
     {
       "date": "2018-12-08",
-      "artists": [
-        {
-          "name": "Lonely Tourist"
-        }
-      ],
-      "venue": "Mothers Ruin"
+      "artists": [{ "name": "Lonely Tourist" }],
+      "venue": "Mothers Ruin",
+      "id": "20b5cc9d-fa91-4f23-9e4b-3008bd899cd8"
     },
     {
       "eventIdBts": 18617,
@@ -1107,12 +827,9 @@
       "priceText": "£24.50",
       "date": "2018-12-09",
       "venue": "Fiddlers",
-      "artists": [
-        {
-          "name": "The Skids"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18617"
+      "artists": [{ "name": "The Skids" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18617",
+      "id": "ed01b0ca-2ca9-4983-9947-30c13fb2f2be"
     },
     {
       "eventIdBts": 19379,
@@ -1124,42 +841,18 @@
       "date": "2018-12-10",
       "venue": "Fiddlers",
       "artists": [
-        {
-          "name": "Beak"
-        },
-        {
-          "name": "Pigs (x7)"
-        },
-        {
-          "name": "Slagheap"
-        }
+        { "name": "Beak" },
+        { "name": "Pigs (x7)" },
+        { "name": "Slagheap" }
       ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19379"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19379",
+      "id": "88f35e76-7ab7-4953-ae95-14915956038a"
     },
     {
       "date": "2018-12-14",
-      "artists": [
-        {
-          "name": "LT???"
-        }
-      ],
-      "venue": "TB???"
-    },
-    {
-      "eventIdBts": 17771,
-      "isNew": false,
-      "addedDate": "2018-10-01",
-      "isSoldOut": false,
-      "isCancelled": false,
-      "priceText": "£16.50",
-      "date": "2018-12-15",
-      "venue": "The Exchange",
-      "artists": [
-        {
-          "name": "Eddie And The Hotrods"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17771"
+      "artists": [{ "name": "LT???" }],
+      "venue": "TB???",
+      "id": "a6294f28-38be-4550-8895-23e2ad0ad91a"
     },
     {
       "eventIdBts": 17224,
@@ -1170,22 +863,29 @@
       "priceText": "£11.00",
       "date": "2018-12-15",
       "venue": "SWX",
-      "artists": [
-        {
-          "name": "Gaz Brookfield"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17224"
+      "artists": [{ "name": "Gaz Brookfield" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17224",
+      "id": "fb495e06-1a9d-4431-8527-a0934e6e0756"
+    },
+    {
+      "eventIdBts": 17771,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£16.50",
+      "date": "2018-12-15",
+      "venue": "The Exchange",
+      "artists": [{ "name": "Eddie And The Hotrods" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17771",
+      "id": "9dd8fa08-1a3f-45ea-9b07-6d6bd6d16a78"
     },
     {
       "date": "2018-12-18",
-      "artists": [
-        {
-          "name": "Clutch"
-        }
-      ],
+      "artists": [{ "name": "Clutch" }],
       "venue": "O2 Academy",
-      "isSoldOut": true
+      "isSoldOut": true,
+      "id": "49cdc474-4bb7-40aa-80a1-29a5b5ee380a"
     },
     {
       "eventIdBts": 19118,
@@ -1197,27 +897,19 @@
       "date": "2018-12-20",
       "venue": "The Thunderbolt",
       "artists": [
-        {
-          "name": "Mark Morris (The Bluetones)"
-        },
-        {
-          "name": "Nigel Clarke (Dodgy)"
-        },
-        {
-          "name": "Chris Helme (The Seahorses)"
-        }
+        { "name": "Mark Morris (The Bluetones)" },
+        { "name": "Nigel Clarke (Dodgy)" },
+        { "name": "Chris Helme (The Seahorses)" }
       ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19118"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19118",
+      "id": "abfa51d2-6a4c-4fe5-a18a-7b8c833fdea7"
     },
     {
       "addedDate": "2018-09-23",
       "date": "2019-01-23",
       "venue": "100 Club",
-      "artists": [
-        {
-          "name": "Billy Bremner's Rockfiles"
-        }
-      ]
+      "artists": [{ "name": "Billy Bremner's Rockfiles" }],
+      "id": "a3c4cd3e-afa2-4849-9965-a5c17d64f894"
     },
     {
       "eventIdBts": 19309,
@@ -1228,15 +920,9 @@
       "priceText": "£23.50",
       "date": "2019-02-01",
       "venue": "O2 Academy",
-      "artists": [
-        {
-          "name": "Dodgy"
-        },
-        {
-          "name": "Babybird"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19309"
+      "artists": [{ "name": "Dodgy" }, { "name": "Babybird" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19309",
+      "id": "984d70aa-803c-4595-a4d4-e3929c7c7b1a"
     },
     {
       "eventIdBts": 19357,
@@ -1247,12 +933,9 @@
       "priceText": "£16.50",
       "date": "2019-02-16",
       "venue": "The Exchange",
-      "artists": [
-        {
-          "name": "Art Brut"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19357"
+      "artists": [{ "name": "Art Brut" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19357",
+      "id": "4290a96c-cafb-4b0b-a57c-829dba5a0d90"
     },
     {
       "eventIdBts": 19364,
@@ -1263,12 +946,9 @@
       "priceText": "£16.50",
       "date": "2019-02-17",
       "venue": "Bristol Thekla",
-      "artists": [
-        {
-          "name": "Bill Ryder Jones"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19364"
+      "artists": [{ "name": "Bill Ryder Jones" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19364",
+      "id": "3d4e1fea-26da-47ae-841b-72181727d2c3"
     },
     {
       "addedDate": "2018-10-03",
@@ -1276,12 +956,9 @@
       "priceText": "£30.25",
       "date": "2019-02-18",
       "venue": "SWX",
-      "artists": [
-        {
-          "name": "Cake"
-        }
-      ],
-      "detailsUri": "https://tickets.ents24.com/event/cake/swx-bristol/1273845?aff=ents24&inf=45703c99bde2fbb1"
+      "artists": [{ "name": "Cake" }],
+      "detailsUri": "https://tickets.ents24.com/event/cake/swx-bristol/1273845?aff=ents24\u0026inf=45703c99bde2fbb1",
+      "id": "2bd7a766-62ce-4576-9bb5-aa2212596cc8"
     },
     {
       "eventIdBts": 18884,
@@ -1293,14 +970,11 @@
       "date": "2019-02-28",
       "venue": "St Philips Gate",
       "artists": [
-        {
-          "name": "Blue Oyster Cult"
-        },
-        {
-          "name": "Temperance Movement"
-        }
+        { "name": "Blue Oyster Cult" },
+        { "name": "Temperance Movement" }
       ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18884"
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18884",
+      "id": "bce11045-787b-4b18-94b2-f7aa37cadb92"
     },
     {
       "eventIdBts": 19413,
@@ -1311,12 +985,9 @@
       "priceText": "£17.50",
       "date": "2019-03-14",
       "venue": "Bristol Thekla",
-      "artists": [
-        {
-          "name": "Ulrich Schnauss"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19413"
+      "artists": [{ "name": "Ulrich Schnauss" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19413",
+      "id": "b8ab979f-3647-4e39-8263-1481be83487a"
     },
     {
       "eventIdBts": 19311,
@@ -1327,12 +998,9 @@
       "priceText": "£13.50",
       "date": "2019-03-28",
       "venue": "The Exchange",
-      "artists": [
-        {
-          "name": "Pigs (x7)"
-        }
-      ],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19311"
+      "artists": [{ "name": "Pigs (x7)" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19311",
+      "id": "8921da07-5f4c-413c-9317-1e866a0e646d"
     },
     {
       "addedDate": "2018-10-11",
@@ -1340,11 +1008,8 @@
       "isCancelled": false,
       "date": "2019-05-10",
       "venue": "Bristol Fiddlers",
-      "artists": [
-        {
-          "name": "Wreckless Eric"
-        }
-      ]
+      "artists": [{ "name": "Wreckless Eric" }],
+      "id": "d2819a34-5979-4ee0-88c2-290d2bac4363"
     }
   ]
 }
