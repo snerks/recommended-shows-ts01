@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-13T15:32:37.326Z",
+  "lastUpdated": "2018-10-13T16:43:13.257Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -66,6 +66,13 @@
       "id": "a30abab1-384d-41ec-bf1c-b0d1e264ad8f"
     },
     {
+      "addedDate": "2018-09-24",
+      "date": "2018-09-27",
+      "venue": "El Rincon",
+      "artists": [{ "name": "Pete Judge" }, { "name": "Jim Barr" }],
+      "id": "0d663602-0016-4150-82be-d9e8099f9c8f"
+    },
+    {
       "addedDate": "2018-09-26",
       "date": "2018-09-27",
       "artists": [{ "name": "Half Waif" }],
@@ -74,28 +81,15 @@
     },
     {
       "date": "2018-09-27",
-      "artists": [{ "name": "Mush" }],
-      "venue": "Hy-Brasil",
-      "id": "c597bd67-a177-4a5a-8bc8-a000e5f5c6c1"
-    },
-    {
-      "addedDate": "2018-09-24",
-      "date": "2018-09-27",
-      "venue": "El Rincon",
-      "artists": [{ "name": "Pete Judge" }, { "name": "Jim Barr" }],
-      "id": "0d663602-0016-4150-82be-d9e8099f9c8f"
-    },
-    {
-      "date": "2018-09-27",
       "artists": [{ "name": "Modulus III" }],
       "venue": "Gallimaufry",
       "id": "3816f332-ca59-4c27-851f-bcc1ecde84d4"
     },
     {
-      "date": "2018-09-28",
-      "artists": [{ "name": "Denny Ilett (presents Santana)" }],
-      "venue": "Left Bank",
-      "id": "b9c8d286-0458-42dc-bbac-012b8fdd002d"
+      "date": "2018-09-27",
+      "artists": [{ "name": "Mush" }],
+      "venue": "Hy-Brasil",
+      "id": "c597bd67-a177-4a5a-8bc8-a000e5f5c6c1"
     },
     {
       "date": "2018-09-28",
@@ -109,15 +103,27 @@
     },
     {
       "date": "2018-09-28",
+      "artists": [{ "name": "45s" }],
+      "venue": "Mothers Ruin",
+      "id": "76f039b5-2bcd-404e-ac38-31100dd73294"
+    },
+    {
+      "date": "2018-09-28",
+      "artists": [{ "name": "Denny Ilett (presents Santana)" }],
+      "venue": "Left Bank",
+      "id": "b9c8d286-0458-42dc-bbac-012b8fdd002d"
+    },
+    {
+      "date": "2018-09-28",
       "artists": [{ "name": "Coims" }],
       "venue": "Unitarian Church",
       "id": "bd1d1805-f7ff-405f-8bdb-2d99099c94f7"
     },
     {
-      "date": "2018-09-28",
-      "artists": [{ "name": "45s" }],
-      "venue": "Mothers Ruin",
-      "id": "76f039b5-2bcd-404e-ac38-31100dd73294"
+      "date": "2018-09-29",
+      "artists": [{ "name": "Doe" }],
+      "venue": "Rough Trade Bristol",
+      "id": "21b31c28-a53b-4d57-bce8-5110eaa339b8"
     },
     {
       "date": "2018-09-29",
@@ -128,18 +134,6 @@
       "id": "b077f1a7-d47d-4228-b2a1-a05bfec2eb5e"
     },
     {
-      "date": "2018-09-29",
-      "artists": [{ "name": "Doe" }],
-      "venue": "Rough Trade Bristol",
-      "id": "21b31c28-a53b-4d57-bce8-5110eaa339b8"
-    },
-    {
-      "date": "2018-10-01",
-      "artists": [{ "name": "Get The Blessing" }],
-      "venue": "Rough Trade Bristol (18:30)",
-      "id": "4ad6376b-4621-4a15-a414-d6aea9a15167"
-    },
-    {
       "date": "2018-10-01",
       "artists": [
         { "name": "Mono" },
@@ -148,6 +142,12 @@
       ],
       "venue": "The Fleece",
       "id": "49a5551e-57fb-438b-b0fa-126fc1a4956c"
+    },
+    {
+      "date": "2018-10-01",
+      "artists": [{ "name": "Get The Blessing" }],
+      "venue": "Rough Trade Bristol (18:30)",
+      "id": "4ad6376b-4621-4a15-a414-d6aea9a15167"
     },
     {
       "eventIdBts": 17570,
@@ -169,16 +169,6 @@
     },
     {
       "date": "2018-10-05",
-      "priceText": "£2.00",
-      "artists": [{ "name": "Prudent Primate" }],
-      "venue": "Left Bank",
-      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05\u0026event_id=48669",
-      "isNew": true,
-      "addedDate": "2018-10-02",
-      "id": "7c9d126c-ffd7-4e25-a45e-265ed298112a"
-    },
-    {
-      "date": "2018-10-05",
       "artists": [{ "name": "Suzanne Ciani" }],
       "venue": "Colston Hall Foyer",
       "id": "2d31a04b-ab32-4c87-8f03-d920d0e41a64"
@@ -190,6 +180,22 @@
       "venue": "St Anne's Church",
       "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05\u0026event_id=47866",
       "id": "42db1dcc-d95d-4248-b60a-2bf7edc4f351"
+    },
+    {
+      "date": "2018-10-05",
+      "priceText": "£2.00",
+      "artists": [{ "name": "Prudent Primate" }],
+      "venue": "Left Bank",
+      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05\u0026event_id=48669",
+      "isNew": true,
+      "addedDate": "2018-10-02",
+      "id": "7c9d126c-ffd7-4e25-a45e-265ed298112a"
+    },
+    {
+      "date": "2018-10-06",
+      "artists": [{ "name": "KPM Allstars" }],
+      "venue": "British Library",
+      "id": "54fab167-4c75-4169-90aa-9ad04ff8fa5a"
     },
     {
       "eventIdBts": 18976,
@@ -207,12 +213,6 @@
       ],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18976",
       "id": "7c68c80b-0f30-4d8a-b112-2ca7947c700b"
-    },
-    {
-      "date": "2018-10-06",
-      "artists": [{ "name": "KPM Allstars" }],
-      "venue": "British Library",
-      "id": "54fab167-4c75-4169-90aa-9ad04ff8fa5a"
     },
     {
       "eventIdBts": 18838,
@@ -303,6 +303,14 @@
       "id": "ed4b7184-d85a-401e-9fd9-f6fec3718e52"
     },
     {
+      "date": "2018-10-16",
+      "artists": [{ "name": "Idles (Afterparty)" }],
+      "venue": "Exchange",
+      "priceText": "£5.00",
+      "detailsUri": "https://www.ents24.com/bristol-events/exchange/bruiser-official-idles-afterparty/5413656",
+      "id": "a557951b-48d0-45fc-8acb-2c335311a972"
+    },
+    {
       "eventIdBts": 18487,
       "isNew": false,
       "addedDate": "2018-09-22",
@@ -316,12 +324,10 @@
       "id": "c944ecb2-d870-4599-b6b9-5dee8a4ac03d"
     },
     {
-      "date": "2018-10-16",
-      "artists": [{ "name": "Idles (Afterparty)" }],
-      "venue": "Exchange",
-      "priceText": "£5.00",
-      "detailsUri": "https://www.ents24.com/bristol-events/exchange/bruiser-official-idles-afterparty/5413656",
-      "id": "a557951b-48d0-45fc-8acb-2c335311a972"
+      "date": "2018-10-18",
+      "artists": [{ "name": "Innes Sibun - Rory Gallagher Tribute" }],
+      "venue": "Steam Tavern",
+      "id": "94054ef3-727b-4d59-8689-517ed001ae2f"
     },
     {
       "addedDate": "2018-09-26",
@@ -334,17 +340,20 @@
       "id": "fab5d2e8-0c0b-468c-8343-c09bd521bc4f"
     },
     {
-      "date": "2018-10-18",
-      "artists": [{ "name": "Innes Sibun - Rory Gallagher Tribute" }],
-      "venue": "Steam Tavern",
-      "id": "94054ef3-727b-4d59-8689-517ed001ae2f"
+      "date": "2018-10-19",
+      "artists": [{ "name": "Wasabi" }],
+      "venue": "Forge",
+      "id": "23093c07-e1fd-45e7-8dab-f2b72952c7f7"
     },
     {
       "date": "2018-10-19",
-      "addedDate": "2018-09-29",
-      "artists": [{ "name": "Saint Agnes" }],
-      "venue": "Old England",
-      "id": "ae550a46-7b48-4125-86d9-5b0ef29c45a0"
+      "artists": [
+        { "name": "John" },
+        { "name": "Milo's Planes" },
+        { "name": "Pork Pie" }
+      ],
+      "venue": "Mothers Ruin",
+      "id": "78f30b4c-def8-4ff2-8b63-46f9af180c2a"
     },
     {
       "eventIdBts": 17642,
@@ -361,25 +370,10 @@
     },
     {
       "date": "2018-10-19",
-      "artists": [
-        { "name": "John" },
-        { "name": "Milo's Planes" },
-        { "name": "Pork Pie" }
-      ],
-      "venue": "Mothers Ruin",
-      "id": "78f30b4c-def8-4ff2-8b63-46f9af180c2a"
-    },
-    {
-      "date": "2018-10-19",
-      "artists": [{ "name": "Wasabi" }],
-      "venue": "Forge",
-      "id": "23093c07-e1fd-45e7-8dab-f2b72952c7f7"
-    },
-    {
-      "date": "2018-10-20",
-      "artists": [{ "name": "Parrots" }, { "name": "Black Midi" }],
-      "venue": "Simple Things",
-      "id": "ffa7e285-a4a8-45a3-8455-6f05dc2cc699"
+      "addedDate": "2018-09-29",
+      "artists": [{ "name": "Saint Agnes" }],
+      "venue": "Old England",
+      "id": "ae550a46-7b48-4125-86d9-5b0ef29c45a0"
     },
     {
       "date": "2018-10-20",
@@ -388,17 +382,10 @@
       "id": "b87deac3-e48c-42f9-b876-f92f6fa0c23b"
     },
     {
-      "eventIdBts": 17912,
-      "isNew": false,
-      "addedDate": "2018-10-08",
-      "isSoldOut": false,
-      "isCancelled": false,
-      "priceText": "£25.00",
-      "date": "2018-10-21",
-      "venue": "SWX",
-      "artists": [{ "name": "Stephen Malkmus And The Jicks" }],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17912",
-      "id": "d3a3245b-a500-43a5-9f14-576e863c9ae5"
+      "date": "2018-10-20",
+      "artists": [{ "name": "Parrots" }, { "name": "Black Midi" }],
+      "venue": "Simple Things",
+      "id": "ffa7e285-a4a8-45a3-8455-6f05dc2cc699"
     },
     {
       "eventIdBts": 18995,
@@ -413,6 +400,19 @@
       "isCancelled": false,
       "artists": [{ "name": "David Murray" }, { "name": "Saul Williams" }],
       "id": "6f4895e3-c2e7-4ab1-b4f7-1eeeb8e24cd5"
+    },
+    {
+      "eventIdBts": 17912,
+      "isNew": false,
+      "addedDate": "2018-10-08",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£25.00",
+      "date": "2018-10-21",
+      "venue": "SWX",
+      "artists": [{ "name": "Stephen Malkmus And The Jicks" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17912",
+      "id": "d3a3245b-a500-43a5-9f14-576e863c9ae5"
     },
     {
       "date": "2018-10-23",
@@ -466,6 +466,12 @@
       "id": "371a7100-4d0d-41aa-8a3b-bb8da7c42809"
     },
     {
+      "date": "2018-10-26",
+      "artists": [{ "name": "Halloween All-Dayer" }],
+      "venue": "Old England",
+      "id": "8db4e727-7850-481c-afb2-7234b156f815"
+    },
+    {
       "eventIdBts": 18314,
       "isNew": false,
       "isSelected": true,
@@ -477,12 +483,6 @@
       "isCancelled": false,
       "artists": [{ "name": "The Lovely Eggs" }],
       "id": "b0b39c0c-2570-4faf-bb28-5a4de524d71c"
-    },
-    {
-      "date": "2018-10-26",
-      "artists": [{ "name": "Halloween All-Dayer" }],
-      "venue": "Old England",
-      "id": "8db4e727-7850-481c-afb2-7234b156f815"
     },
     {
       "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
@@ -503,29 +503,6 @@
       "isCancelled": false
     },
     {
-      "eventIdBts": 18767,
-      "addedDate": "2018-09-23",
-      "isNew": false,
-      "isSelected": true,
-      "date": "2018-10-31",
-      "venue": "The Fleece",
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18767",
-      "priceText": "£11.00",
-      "isSoldOut": false,
-      "isCancelled": false,
-      "artists": [{ "name": "The Sheepdogs" }],
-      "id": "ccad7465-c058-47bd-a07c-e4663a1ab344"
-    },
-    {
-      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
-      "addedDate": "2018-10-13",
-      "venue": "Swindon Arts Centre",
-      "date": "2018-10-31",
-      "artists": [{ "name": "TC \u0026 I" }],
-      "isSoldOut": false,
-      "isCancelled": false
-    },
-    {
       "eventIdBts": 18422,
       "isNew": true,
       "addedDate": "2018-09-22",
@@ -539,34 +516,27 @@
       "id": "76ee2a15-fbe2-4bae-a2a6-5884d50f8703"
     },
     {
-      "eventIdBts": 18397,
-      "isNew": false,
-      "addedDate": "2018-10-01",
-      "isSoldOut": true,
-      "isCancelled": false,
-      "priceText": "SOLD OUT",
-      "date": "2018-11-01",
-      "venue": "Rough Trade",
-      "artists": [{ "name": "BC Camplight" }],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18397",
-      "id": "47ea81c2-6c43-47b1-abf8-7c3874908185"
-    },
-    {
-      "date": "2018-11-01",
-      "artists": [{ "name": "Stanley Clarke" }],
-      "venue": "Fiddlers",
-      "priceText": "£35.10",
-      "detailsUri": "https://www.ents24.com/bristol-events/fiddlers-club/stanley-clarke/5393937",
-      "id": "b467dca5-5366-4b37-be3c-276b4e9e32a7"
-    },
-    {
       "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
       "addedDate": "2018-10-13",
       "venue": "Swindon Arts Centre",
-      "date": "2018-11-01",
+      "date": "2018-10-31",
       "artists": [{ "name": "TC \u0026 I" }],
-      "isSoldOut": true,
+      "isSoldOut": false,
       "isCancelled": false
+    },
+    {
+      "eventIdBts": 18767,
+      "addedDate": "2018-09-23",
+      "isNew": false,
+      "isSelected": true,
+      "date": "2018-10-31",
+      "venue": "The Fleece",
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18767",
+      "priceText": "£11.00",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "artists": [{ "name": "The Sheepdogs" }],
+      "id": "ccad7465-c058-47bd-a07c-e4663a1ab344"
     },
     {
       "eventIdBts": 18475,
@@ -582,6 +552,19 @@
       "id": "1f8b9092-9596-44d4-ba54-4aa7d300c907"
     },
     {
+      "eventIdBts": 18397,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": true,
+      "isCancelled": false,
+      "priceText": "SOLD OUT",
+      "date": "2018-11-01",
+      "venue": "Rough Trade",
+      "artists": [{ "name": "BC Camplight" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18397",
+      "id": "47ea81c2-6c43-47b1-abf8-7c3874908185"
+    },
+    {
       "id": "a12c04e4-9251-4bca-8b9e-8881fa817327",
       "addedDate": "2018-10-12",
       "venue": "The Exchange",
@@ -589,6 +572,23 @@
       "artists": [{ "name": "Jon Spencer" }, { "name": "Philo Sinnett" }],
       "isSoldOut": false,
       "isCancelled": false
+    },
+    {
+      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
+      "addedDate": "2018-10-13",
+      "venue": "Swindon Arts Centre",
+      "date": "2018-11-01",
+      "artists": [{ "name": "TC \u0026 I" }],
+      "isSoldOut": true,
+      "isCancelled": false
+    },
+    {
+      "date": "2018-11-01",
+      "artists": [{ "name": "Stanley Clarke" }],
+      "venue": "Fiddlers",
+      "priceText": "£35.10",
+      "detailsUri": "https://www.ents24.com/bristol-events/fiddlers-club/stanley-clarke/5393937",
+      "id": "b467dca5-5366-4b37-be3c-276b4e9e32a7"
     },
     {
       "eventIdBts": 18131,
@@ -744,6 +744,19 @@
       "id": "61989730-8a1a-4fd1-88e6-0b418ed771b2"
     },
     {
+      "eventIdBts": 18704,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£10.00",
+      "date": "2018-11-29",
+      "venue": "Hy Brasil Music Club",
+      "artists": [{ "name": "Hugar" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18704",
+      "id": "259d34c0-f150-4569-8500-6eee66c357fa"
+    },
+    {
       "eventIdBts": 18751,
       "isNew": false,
       "addedDate": "2018-10-01",
@@ -759,19 +772,6 @@
       ],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18751",
       "id": "e5959634-25c1-43e0-8403-1e7df37e2487"
-    },
-    {
-      "eventIdBts": 18704,
-      "isNew": false,
-      "addedDate": "2018-10-01",
-      "isSoldOut": false,
-      "isCancelled": false,
-      "priceText": "£10.00",
-      "date": "2018-11-29",
-      "venue": "Hy Brasil Music Club",
-      "artists": [{ "name": "Hugar" }],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18704",
-      "id": "259d34c0-f150-4569-8500-6eee66c357fa"
     },
     {
       "addedDate": "2018-10-10",
@@ -900,19 +900,6 @@
       "id": "a6294f28-38be-4550-8895-23e2ad0ad91a"
     },
     {
-      "eventIdBts": 17224,
-      "isNew": false,
-      "addedDate": "2018-10-01",
-      "isSoldOut": false,
-      "isCancelled": false,
-      "priceText": "£11.00",
-      "date": "2018-12-15",
-      "venue": "SWX",
-      "artists": [{ "name": "Gaz Brookfield" }],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17224",
-      "id": "fb495e06-1a9d-4431-8527-a0934e6e0756"
-    },
-    {
       "eventIdBts": 17771,
       "isNew": false,
       "addedDate": "2018-10-01",
@@ -924,6 +911,19 @@
       "artists": [{ "name": "Eddie And The Hotrods" }],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17771",
       "id": "9dd8fa08-1a3f-45ea-9b07-6d6bd6d16a78"
+    },
+    {
+      "eventIdBts": 17224,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£11.00",
+      "date": "2018-12-15",
+      "venue": "SWX",
+      "artists": [{ "name": "Gaz Brookfield" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=17224",
+      "id": "fb495e06-1a9d-4431-8527-a0934e6e0756"
     },
     {
       "date": "2018-12-18",
