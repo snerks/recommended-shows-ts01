@@ -59,11 +59,17 @@ class App extends React.Component<{}, AppState> {
   }
 
   componentDidMount() {
-    // const urlBase = "https://snerks.github.io/recommended-shows-ts01/";
-    const urlBase = "";
+    let url = "https://api.myjson.com/bins/6blgs";
 
-    const fileName = "recommended-shows.json";
-    const url = `${urlBase}${fileName}`;
+    const isGitHubDataRequired = true;
+
+    if (isGitHubDataRequired) {
+      // const urlBase = "https://snerks.github.io/recommended-shows-ts01/";
+      const urlBase = "";
+
+      const fileName = "recommended-shows.json";
+      url = `${urlBase}${fileName}`;
+    }
 
     fetch(url)
       .then(res => {
