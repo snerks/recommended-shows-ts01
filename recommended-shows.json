@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-13T16:43:13.257Z",
+  "lastUpdated": "2018-10-13T17:17:37.961Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -8,13 +8,15 @@
         { "name": "Jesse Malin" }
       ],
       "venue": "Hen and Chicken",
-      "id": "dc43d3a0-5586-41f5-89f4-7c0ee3bb04a8"
+      "id": "dc43d3a0-5586-41f5-89f4-7c0ee3bb04a8",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-18",
       "artists": [{ "name": "Pigs (x7)" }],
       "venue": "Rough Trade Bristol",
-      "id": "92bf78f0-393f-4bb4-9756-dbce1e368469"
+      "id": "92bf78f0-393f-4bb4-9756-dbce1e368469",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-21",
@@ -24,38 +26,44 @@
         { "name": "The Courtesy Group" }
       ],
       "venue": "Exchange",
-      "id": "55afd946-0e30-485d-9e03-0f4c3e964620"
+      "id": "55afd946-0e30-485d-9e03-0f4c3e964620",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-22",
       "artists": [{ "name": "No Violet" }, { "name": "Chiyoda Ku" }],
       "venue": "Crofters Rights",
-      "id": "0fcd247b-cb52-417c-bb58-68659679a2d5"
+      "id": "0fcd247b-cb52-417c-bb58-68659679a2d5",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-23",
       "artists": [{ "name": "Get The Blessing" }],
       "venue": "Wardrobe Theatre",
       "isSoldOut": true,
-      "id": "3060c92f-e544-4964-b08e-bf93a9861a98"
+      "id": "3060c92f-e544-4964-b08e-bf93a9861a98",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-24",
       "artists": [{ "name": "Bleeding Knees Club" }],
       "venue": "Old England",
-      "id": "77f696a7-2a24-4bef-9e62-f7e3110e4307"
+      "id": "77f696a7-2a24-4bef-9e62-f7e3110e4307",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-25",
       "artists": [{ "name": "Vodun" }],
       "venue": "Crofters Rights",
-      "id": "5b3b1eca-53ae-4c7b-9a54-f03147a2cf06"
+      "id": "5b3b1eca-53ae-4c7b-9a54-f03147a2cf06",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-26",
       "artists": [{ "name": "Kit Hawes \u0026 Aaron Catlow" }],
       "venue": "Kingsdown Vaults",
-      "id": "96558430-83ef-4f9a-b572-c4f70de94b09"
+      "id": "96558430-83ef-4f9a-b572-c4f70de94b09",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "addedDate": "2018-09-26",
@@ -83,13 +91,15 @@
       "date": "2018-09-27",
       "artists": [{ "name": "Modulus III" }],
       "venue": "Gallimaufry",
-      "id": "3816f332-ca59-4c27-851f-bcc1ecde84d4"
+      "id": "3816f332-ca59-4c27-851f-bcc1ecde84d4",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-27",
       "artists": [{ "name": "Mush" }],
       "venue": "Hy-Brasil",
-      "id": "c597bd67-a177-4a5a-8bc8-a000e5f5c6c1"
+      "id": "c597bd67-a177-4a5a-8bc8-a000e5f5c6c1",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-28",
@@ -99,31 +109,36 @@
         { "name": "The Rollbars" }
       ],
       "venue": "Old England",
-      "id": "1c01b2ed-1fca-4686-834f-8b615edda26e"
+      "id": "1c01b2ed-1fca-4686-834f-8b615edda26e",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-28",
       "artists": [{ "name": "45s" }],
       "venue": "Mothers Ruin",
-      "id": "76f039b5-2bcd-404e-ac38-31100dd73294"
+      "id": "76f039b5-2bcd-404e-ac38-31100dd73294",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-28",
       "artists": [{ "name": "Denny Ilett (presents Santana)" }],
       "venue": "Left Bank",
-      "id": "b9c8d286-0458-42dc-bbac-012b8fdd002d"
+      "id": "b9c8d286-0458-42dc-bbac-012b8fdd002d",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-28",
       "artists": [{ "name": "Coims" }],
       "venue": "Unitarian Church",
-      "id": "bd1d1805-f7ff-405f-8bdb-2d99099c94f7"
+      "id": "bd1d1805-f7ff-405f-8bdb-2d99099c94f7",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-29",
       "artists": [{ "name": "Doe" }],
       "venue": "Rough Trade Bristol",
-      "id": "21b31c28-a53b-4d57-bce8-5110eaa339b8"
+      "id": "21b31c28-a53b-4d57-bce8-5110eaa339b8",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-09-29",
@@ -131,7 +146,8 @@
       "notes": "Electrical fire at The Cube",
       "artists": [{ "name": "Osiris" }, { "name": "Kavus Torabi" }],
       "venue": "Cube Cinema",
-      "id": "b077f1a7-d47d-4228-b2a1-a05bfec2eb5e"
+      "id": "b077f1a7-d47d-4228-b2a1-a05bfec2eb5e",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-10-01",
@@ -141,13 +157,15 @@
         { "name": "Jo Quail" }
       ],
       "venue": "The Fleece",
-      "id": "49a5551e-57fb-438b-b0fa-126fc1a4956c"
+      "id": "49a5551e-57fb-438b-b0fa-126fc1a4956c",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-10-01",
       "artists": [{ "name": "Get The Blessing" }],
       "venue": "Rough Trade Bristol (18:30)",
-      "id": "4ad6376b-4621-4a15-a414-d6aea9a15167"
+      "id": "4ad6376b-4621-4a15-a414-d6aea9a15167",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 17570,
@@ -171,7 +189,8 @@
       "date": "2018-10-05",
       "artists": [{ "name": "Suzanne Ciani" }],
       "venue": "Colston Hall Foyer",
-      "id": "2d31a04b-ab32-4c87-8f03-d920d0e41a64"
+      "id": "2d31a04b-ab32-4c87-8f03-d920d0e41a64",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-10-05",
@@ -179,7 +198,8 @@
       "artists": [{ "name": "Spindle Ensemble" }, { "name": "Heather Jane" }],
       "venue": "St Anne's Church",
       "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05\u0026event_id=47866",
-      "id": "42db1dcc-d95d-4248-b60a-2bf7edc4f351"
+      "id": "42db1dcc-d95d-4248-b60a-2bf7edc4f351",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-10-05",
@@ -195,7 +215,8 @@
       "date": "2018-10-06",
       "artists": [{ "name": "KPM Allstars" }],
       "venue": "British Library",
-      "id": "54fab167-4c75-4169-90aa-9ad04ff8fa5a"
+      "id": "54fab167-4c75-4169-90aa-9ad04ff8fa5a",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18976,
@@ -246,7 +267,8 @@
       "venue": "SWX",
       "priceText": "£22.00",
       "detailsUri": "https://www.ents24.com/bristol-events/swx-bristol/the-coral/5324350",
-      "id": "602792f7-e8a0-499d-a2ae-6ac195aa11cc"
+      "id": "602792f7-e8a0-499d-a2ae-6ac195aa11cc",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-10-10",
@@ -259,7 +281,8 @@
       "venue": "Crofters Rights",
       "priceText": "£5.00",
       "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-10\u0026event_id=48228",
-      "id": "6da4b8e3-613e-48e4-8352-c81b409d28a9"
+      "id": "6da4b8e3-613e-48e4-8352-c81b409d28a9",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-10-11",
@@ -308,7 +331,8 @@
       "venue": "Exchange",
       "priceText": "£5.00",
       "detailsUri": "https://www.ents24.com/bristol-events/exchange/bruiser-official-idles-afterparty/5413656",
-      "id": "a557951b-48d0-45fc-8acb-2c335311a972"
+      "id": "a557951b-48d0-45fc-8acb-2c335311a972",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18487,
@@ -327,7 +351,8 @@
       "date": "2018-10-18",
       "artists": [{ "name": "Innes Sibun - Rory Gallagher Tribute" }],
       "venue": "Steam Tavern",
-      "id": "94054ef3-727b-4d59-8689-517ed001ae2f"
+      "id": "94054ef3-727b-4d59-8689-517ed001ae2f",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "addedDate": "2018-09-26",
@@ -343,7 +368,8 @@
       "date": "2018-10-19",
       "artists": [{ "name": "Wasabi" }],
       "venue": "Forge",
-      "id": "23093c07-e1fd-45e7-8dab-f2b72952c7f7"
+      "id": "23093c07-e1fd-45e7-8dab-f2b72952c7f7",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-10-19",
@@ -353,7 +379,8 @@
         { "name": "Pork Pie" }
       ],
       "venue": "Mothers Ruin",
-      "id": "78f30b4c-def8-4ff2-8b63-46f9af180c2a"
+      "id": "78f30b4c-def8-4ff2-8b63-46f9af180c2a",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 17642,
@@ -366,7 +393,8 @@
       "isSoldOut": true,
       "isCancelled": false,
       "artists": [{ "name": "Sham 69" }, { "name": "Criminal Mind" }],
-      "id": "79a318fd-7ae3-493d-93cf-c6b001634f51"
+      "id": "79a318fd-7ae3-493d-93cf-c6b001634f51",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-10-19",
@@ -379,13 +407,15 @@
       "date": "2018-10-20",
       "artists": [{ "name": "Modulus III" }],
       "venue": "Left Bank",
-      "id": "b87deac3-e48c-42f9-b876-f92f6fa0c23b"
+      "id": "b87deac3-e48c-42f9-b876-f92f6fa0c23b",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-10-20",
       "artists": [{ "name": "Parrots" }, { "name": "Black Midi" }],
       "venue": "Simple Things",
-      "id": "ffa7e285-a4a8-45a3-8455-6f05dc2cc699"
+      "id": "ffa7e285-a4a8-45a3-8455-6f05dc2cc699",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18995,
@@ -418,7 +448,8 @@
       "date": "2018-10-23",
       "artists": [{ "name": "John Challis (Only Fools and Boycie)" }],
       "venue": "1532 Performing Arts Centre",
-      "id": "8607a044-0c5e-437c-bd4c-9c28f44eafff"
+      "id": "8607a044-0c5e-437c-bd4c-9c28f44eafff",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 17937,
@@ -431,7 +462,8 @@
       "isSoldOut": false,
       "isCancelled": false,
       "artists": [{ "name": "Tom Robinson Band" }],
-      "id": "6d974c0d-af4b-4e70-8904-0a7dc5d68dc2"
+      "id": "6d974c0d-af4b-4e70-8904-0a7dc5d68dc2",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18533,
@@ -450,7 +482,8 @@
       "date": "2018-10-25",
       "artists": [{ "name": "Gaz Brookfield" }],
       "venue": "Bank Tavern",
-      "id": "3079a656-27e8-4bad-89d9-6e00e8b7d72b"
+      "id": "3079a656-27e8-4bad-89d9-6e00e8b7d72b",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18275,
@@ -463,13 +496,15 @@
       "isSoldOut": false,
       "isCancelled": false,
       "artists": [{ "name": "Marcus King" }],
-      "id": "371a7100-4d0d-41aa-8a3b-bb8da7c42809"
+      "id": "371a7100-4d0d-41aa-8a3b-bb8da7c42809",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-10-26",
       "artists": [{ "name": "Halloween All-Dayer" }],
       "venue": "Old England",
-      "id": "8db4e727-7850-481c-afb2-7234b156f815"
+      "id": "8db4e727-7850-481c-afb2-7234b156f815",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18314,
@@ -482,7 +517,8 @@
       "isSoldOut": false,
       "isCancelled": false,
       "artists": [{ "name": "The Lovely Eggs" }],
-      "id": "b0b39c0c-2570-4faf-bb28-5a4de524d71c"
+      "id": "b0b39c0c-2570-4faf-bb28-5a4de524d71c",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
@@ -588,7 +624,8 @@
       "venue": "Fiddlers",
       "priceText": "£35.10",
       "detailsUri": "https://www.ents24.com/bristol-events/fiddlers-club/stanley-clarke/5393937",
-      "id": "b467dca5-5366-4b37-be3c-276b4e9e32a7"
+      "id": "b467dca5-5366-4b37-be3c-276b4e9e32a7",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18131,
@@ -601,7 +638,8 @@
       "isSoldOut": false,
       "isCancelled": false,
       "artists": [{ "name": "Blancmange" }],
-      "id": "41bcb14a-81c7-46e0-8606-a3f70e0874fe"
+      "id": "41bcb14a-81c7-46e0-8606-a3f70e0874fe",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 19355,
@@ -645,7 +683,8 @@
       "isSoldOut": false,
       "isCancelled": false,
       "artists": [{ "name": "Hugh Cornwell" }],
-      "id": "f2597a0d-350f-421f-ba21-20d8c3aeb486"
+      "id": "f2597a0d-350f-421f-ba21-20d8c3aeb486",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18141,
@@ -697,7 +736,8 @@
       "venue": "The Louisiana",
       "priceText": "£8.00",
       "detailsUri": "https://www.ents24.com/bristol-events/the-louisiana/rews/5395803",
-      "id": "6b430165-2dcd-4f87-b751-b3539006778f"
+      "id": "6b430165-2dcd-4f87-b751-b3539006778f",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18696,
@@ -710,38 +750,44 @@
       "isSoldOut": false,
       "isCancelled": false,
       "artists": [{ "name": "Tricot" }],
-      "id": "619c58dd-ebc7-49f4-ac40-3bfdd650a40e"
+      "id": "619c58dd-ebc7-49f4-ac40-3bfdd650a40e",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-11-17",
       "artists": [{ "name": "Mr. Ben and The Bens" }],
       "venue": "Old England",
-      "id": "27a17d83-6d03-43ec-9998-b04d22c74ef1"
+      "id": "27a17d83-6d03-43ec-9998-b04d22c74ef1",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-11-17",
       "isSoldOut": true,
       "artists": [{ "name": "Soeur" }],
       "venue": "Crofters Rights",
-      "id": "66c4e40f-edc1-4a47-8df7-02d8d27601e8"
+      "id": "66c4e40f-edc1-4a47-8df7-02d8d27601e8",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-11-22",
       "artists": [{ "name": "Lonely Tourist" }],
       "venue": "Bank Tavern",
-      "id": "a481dad2-8f89-4746-a442-3f98a3d0149c"
+      "id": "a481dad2-8f89-4746-a442-3f98a3d0149c",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-11-24",
       "artists": [{ "name": "Blurt" }],
       "venue": "Bell (Bath)",
-      "id": "7a4cbccd-a333-4e77-8e7c-e2b8f1aa332f"
+      "id": "7a4cbccd-a333-4e77-8e7c-e2b8f1aa332f",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "date": "2018-11-28",
       "artists": [{ "name": "Glenn Tilbrook" }],
       "venue": "St. George's Hall",
-      "id": "61989730-8a1a-4fd1-88e6-0b418ed771b2"
+      "id": "61989730-8a1a-4fd1-88e6-0b418ed771b2",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18704,
@@ -832,7 +878,8 @@
       "isSoldOut": true,
       "isCancelled": false,
       "artists": [{ "name": "Buffalo Tom" }],
-      "id": "75f6bce7-bc14-4f5d-bfc1-8fae9fb3df17"
+      "id": "75f6bce7-bc14-4f5d-bfc1-8fae9fb3df17",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "addedDate": "2018-10-11",
@@ -861,7 +908,8 @@
       "date": "2018-12-08",
       "artists": [{ "name": "Lonely Tourist" }],
       "venue": "Mothers Ruin",
-      "id": "20b5cc9d-fa91-4f23-9e4b-3008bd899cd8"
+      "id": "20b5cc9d-fa91-4f23-9e4b-3008bd899cd8",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 18617,
@@ -897,7 +945,8 @@
       "date": "2018-12-14",
       "artists": [{ "name": "LT???" }],
       "venue": "TB???",
-      "id": "a6294f28-38be-4550-8895-23e2ad0ad91a"
+      "id": "a6294f28-38be-4550-8895-23e2ad0ad91a",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 17771,
@@ -930,7 +979,8 @@
       "artists": [{ "name": "Clutch" }],
       "venue": "O2 Academy",
       "isSoldOut": true,
-      "id": "49cdc474-4bb7-40aa-80a1-29a5b5ee380a"
+      "id": "49cdc474-4bb7-40aa-80a1-29a5b5ee380a",
+      "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
       "eventIdBts": 19118,
