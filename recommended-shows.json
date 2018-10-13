@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-12T11:34:28.911Z",
+  "lastUpdated": "2018-10-13T15:32:37.326Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -66,19 +66,6 @@
       "id": "a30abab1-384d-41ec-bf1c-b0d1e264ad8f"
     },
     {
-      "addedDate": "2018-09-24",
-      "date": "2018-09-27",
-      "venue": "El Rincon",
-      "artists": [{ "name": "Pete Judge" }, { "name": "Jim Barr" }],
-      "id": "0d663602-0016-4150-82be-d9e8099f9c8f"
-    },
-    {
-      "date": "2018-09-27",
-      "artists": [{ "name": "Modulus III" }],
-      "venue": "Gallimaufry",
-      "id": "3816f332-ca59-4c27-851f-bcc1ecde84d4"
-    },
-    {
       "addedDate": "2018-09-26",
       "date": "2018-09-27",
       "artists": [{ "name": "Half Waif" }],
@@ -90,6 +77,19 @@
       "artists": [{ "name": "Mush" }],
       "venue": "Hy-Brasil",
       "id": "c597bd67-a177-4a5a-8bc8-a000e5f5c6c1"
+    },
+    {
+      "addedDate": "2018-09-24",
+      "date": "2018-09-27",
+      "venue": "El Rincon",
+      "artists": [{ "name": "Pete Judge" }, { "name": "Jim Barr" }],
+      "id": "0d663602-0016-4150-82be-d9e8099f9c8f"
+    },
+    {
+      "date": "2018-09-27",
+      "artists": [{ "name": "Modulus III" }],
+      "venue": "Gallimaufry",
+      "id": "3816f332-ca59-4c27-851f-bcc1ecde84d4"
     },
     {
       "date": "2018-09-28",
@@ -109,21 +109,15 @@
     },
     {
       "date": "2018-09-28",
-      "artists": [{ "name": "45s" }],
-      "venue": "Mothers Ruin",
-      "id": "76f039b5-2bcd-404e-ac38-31100dd73294"
-    },
-    {
-      "date": "2018-09-28",
       "artists": [{ "name": "Coims" }],
       "venue": "Unitarian Church",
       "id": "bd1d1805-f7ff-405f-8bdb-2d99099c94f7"
     },
     {
-      "date": "2018-09-29",
-      "artists": [{ "name": "Doe" }],
-      "venue": "Rough Trade Bristol",
-      "id": "21b31c28-a53b-4d57-bce8-5110eaa339b8"
+      "date": "2018-09-28",
+      "artists": [{ "name": "45s" }],
+      "venue": "Mothers Ruin",
+      "id": "76f039b5-2bcd-404e-ac38-31100dd73294"
     },
     {
       "date": "2018-09-29",
@@ -132,6 +126,12 @@
       "artists": [{ "name": "Osiris" }, { "name": "Kavus Torabi" }],
       "venue": "Cube Cinema",
       "id": "b077f1a7-d47d-4228-b2a1-a05bfec2eb5e"
+    },
+    {
+      "date": "2018-09-29",
+      "artists": [{ "name": "Doe" }],
+      "venue": "Rough Trade Bristol",
+      "id": "21b31c28-a53b-4d57-bce8-5110eaa339b8"
     },
     {
       "date": "2018-10-01",
@@ -179,30 +179,17 @@
     },
     {
       "date": "2018-10-05",
-      "priceText": "£7.00",
-      "artists": [{ "name": "Spindle Ensemble" }, { "name": "Heather Jane" }],
-      "venue": "St Anne's Church",
-      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05\u0026event_id=47866",
-      "id": "42db1dcc-d95d-4248-b60a-2bf7edc4f351"
-    },
-    {
-      "date": "2018-10-05",
       "artists": [{ "name": "Suzanne Ciani" }],
       "venue": "Colston Hall Foyer",
       "id": "2d31a04b-ab32-4c87-8f03-d920d0e41a64"
     },
     {
-      "eventIdBts": 18838,
-      "isNew": true,
-      "addedDate": "2018-09-22",
-      "isSoldOut": false,
-      "isCancelled": false,
-      "priceText": "£8.00",
-      "date": "2018-10-06",
-      "venue": "The Exchange",
-      "artists": [{ "name": "Steve Davis And Kavus Torabi" }],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18838",
-      "id": "e7d76575-ae48-4929-8837-b46a7fc434e9"
+      "date": "2018-10-05",
+      "priceText": "£7.00",
+      "artists": [{ "name": "Spindle Ensemble" }, { "name": "Heather Jane" }],
+      "venue": "St Anne's Church",
+      "detailsUri": "https://www.headfirstbristol.co.uk/#date=2018-10-05\u0026event_id=47866",
+      "id": "42db1dcc-d95d-4248-b60a-2bf7edc4f351"
     },
     {
       "eventIdBts": 18976,
@@ -226,6 +213,19 @@
       "artists": [{ "name": "KPM Allstars" }],
       "venue": "British Library",
       "id": "54fab167-4c75-4169-90aa-9ad04ff8fa5a"
+    },
+    {
+      "eventIdBts": 18838,
+      "isNew": true,
+      "addedDate": "2018-09-22",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£8.00",
+      "date": "2018-10-06",
+      "venue": "The Exchange",
+      "artists": [{ "name": "Steve Davis And Kavus Torabi" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18838",
+      "id": "e7d76575-ae48-4929-8837-b46a7fc434e9"
     },
     {
       "eventIdBts": 18585,
@@ -340,6 +340,13 @@
       "id": "94054ef3-727b-4d59-8689-517ed001ae2f"
     },
     {
+      "date": "2018-10-19",
+      "addedDate": "2018-09-29",
+      "artists": [{ "name": "Saint Agnes" }],
+      "venue": "Old England",
+      "id": "ae550a46-7b48-4125-86d9-5b0ef29c45a0"
+    },
+    {
       "eventIdBts": 17642,
       "isNew": false,
       "isSelected": true,
@@ -351,13 +358,6 @@
       "isCancelled": false,
       "artists": [{ "name": "Sham 69" }, { "name": "Criminal Mind" }],
       "id": "79a318fd-7ae3-493d-93cf-c6b001634f51"
-    },
-    {
-      "date": "2018-10-19",
-      "addedDate": "2018-09-29",
-      "artists": [{ "name": "Saint Agnes" }],
-      "venue": "Old England",
-      "id": "ae550a46-7b48-4125-86d9-5b0ef29c45a0"
     },
     {
       "date": "2018-10-19",
@@ -447,6 +447,12 @@
       "id": "e0c236f3-db85-4bc2-bc91-76d0e1613ea1"
     },
     {
+      "date": "2018-10-25",
+      "artists": [{ "name": "Gaz Brookfield" }],
+      "venue": "Bank Tavern",
+      "id": "3079a656-27e8-4bad-89d9-6e00e8b7d72b"
+    },
+    {
       "eventIdBts": 18275,
       "isNew": false,
       "isSelected": true,
@@ -458,18 +464,6 @@
       "isCancelled": false,
       "artists": [{ "name": "Marcus King" }],
       "id": "371a7100-4d0d-41aa-8a3b-bb8da7c42809"
-    },
-    {
-      "date": "2018-10-25",
-      "artists": [{ "name": "Gaz Brookfield" }],
-      "venue": "Bank Tavern",
-      "id": "3079a656-27e8-4bad-89d9-6e00e8b7d72b"
-    },
-    {
-      "date": "2018-10-26",
-      "artists": [{ "name": "Halloween All-Dayer" }],
-      "venue": "Old England",
-      "id": "8db4e727-7850-481c-afb2-7234b156f815"
     },
     {
       "eventIdBts": 18314,
@@ -485,6 +479,30 @@
       "id": "b0b39c0c-2570-4faf-bb28-5a4de524d71c"
     },
     {
+      "date": "2018-10-26",
+      "artists": [{ "name": "Halloween All-Dayer" }],
+      "venue": "Old England",
+      "id": "8db4e727-7850-481c-afb2-7234b156f815"
+    },
+    {
+      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
+      "addedDate": "2018-10-13",
+      "venue": "Swindon Arts Centre",
+      "date": "2018-10-29",
+      "artists": [{ "name": "TC \u0026 I" }],
+      "isSoldOut": true,
+      "isCancelled": false
+    },
+    {
+      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
+      "addedDate": "2018-10-13",
+      "venue": "Swindon Arts Centre",
+      "date": "2018-10-30",
+      "artists": [{ "name": "TC \u0026 I" }],
+      "isSoldOut": false,
+      "isCancelled": false
+    },
+    {
       "eventIdBts": 18767,
       "addedDate": "2018-09-23",
       "isNew": false,
@@ -497,6 +515,15 @@
       "isCancelled": false,
       "artists": [{ "name": "The Sheepdogs" }],
       "id": "ccad7465-c058-47bd-a07c-e4663a1ab344"
+    },
+    {
+      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
+      "addedDate": "2018-10-13",
+      "venue": "Swindon Arts Centre",
+      "date": "2018-10-31",
+      "artists": [{ "name": "TC \u0026 I" }],
+      "isSoldOut": false,
+      "isCancelled": false
     },
     {
       "eventIdBts": 18422,
@@ -533,6 +560,15 @@
       "id": "b467dca5-5366-4b37-be3c-276b4e9e32a7"
     },
     {
+      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
+      "addedDate": "2018-10-13",
+      "venue": "Swindon Arts Centre",
+      "date": "2018-11-01",
+      "artists": [{ "name": "TC \u0026 I" }],
+      "isSoldOut": true,
+      "isCancelled": false
+    },
+    {
       "eventIdBts": 18475,
       "isNew": false,
       "addedDate": "2018-09-26",
@@ -544,6 +580,15 @@
       "artists": [{ "name": "The KVB" }],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18475",
       "id": "1f8b9092-9596-44d4-ba54-4aa7d300c907"
+    },
+    {
+      "id": "a12c04e4-9251-4bca-8b9e-8881fa817327",
+      "addedDate": "2018-10-12",
+      "venue": "The Exchange",
+      "date": "2018-11-01",
+      "artists": [{ "name": "Jon Spencer" }, { "name": "Philo Sinnett" }],
+      "isSoldOut": false,
+      "isCancelled": false
     },
     {
       "eventIdBts": 18131,
@@ -739,19 +784,6 @@
       "id": "cb69fd36-e72b-49d5-b29d-a1d6a7887fd8"
     },
     {
-      "eventIdBts": 19032,
-      "isNew": false,
-      "addedDate": "2018-10-01",
-      "isSoldOut": false,
-      "isCancelled": false,
-      "priceText": "£27.50",
-      "date": "2018-12-01",
-      "venue": "Fiddlers",
-      "artists": [{ "name": "Magpie Salute" }],
-      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19032",
-      "id": "44e3f84b-3a57-4139-a25b-2bae586f6c7c"
-    },
-    {
       "eventIdBts": 19291,
       "isNew": false,
       "addedDate": "2018-10-01",
@@ -763,6 +795,19 @@
       "artists": [{ "name": "999" }],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19291",
       "id": "3cde3fe3-c9be-4250-aef3-986c4c56cd0d"
+    },
+    {
+      "eventIdBts": 19032,
+      "isNew": false,
+      "addedDate": "2018-10-01",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£27.50",
+      "date": "2018-12-01",
+      "venue": "Fiddlers",
+      "artists": [{ "name": "Magpie Salute" }],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19032",
+      "id": "44e3f84b-3a57-4139-a25b-2bae586f6c7c"
     },
     {
       "eventIdBts": 17939,
