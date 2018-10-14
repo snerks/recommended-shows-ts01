@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-14T01:18:19.667Z",
+  "lastUpdated": "2018-10-14T21:47:21.206Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -9,7 +9,9 @@
       ],
       "venue": "Hen and Chicken",
       "id": "dc43d3a0-5586-41f5-89f4-7c0ee3bb04a8",
-      "addedDate": "2018-09-17T11:00:00.000Z"
+      "addedDate": "2018-09-17T11:00:00.000Z",
+      "isSoldOut": false,
+      "isCancelled": false
     },
     {
       "date": "2018-09-18",
@@ -673,6 +675,15 @@
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19030",
       "notes": "Upgraded from Crofters Rights",
       "id": "ab0d2086-c189-4974-b05d-63bfd8a83e6a"
+    },
+    {
+      "id": "df69e974-ee8e-41a7-aa8a-86fc7d005eb7",
+      "addedDate": "2018-10-14",
+      "venue": "Rough Trade Bristol",
+      "date": "2018-11-07",
+      "artists": [{ "name": "Bill Ryder Jones" }],
+      "isSoldOut": false,
+      "isCancelled": false
     },
     {
       "eventIdBts": 18683,
