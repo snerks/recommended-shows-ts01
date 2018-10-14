@@ -1127,6 +1127,27 @@
       "venue": "Bristol Fiddlers",
       "artists": [{ "name": "Wreckless Eric" }],
       "id": "d2819a34-5979-4ee0-88c2-290d2bac4363"
+    },
+    {
+      "id": "ab489ef1-9101-471f-9796-3018ab2ddf6f",
+      "eventIdBts": 19463,
+      "isNew": true,
+      "addedDate": "2018-10-14",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£13.50",
+      "date": "2019-05-24",
+      "venue": "The Exchange",
+      "artists": [
+        {
+          "name": "TV Smith"
+        },
+        {
+          "name": "The Bored Teenagers"
+        }
+      ],
+      "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19463",
+      "notes": "Play The Adverts"
     }
   ]
 }
