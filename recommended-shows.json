@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-14T21:47:21.206Z",
+  "lastUpdated": "2018-10-14T22:01:07.484Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -893,6 +893,15 @@
       "artists": [{ "name": "Buffalo Tom" }],
       "id": "75f6bce7-bc14-4f5d-bfc1-8fae9fb3df17",
       "addedDate": "2018-09-17T11:00:00.000Z"
+    },
+    {
+      "id": "f159c805-512a-40c6-9baf-27e7c9aae39a",
+      "addedDate": "2018-10-14",
+      "venue": "Rough Trade Bristol",
+      "date": "2018-12-04",
+      "artists": [{ "name": "Kiran Leonard" }],
+      "isSoldOut": false,
+      "isCancelled": false
     },
     {
       "addedDate": "2018-10-11",
