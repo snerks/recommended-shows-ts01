@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-17T17:33:01.351Z",
+  "lastUpdated": "2018-10-17T17:41:51.600Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -782,6 +782,24 @@
       "venue": "Crofters Rights",
       "id": "66c4e40f-edc1-4a47-8df7-02d8d27601e8",
       "addedDate": "2018-09-17T11:00:00.000Z"
+    },
+    {
+      "id": "632bc757-6f63-4e2d-a4de-a742b7041b3c",
+      "addedDate": "2018-10-17",
+      "venue": "Swindon Arts Centre",
+      "date": "2018-11-18",
+      "artists": [{ "name": "TC \u0026 I" }],
+      "isSoldOut": true,
+      "isCancelled": false
+    },
+    {
+      "id": "f37615ef-8fd0-45a8-989a-58051f3f461a",
+      "addedDate": "2018-10-17",
+      "venue": "Swindon Arts Centre",
+      "date": "2018-11-20",
+      "artists": [{ "name": "TC \u0026 I" }],
+      "isSoldOut": true,
+      "isCancelled": false
     },
     {
       "date": "2018-11-22",
