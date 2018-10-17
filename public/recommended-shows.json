@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-17T09:11:33.172Z",
+  "lastUpdated": "2018-10-17T17:04:23.036Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -533,10 +533,13 @@
       "date": "2018-10-29",
       "artists": [{ "name": "TC \u0026 I" }],
       "isSoldOut": true,
-      "isCancelled": false
+      "isCancelled": false,
+      "notes": "",
+      "priceText": "",
+      "eventIdBts": ""
     },
     {
-      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
+      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127aa",
       "addedDate": "2018-10-13",
       "venue": "Swindon Arts Centre",
       "date": "2018-10-30",
@@ -558,7 +561,7 @@
       "id": "76ee2a15-fbe2-4bae-a2a6-5884d50f8703"
     },
     {
-      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
+      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127ab",
       "addedDate": "2018-10-13",
       "venue": "Swindon Arts Centre",
       "date": "2018-10-31",
@@ -616,7 +619,7 @@
       "isCancelled": false
     },
     {
-      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127a9",
+      "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127ac",
       "addedDate": "2018-10-13",
       "venue": "Swindon Arts Centre",
       "date": "2018-11-01",
@@ -1027,6 +1030,18 @@
       "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
+      "id": "7746fae9-aaeb-479b-8b17-b8c0ec930d14",
+      "addedDate": "2018-10-17",
+      "venue": "Islington Assembly Hall London",
+      "date": "2018-12-18",
+      "artists": [{ "name": "Matthew Sweet" }],
+      "isSoldOut": false,
+      "isCancelled": false,
+      "notes": "",
+      "priceText": "",
+      "eventIdBts": ""
+    },
+    {
       "eventIdBts": 19118,
       "isNew": false,
       "addedDate": "2018-09-16",
@@ -1151,6 +1166,18 @@
       "artists": [{ "name": "Ulrich Schnauss" }],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19413",
       "id": "b8ab979f-3647-4e39-8263-1481be83487a"
+    },
+    {
+      "id": "da0e8b1b-0f83-403d-9960-1655019cfa5e",
+      "addedDate": "2018-10-17",
+      "venue": "Crofters Rights",
+      "date": "2019-03-17",
+      "artists": [{ "name": "You Tell Me" }],
+      "isSoldOut": false,
+      "isCancelled": false,
+      "notes": "Peter from Field Music",
+      "priceText": "",
+      "eventIdBts": ""
     },
     {
       "eventIdBts": 19311,
