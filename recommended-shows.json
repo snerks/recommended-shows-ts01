@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-17T17:04:23.036Z",
+  "lastUpdated": "2018-10-17T17:41:51.600Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -533,10 +533,7 @@
       "date": "2018-10-29",
       "artists": [{ "name": "TC \u0026 I" }],
       "isSoldOut": true,
-      "isCancelled": false,
-      "notes": "",
-      "priceText": "",
-      "eventIdBts": ""
+      "isCancelled": false
     },
     {
       "id": "ac7e9a61-e9de-43fd-98a8-0dd1cf7127aa",
@@ -544,7 +541,7 @@
       "venue": "Swindon Arts Centre",
       "date": "2018-10-30",
       "artists": [{ "name": "TC \u0026 I" }],
-      "isSoldOut": false,
+      "isSoldOut": true,
       "isCancelled": false
     },
     {
@@ -566,7 +563,7 @@
       "venue": "Swindon Arts Centre",
       "date": "2018-10-31",
       "artists": [{ "name": "TC \u0026 I" }],
-      "isSoldOut": false,
+      "isSoldOut": true,
       "isCancelled": false
     },
     {
@@ -787,6 +784,24 @@
       "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
+      "id": "632bc757-6f63-4e2d-a4de-a742b7041b3c",
+      "addedDate": "2018-10-17",
+      "venue": "Swindon Arts Centre",
+      "date": "2018-11-18",
+      "artists": [{ "name": "TC \u0026 I" }],
+      "isSoldOut": true,
+      "isCancelled": false
+    },
+    {
+      "id": "f37615ef-8fd0-45a8-989a-58051f3f461a",
+      "addedDate": "2018-10-17",
+      "venue": "Swindon Arts Centre",
+      "date": "2018-11-20",
+      "artists": [{ "name": "TC \u0026 I" }],
+      "isSoldOut": true,
+      "isCancelled": false
+    },
+    {
       "date": "2018-11-22",
       "artists": [{ "name": "Lonely Tourist" }],
       "venue": "Bank Tavern",
@@ -812,8 +827,7 @@
       "isSoldOut": false,
       "isCancelled": false,
       "notes": "18:00",
-      "priceText": "£10.00",
-      "eventIdBts": ""
+      "priceText": "£10.00"
     },
     {
       "date": "2018-11-28",
@@ -954,9 +968,7 @@
       "addedDate": "2018-09-17T11:00:00.000Z",
       "isSoldOut": false,
       "isCancelled": false,
-      "notes": "Full Band!",
-      "priceText": "",
-      "eventIdBts": ""
+      "notes": "Full Band!"
     },
     {
       "eventIdBts": 18617,
@@ -1036,10 +1048,7 @@
       "date": "2018-12-18",
       "artists": [{ "name": "Matthew Sweet" }],
       "isSoldOut": false,
-      "isCancelled": false,
-      "notes": "",
-      "priceText": "",
-      "eventIdBts": ""
+      "isCancelled": false
     },
     {
       "eventIdBts": 19118,
@@ -1066,9 +1075,7 @@
       "artists": [{ "name": "Kevin Devine" }],
       "isSoldOut": false,
       "isCancelled": false,
-      "notes": "Solo",
-      "priceText": "",
-      "eventIdBts": ""
+      "notes": "Solo"
     },
     {
       "addedDate": "2018-09-23",
@@ -1097,10 +1104,7 @@
       "date": "2019-02-06",
       "artists": [{ "name": "Rival Sons" }, { "name": "The Sheepdogs" }],
       "isSoldOut": false,
-      "isCancelled": false,
-      "notes": "",
-      "priceText": "",
-      "eventIdBts": ""
+      "isCancelled": false
     },
     {
       "eventIdBts": 19357,
@@ -1175,9 +1179,7 @@
       "artists": [{ "name": "You Tell Me" }],
       "isSoldOut": false,
       "isCancelled": false,
-      "notes": "Peter from Field Music",
-      "priceText": "",
-      "eventIdBts": ""
+      "notes": "Peter from Field Music"
     },
     {
       "eventIdBts": 19311,
