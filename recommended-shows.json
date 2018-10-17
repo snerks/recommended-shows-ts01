@@ -418,10 +418,14 @@
     },
     {
       "date": "2018-10-20",
-      "artists": [{ "name": "Parrots" }, { "name": "Black Midi" }],
+      "artists": [
+        { "name": "Parrots", "stageTime": "22:30" },
+        { "name": "Black Midi", "stageTime": "18:00" }
+      ],
       "venue": "Simple Things",
       "id": "ffa7e285-a4a8-45a3-8455-6f05dc2cc699",
-      "addedDate": "2018-09-17T11:00:00.000Z"
+      "addedDate": "2018-09-17T11:00:00.000Z",
+      "notes": "Parrots: Rough Trade, Balck Midi: O2 Academy"
     },
     {
       "eventIdBts": 18995,
