@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-14T22:01:07.484Z",
+  "lastUpdated": "2018-10-17T09:11:33.172Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -336,7 +336,9 @@
       "id": "a557951b-48d0-45fc-8acb-2c335311a972",
       "addedDate": "2018-09-17T11:00:00.000Z",
       "isSoldOut": true,
-      "isCancelled": false
+      "isCancelled": false,
+      "notes": "",
+      "eventIdBts": ""
     },
     {
       "eventIdBts": 18487,
@@ -796,6 +798,21 @@
       "addedDate": "2018-09-17T11:00:00.000Z"
     },
     {
+      "id": "93b513f5-3ead-408a-8bcc-88e741ffde9f",
+      "addedDate": "2018-10-17",
+      "venue": "Watershed",
+      "date": "2018-11-25",
+      "artists": [
+        { "name": "Happy New Year Colin Burstead" },
+        { "name": "Ben Wheatley" }
+      ],
+      "isSoldOut": false,
+      "isCancelled": false,
+      "notes": "18:00",
+      "priceText": "£10.00",
+      "eventIdBts": ""
+    },
+    {
       "date": "2018-11-28",
       "artists": [{ "name": "Glenn Tilbrook" }],
       "venue": "St. George's Hall",
@@ -928,10 +945,15 @@
     },
     {
       "date": "2018-12-08",
-      "artists": [{ "name": "Lonely Tourist" }],
+      "artists": [{ "name": "Lonely Tourist" }, { "name": "Locks" }],
       "venue": "Mothers Ruin",
       "id": "20b5cc9d-fa91-4f23-9e4b-3008bd899cd8",
-      "addedDate": "2018-09-17T11:00:00.000Z"
+      "addedDate": "2018-09-17T11:00:00.000Z",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "notes": "Full Band!",
+      "priceText": "",
+      "eventIdBts": ""
     },
     {
       "eventIdBts": 18617,
@@ -1022,6 +1044,18 @@
       "id": "abfa51d2-6a4c-4fe5-a18a-7b8c833fdea7"
     },
     {
+      "id": "67540071-3637-4f69-b23e-166064cdc775",
+      "addedDate": "2018-10-16",
+      "venue": "Camden Assembly London",
+      "date": "2019-01-16",
+      "artists": [{ "name": "Kevin Devine" }],
+      "isSoldOut": false,
+      "isCancelled": false,
+      "notes": "Solo",
+      "priceText": "",
+      "eventIdBts": ""
+    },
+    {
       "addedDate": "2018-09-23",
       "date": "2019-01-23",
       "venue": "100 Club",
@@ -1040,6 +1074,18 @@
       "artists": [{ "name": "Dodgy" }, { "name": "Babybird" }],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19309",
       "id": "984d70aa-803c-4595-a4d4-e3929c7c7b1a"
+    },
+    {
+      "id": "de5b8ce8-a92d-4c19-9547-25cd0948e603",
+      "addedDate": "2018-10-16",
+      "venue": "Roundhouse London",
+      "date": "2019-02-06",
+      "artists": [{ "name": "Rival Sons" }, { "name": "The Sheepdogs" }],
+      "isSoldOut": false,
+      "isCancelled": false,
+      "notes": "",
+      "priceText": "",
+      "eventIdBts": ""
     },
     {
       "eventIdBts": 19357,
@@ -1130,7 +1176,7 @@
     },
     {
       "id": "ab489ef1-9101-471f-9796-3018ab2ddf6f",
-      "eventIdBts": 19463,
+      "eventIdBts": "19463   ",
       "isNew": true,
       "addedDate": "2018-10-14",
       "isSoldOut": false,
@@ -1138,14 +1184,7 @@
       "priceText": "£13.50",
       "date": "2019-05-24",
       "venue": "The Exchange",
-      "artists": [
-        {
-          "name": "TV Smith"
-        },
-        {
-          "name": "The Bored Teenagers"
-        }
-      ],
+      "artists": [{ "name": "TV Smith" }, { "name": "The Bored Teenagers" }],
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19463",
       "notes": "Play The Adverts"
     }
