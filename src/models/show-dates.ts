@@ -11,6 +11,8 @@ export interface ShowsInfo {
 
 export interface Show {
   id: string;
+  eventIdBts?: string;
+
   addedDate?: Date;
   isSoldOut: boolean;
   isCancelled: boolean;
