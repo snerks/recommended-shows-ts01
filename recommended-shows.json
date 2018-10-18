@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-17T21:13:31.842Z",
+  "lastUpdated": "2018-10-18T17:45:14.153Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -388,7 +388,10 @@
       ],
       "venue": "Mothers Ruin",
       "id": "78f30b4c-def8-4ff2-8b63-46f9af180c2a",
-      "addedDate": "2018-09-17T11:00:00.000Z"
+      "addedDate": "2018-09-17T11:00:00.000Z",
+      "isSoldOut": false,
+      "isCancelled": false,
+      "priceText": "£5.00"
     },
     {
       "eventIdBts": 17642,
@@ -476,7 +479,10 @@
       "priceText": "£20.00",
       "isSoldOut": false,
       "isCancelled": false,
-      "artists": [{ "name": "Tom Robinson Band" }],
+      "artists": [
+        { "name": "Tom Robinson Band" },
+        { "name": "Lee Forsyth Griffiths" }
+      ],
       "id": "6d974c0d-af4b-4e70-8904-0a7dc5d68dc2",
       "addedDate": "2018-09-17T11:00:00.000Z"
     },
