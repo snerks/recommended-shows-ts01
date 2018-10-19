@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-18T17:45:14.153Z",
+  "lastUpdated": "2018-10-18T23:32:26.005Z",
   "shows": [
     {
       "date": "2018-09-17",
@@ -428,12 +428,16 @@
       "date": "2018-10-20",
       "artists": [
         { "name": "Parrots", "stageTime": "22:30" },
-        { "name": "Black Midi", "stageTime": "18:00" }
+        { "name": "Black Midi", "stageTime": "18:00" },
+        { "name": "Meat Raffle", "stageTime": "21:15" },
+        { "name": "Warmduscher", "stageTime": "22:30" }
       ],
       "venue": "Simple Things",
       "id": "ffa7e285-a4a8-45a3-8455-6f05dc2cc699",
       "addedDate": "2018-09-17T11:00:00.000Z",
-      "notes": "Parrots: Rough Trade, Black Midi: O2 Academy"
+      "notes": "Parrots: Rough Trade, Black Midi: O2 Academy, Meat Raffle, Warmduscher: Sportsman",
+      "isSoldOut": false,
+      "isCancelled": false
     },
     {
       "eventIdBts": 18995,
