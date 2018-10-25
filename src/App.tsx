@@ -59,7 +59,8 @@ class App extends React.Component<{}, AppState> {
   }
 
   componentDidMount() {
-    let url = "https://api.myjson.com/bins/6blgs";
+    // let url = "https://api.myjson.com/bins/6blgs";
+    let url = "https://show01-cd72d.firebaseio.com/.json";
 
     const isGitHubDataRequired = true;
 
