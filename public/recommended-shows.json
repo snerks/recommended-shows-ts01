@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-10-25T19:11:59.710Z",
+  "lastUpdated": "2018-11-03T15:58:52.186Z",
   "shows": [
     {
       "addedDate": "2018-09-17T11:00:00.000Z",
@@ -574,7 +574,7 @@
       "id": "76ee2a15-fbe2-4bae-a2a6-5884d50f8703",
       "isCancelled": false,
       "isNew": true,
-      "isSoldOut": false,
+      "isSoldOut": true,
       "priceText": "£11.00",
       "venue": "Bristol Thekla"
     },
@@ -616,7 +616,7 @@
     },
     {
       "addedDate": "2018-10-01",
-      "artists": [{ "name": "BC Camplight" }],
+      "artists": [{ "name": "BC Camplight" }, { "name": "Penelope Isles" }],
       "date": "2018-11-01",
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18397",
       "eventIdBts": 18397,
@@ -624,12 +624,28 @@
       "isCancelled": false,
       "isNew": false,
       "isSoldOut": true,
+      "notes": "Penelope Isles : 20:00, BC Camplight : 21:00",
       "priceText": "SOLD OUT",
       "venue": "Rough Trade"
     },
     {
+      "addedDate": "2018-10-30",
+      "artists": [
+        { "name": "B*tch Falcon" },
+        { "name": "Haggard Cat" },
+        { "name": "InTechnicolour" },
+        { "name": "Drones" }
+      ],
+      "date": "2018-11-01",
+      "id": "5a0e9065-6e9f-4f06-b028-8d6c7e32981a",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "notes": "Haggard Cat : Ex-Baby Godzilla",
+      "venue": "Mothers Ruin"
+    },
+    {
       "addedDate": "2018-10-12",
-      "artists": [{ "name": "Jon Spencer" }, { "name": "Philo Sinnett" }],
+      "artists": [{ "name": "Jon Spencer" }, { "name": "John E Vistic" }],
       "date": "2018-11-01",
       "id": "a12c04e4-9251-4bca-8b9e-8881fa817327",
       "isCancelled": false,
@@ -706,6 +722,7 @@
       "id": "0760a1e4-b26b-4e8b-abb6-9af01f822278",
       "isCancelled": false,
       "isSoldOut": false,
+      "notes": "Being filmed",
       "priceText": "£4.50",
       "venue": "The Lanes"
     },
@@ -716,6 +733,7 @@
       "id": "df69e974-ee8e-41a7-aa8a-86fc7d005eb7",
       "isCancelled": false,
       "isSoldOut": false,
+      "notes": "19:30 - Entry with Purchase",
       "venue": "Rough Trade Bristol"
     },
     {
@@ -787,7 +805,7 @@
     },
     {
       "addedDate": "2018-09-17T11:00:00.000Z",
-      "artists": [{ "name": "Tricot" }],
+      "artists": [{ "name": "Tricot" }, { "name": "a-tota-so" }],
       "date": "2018-11-13",
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=18696",
       "eventIdBts": 18696,
@@ -798,6 +816,16 @@
       "isSoldOut": false,
       "priceText": "£14.00",
       "venue": "The Fleece"
+    },
+    {
+      "addedDate": "2018-10-31",
+      "artists": [{ "name": "Geoff Barrow" }],
+      "date": "2018-11-13",
+      "id": "a292219d-2dfb-46ac-8408-661739f5802c",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "notes": "Q & A",
+      "venue": "Rough Trade Bristol"
     },
     {
       "addedDate": "2018-09-17T11:00:00.000Z",
@@ -822,6 +850,20 @@
       "isCancelled": false,
       "isSoldOut": true,
       "venue": "Swindon Arts Centre"
+    },
+    {
+      "addedDate": "2018-10-30",
+      "artists": [
+        { "name": "Haggard Cat" },
+        { "name": "Phoxjaw" },
+        { "name": "Death and the Penguin" }
+      ],
+      "date": "2018-11-18",
+      "id": "9e1bef01-eb56-4fdd-a717-435799964937",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "notes": "Haggard Cat : Ex-Baby Godzilla",
+      "venue": "Crofters Rights"
     },
     {
       "addedDate": "2018-10-17",
@@ -881,6 +923,17 @@
       "venue": "Hy Brasil Music Club"
     },
     {
+      "addedDate": "2018-10-26",
+      "artists": [{ "name": "Glen Matlock" }, { "name": "Earl Slick" }],
+      "date": "2018-11-29",
+      "eventIdBts": "19558",
+      "id": "c1bb48f5-35be-454e-85fe-bac2ab4ef1a0",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£16.50",
+      "venue": "The Thunderbolt"
+    },
+    {
       "addedDate": "2018-10-01",
       "artists": [
         { "name": "Dan Stuart (Green On Red)" },
@@ -906,6 +959,15 @@
       "isCancelled": false,
       "isSoldOut": false,
       "venue": "La Demeurée (Caen)"
+    },
+    {
+      "addedDate": "2018-10-31",
+      "artists": [{ "name": "Bernie Tormé" }],
+      "date": "2018-12-01",
+      "id": "25ae39ba-cb85-448d-9f7c-b751cbd8cf16",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Bear Inn - Weston-S-M"
     },
     {
       "addedDate": "2018-10-01",
@@ -947,6 +1009,15 @@
       "venue": "The Lanes"
     },
     {
+      "addedDate": "2018-10-31",
+      "artists": [{ "name": "Beans On Toast" }],
+      "date": "2018-12-02",
+      "id": "a626de70-0a91-43bd-8b23-0adebc42d139",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Rough Trade Bristol"
+    },
+    {
       "addedDate": "2018-09-17T11:00:00.000Z",
       "artists": [{ "name": "Buffalo Tom" }],
       "date": "2018-12-04",
@@ -979,15 +1050,12 @@
     },
     {
       "addedDate": "2018-10-08",
-      "artists": [
-        {
-          "name": "Duds",
-          "videoUrl": "https://www.youtube.com/watch?v=y-Ubuw6P-uk"
-        }
-      ],
+      "artists": [{ "name": "Duds" }],
       "date": "2018-12-06",
       "detailsUri": "https://www.ents24.com/bristol-events/rough-trade/duds/5402818",
       "id": "e34b17b7-5c5d-4457-aa70-87ee5648a129",
+      "isCancelled": false,
+      "isSoldOut": true,
       "priceText": "£8.80",
       "venue": "Rough Trade Bristol"
     },
@@ -1134,6 +1202,15 @@
       "venue": "O2 Academy"
     },
     {
+      "addedDate": "2018-10-31",
+      "artists": [{ "name": "Black Midi" }],
+      "date": "2019-01-29",
+      "id": "e30ff217-f751-45f2-8133-686105958159",
+      "isCancelled": false,
+      "isSoldOut": true,
+      "venue": "Rough Trade Bristol"
+    },
+    {
       "addedDate": "2018-10-01",
       "artists": [{ "name": "Dodgy" }, { "name": "Babybird" }],
       "date": "2019-02-01",
@@ -1154,6 +1231,15 @@
       "isCancelled": false,
       "isSoldOut": false,
       "venue": "Roundhouse London"
+    },
+    {
+      "addedDate": "2018-10-25",
+      "artists": [{ "name": "Polyphia" }],
+      "date": "2019-02-11",
+      "id": "ca5a4414-55a7-4d9a-a8cc-29cb93976489",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "The Fleece"
     },
     {
       "addedDate": "2018-10-02",
@@ -1208,6 +1294,15 @@
       "venue": "St Philips Gate"
     },
     {
+      "addedDate": "2018-10-30",
+      "artists": [{ "name": "Massive Attack" }],
+      "date": "2019-03-01",
+      "id": "37cc8102-c4c3-4d58-afba-ba01fdb09fff",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Steel Yard Bristol"
+    },
+    {
       "addedDate": "2018-10-05",
       "artists": [{ "name": "Ulrich Schnauss" }],
       "date": "2019-03-14",
@@ -1244,6 +1339,15 @@
       "venue": "The Exchange"
     },
     {
+      "addedDate": "2018-11-01",
+      "artists": [{ "name": "Penelope Isles" }],
+      "date": "2019-04-04",
+      "id": "1bed2537-eb9b-4540-811d-b48259bf0b2c",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Rough Trade Bristol"
+    },
+    {
       "addedDate": "2018-10-11",
       "artists": [{ "name": "Wreckless Eric" }],
       "date": "2019-05-10",
@@ -1265,6 +1369,15 @@
       "notes": "Play The Adverts",
       "priceText": "£13.50",
       "venue": "The Exchange"
+    },
+    {
+      "addedDate": "2018-10-25",
+      "artists": [{ "name": "Let's Rock Bristol" }],
+      "date": "2019-06-02",
+      "id": "f24701e4-25c8-4dc0-8852-73b88a352d25",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "TBC"
     }
   ]
 }
