@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2018-11-03T15:58:52.186Z",
+  "lastUpdated": "2018-12-15T09:35:20.452Z",
   "shows": [
     {
       "addedDate": "2018-09-17T11:00:00.000Z",
@@ -780,9 +780,9 @@
     {
       "addedDate": "2018-10-01",
       "artists": [
-        { "name": "Wot Gorilla" },
         { "name": "Body Hound" },
-        { "name": "Twisted Ankles" }
+        { "name": "Twisted Ankles" },
+        { "name": "Ogives Big Band" }
       ],
       "date": "2018-11-10",
       "detailsUri": "https://www.bristolticketshop.co.uk/eventdetails.aspx?e=19200",
@@ -793,6 +793,28 @@
       "isSoldOut": false,
       "priceText": "£5.50",
       "venue": "Mothers Ruin"
+    },
+    {
+      "addedDate": "2018-11-08",
+      "artists": [
+        { "name": "Steve Strong" },
+        { "name": "Iran Iran" },
+        { "name": "Altitudes" }
+      ],
+      "date": "2018-11-10",
+      "id": "2d3f9a79-095d-4c48-a6aa-87dcc1c934f0",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Crofters Rights"
+    },
+    {
+      "addedDate": "2018-11-08",
+      "artists": [{ "name": "John Bence" }],
+      "date": "2018-11-10",
+      "id": "c86f3272-bb2c-4df4-9203-40f1a4279b7e",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "The Brunswick Club"
     },
     {
       "addedDate": "2018-09-17T11:00:00.000Z",
@@ -875,6 +897,32 @@
       "venue": "Swindon Arts Centre"
     },
     {
+      "addedDate": "2018-11-12",
+      "artists": [
+        { "name": "Sundays & Cybele" },
+        { "name": "MOHIT" },
+        { "name": "Arno" }
+      ],
+      "date": "2018-11-22",
+      "id": "68cf1272-c3bb-473e-b902-b9ac9a8885b8",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "The Old England"
+    },
+    {
+      "addedDate": "2018-11-13",
+      "artists": [
+        { "name": "Gloria" },
+        { "name": "Schnauser" },
+        { "name": "Archosaur" }
+      ],
+      "date": "2018-11-22",
+      "id": "738a68a9-d562-49c3-94c0-25c4d7853f95",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "The Thunderbolt"
+    },
+    {
       "addedDate": "2018-09-17T11:00:00.000Z",
       "artists": [{ "name": "Lonely Tourist" }],
       "date": "2018-11-22",
@@ -882,11 +930,30 @@
       "venue": "Bank Tavern"
     },
     {
+      "addedDate": "2018-11-08",
+      "artists": [{ "name": "Chris Webb" }, { "name": "Jack Cookson" }],
+      "date": "2018-11-23",
+      "id": "7e6dadc5-9151-4f43-8604-24b1da4e9936",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "notes": "Company of Thieves Band",
+      "venue": "Zed Alley"
+    },
+    {
       "addedDate": "2018-09-17T11:00:00.000Z",
       "artists": [{ "name": "Blurt" }],
       "date": "2018-11-24",
       "id": "7a4cbccd-a333-4e77-8e7c-e2b8f1aa332f",
       "venue": "Bell (Bath)"
+    },
+    {
+      "addedDate": "2018-11-12",
+      "artists": [{ "name": "Imprints" }],
+      "date": "2018-11-24",
+      "id": "969d1d74-f0c8-4e02-ba16-07cf674965c7",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Crofters Rights"
     },
     {
       "addedDate": "2018-10-17",
@@ -901,6 +968,19 @@
       "notes": "18:00",
       "priceText": "£10.00",
       "venue": "Watershed"
+    },
+    {
+      "addedDate": "2018-11-22",
+      "artists": [
+        { "name": "Tesseract" },
+        { "name": "Between The Buried And Me" },
+        { "name": "Plini" }
+      ],
+      "date": "2018-11-27",
+      "id": "067e2b67-8632-46c4-8803-90e36a3bfee6",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "SWX"
     },
     {
       "addedDate": "2018-09-17T11:00:00.000Z",
@@ -951,6 +1031,19 @@
       "venue": "Hen And Chicken"
     },
     {
+      "addedDate": "2018-11-13",
+      "artists": [
+        { "name": "Run SOFA" },
+        { "name": "Port Erin" },
+        { "name": "Stanlaey" }
+      ],
+      "date": "2018-11-30",
+      "id": "40287194-125d-4c1a-b204-ef8e727804aa",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Mothers Ruin"
+    },
+    {
       "addedDate": "2018-10-10",
       "artists": [{ "name": "Piniol" }],
       "date": "2018-11-30",
@@ -996,6 +1089,24 @@
       "venue": "Fiddlers"
     },
     {
+      "addedDate": "2018-11-11",
+      "artists": [{ "name": "USA Nails" }],
+      "date": "2018-12-01",
+      "id": "dc1286d3-5808-4d1a-a816-bf73eec360a4",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Mothers Ruin"
+    },
+    {
+      "addedDate": "2018-11-23",
+      "artists": [{ "name": "James Morton" }],
+      "date": "2018-12-02",
+      "id": "217b528a-939f-4903-9f58-deeed0872e34",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Gallimaufry"
+    },
+    {
       "addedDate": "2018-09-23",
       "artists": [{ "name": "Goldie Lookin Chain Xmas Bash Full Band" }],
       "date": "2018-12-02",
@@ -1016,6 +1127,19 @@
       "isCancelled": false,
       "isSoldOut": false,
       "venue": "Rough Trade Bristol"
+    },
+    {
+      "addedDate": "2018-11-23",
+      "artists": [
+        { "name": "Malcolm Middleton" },
+        { "name": "Lonely Tourist" },
+        { "name": "John Mouse" }
+      ],
+      "date": "2018-12-02",
+      "id": "baf77190-a026-49fb-85e6-8582dc4012a7",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "The Exchange"
     },
     {
       "addedDate": "2018-09-17T11:00:00.000Z",
@@ -1060,6 +1184,15 @@
       "venue": "Rough Trade Bristol"
     },
     {
+      "addedDate": "2018-11-30",
+      "artists": [{ "name": "John Bramwell" }, { "name": "Michael Clark" }],
+      "date": "2018-12-08",
+      "id": "0adb142e-824d-4ae3-8d4c-43785e5660ee",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "St. James Wine Vaults - Bath"
+    },
+    {
       "addedDate": "2018-09-17T11:00:00.000Z",
       "artists": [{ "name": "Lonely Tourist" }, { "name": "Locks" }],
       "date": "2018-12-08",
@@ -1101,10 +1234,23 @@
     },
     {
       "addedDate": "2018-09-17T11:00:00.000Z",
-      "artists": [{ "name": "LT???" }],
+      "artists": [{ "name": "PF" }],
       "date": "2018-12-14",
       "id": "a6294f28-38be-4550-8895-23e2ad0ad91a",
-      "venue": "TB???"
+      "isCancelled": false,
+      "isSoldOut": false,
+      "notes": "Private Party",
+      "venue": "The Thunderbolt"
+    },
+    {
+      "addedDate": "2018-11-12",
+      "artists": [{ "name": "Dan Wild-Beesley" }],
+      "date": "2018-12-15",
+      "id": "98d6687e-4289-42ce-ab25-b64edf021a55",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "notes": "One More Tour",
+      "venue": "The Old England"
     },
     {
       "addedDate": "2018-10-01",
@@ -1118,6 +1264,27 @@
       "isSoldOut": false,
       "priceText": "£16.50",
       "venue": "The Exchange"
+    },
+    {
+      "addedDate": "2018-12-11",
+      "artists": [{ "name": "Bad Losers" }],
+      "date": "2018-12-15",
+      "id": "ae346111-4319-4fa8-8ed1-ac43da7ecbc6",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "The Golden Lion"
+    },
+    {
+      "addedDate": "2018-11-12",
+      "artists": [
+        { "name": "IDestroy" },
+        { "name": "Destroy The Beast, Find The Baby" }
+      ],
+      "date": "2018-12-15",
+      "id": "f894a57b-ba8a-434b-90ee-d38147ad38f7",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "The Gryphon"
     },
     {
       "addedDate": "2018-10-01",
@@ -1169,6 +1336,58 @@
       "venue": "The Thunderbolt"
     },
     {
+      "addedDate": "2018-12-12",
+      "artists": [{ "name": "Charlie Allen" }],
+      "date": "2018-12-28",
+      "id": "b0b66ef5-024e-4a41-8858-46d2e5194eb8",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Leftbank"
+    },
+    {
+      "addedDate": "2018-12-15",
+      "artists": [{ "name": "Gaz Brookfield" }, { "name": "Lonely Tourist" }],
+      "date": "2018-12-31",
+      "id": "b9d95cf2-70d0-4d45-8645-d7cbb9c44cc4",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Rose Of Denmark"
+    },
+    {
+      "addedDate": "2018-11-24",
+      "artists": [{ "name": "LBJBs" }, { "name": "Gumbo Show" }],
+      "date": "2018-12-31",
+      "id": "f75d01e8-a149-4e2b-a0e4-172a75361327",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£10.00",
+      "venue": "Leftbank"
+    },
+    {
+      "addedDate": "2018-11-23",
+      "artists": [{ "name": "James Morton" }],
+      "date": "2019-01-03",
+      "id": "b94a18b1-e837-4dcb-8cd8-a7638657bc27",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "The Fringe"
+    },
+    {
+      "addedDate": "2018-12-04",
+      "artists": [
+        { "name": "The Osiris Club" },
+        { "name": "Kavus Torabi" },
+        { "name": "Anta" }
+      ],
+      "date": "2019-01-11",
+      "eventIdBts": "19902",
+      "id": "b76c201f-f828-4a7c-8f91-62f424cfbe96",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£11.00",
+      "venue": "The Cube Microplex"
+    },
+    {
       "addedDate": "2018-10-16",
       "artists": [{ "name": "Kevin Devine" }],
       "date": "2019-01-16",
@@ -1177,6 +1396,26 @@
       "isSoldOut": false,
       "notes": "Solo",
       "venue": "Camden Assembly London"
+    },
+    {
+      "addedDate": "2018-10-03",
+      "artists": [{ "name": "Cake" }],
+      "date": "2019-01-18",
+      "detailsUri": "https://tickets.ents24.com/event/cake/swx-bristol/1273845?aff=ents24&inf=45703c99bde2fbb1",
+      "id": "2bd7a766-62ce-4576-9bb5-aa2212596cc8",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£30.25",
+      "venue": "SWX"
+    },
+    {
+      "addedDate": "2018-11-22",
+      "artists": [{ "name": "Plume of Feathers" }],
+      "date": "2019-01-18",
+      "id": "af84ad23-076c-481a-a2f6-670c97fdedb1",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Greenbank"
     },
     {
       "addedDate": "2018-09-23",
@@ -1211,6 +1450,37 @@
       "venue": "Rough Trade Bristol"
     },
     {
+      "addedDate": "2018-11-29",
+      "artists": [{ "name": "Death Cab For Cutie" }, { "name": "The Beths" }],
+      "date": "2019-01-30",
+      "id": "191d258f-833f-4b2a-b154-628e2bf7cf8a",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "O2 Academy"
+    },
+    {
+      "addedDate": "2018-11-29",
+      "artists": [{ "name": "Graham Fellows" }],
+      "date": "2019-01-30",
+      "id": "8a3192a6-4900-45a3-9475-452112b76bd3",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Tobacco Factory"
+    },
+    {
+      "addedDate": "2018-11-30",
+      "artists": [
+        { "name": "Steve Strong" },
+        { "name": "Ogives Big Band" },
+        { "name": "Voronoi" }
+      ],
+      "date": "2019-01-31",
+      "id": "9dcb426e-5bcf-4564-bb68-3054da6eda20",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "The Old England"
+    },
+    {
       "addedDate": "2018-10-01",
       "artists": [{ "name": "Dodgy" }, { "name": "Babybird" }],
       "date": "2019-02-01",
@@ -1224,6 +1494,17 @@
       "venue": "O2 Academy"
     },
     {
+      "addedDate": "2018-12-04",
+      "artists": [{ "name": "Patrick Duff" }],
+      "date": "2019-02-02",
+      "eventIdBts": "19902",
+      "id": "9536fa05-7926-4387-a34c-6ea99bffed6b",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£11.00",
+      "venue": "The Cube Microplex"
+    },
+    {
       "addedDate": "2018-10-16",
       "artists": [{ "name": "Rival Sons" }, { "name": "The Sheepdogs" }],
       "date": "2019-02-06",
@@ -1233,6 +1514,21 @@
       "venue": "Roundhouse London"
     },
     {
+      "addedDate": "2018-11-18",
+      "artists": [
+        { "name": "Toundra" },
+        { "name": "Cegvera" },
+        { "name": "Super Goliath" }
+      ],
+      "date": "2019-02-09",
+      "eventIdBts": "19772",
+      "id": "04a0efb6-1031-4074-82a7-0c67ef8efb38",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£10.00",
+      "venue": "The Old England"
+    },
+    {
       "addedDate": "2018-10-25",
       "artists": [{ "name": "Polyphia" }],
       "date": "2019-02-11",
@@ -1240,6 +1536,15 @@
       "isCancelled": false,
       "isSoldOut": false,
       "venue": "The Fleece"
+    },
+    {
+      "addedDate": "2018-11-29",
+      "artists": [{ "name": "Piniol" }],
+      "date": "2019-02-15",
+      "id": "a2f3c395-9c39-4e59-a8a9-c9cd40b16ac9",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Recyclart Brussels"
     },
     {
       "addedDate": "2018-10-02",
@@ -1255,6 +1560,15 @@
       "venue": "The Exchange"
     },
     {
+      "addedDate": "2018-11-21",
+      "artists": [{ "name": "Fur" }],
+      "date": "2019-02-16",
+      "id": "efa0fe6d-8963-4a14-9cdf-f8784f7fa609",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Rough Trade Bristol"
+    },
+    {
       "addedDate": "2018-10-03",
       "artists": [{ "name": "Bill Ryder Jones" }],
       "date": "2019-02-17",
@@ -1268,14 +1582,26 @@
       "venue": "Bristol Thekla"
     },
     {
-      "addedDate": "2018-10-03",
-      "artists": [{ "name": "Cake" }],
+      "addedDate": "2018-12-04",
+      "artists": [{ "name": "The Lemonheads" }],
       "date": "2019-02-18",
-      "detailsUri": "https://tickets.ents24.com/event/cake/swx-bristol/1273845?aff=ents24&inf=45703c99bde2fbb1",
-      "id": "2bd7a766-62ce-4576-9bb5-aa2212596cc8",
+      "eventIdBts": "19907",
+      "id": "83d4c3f3-4162-451d-a02a-deac04b64dc3",
+      "isCancelled": false,
       "isSoldOut": false,
-      "priceText": "£30.25",
+      "priceText": "£21.25",
       "venue": "SWX"
+    },
+    {
+      "addedDate": "2018-11-05",
+      "artists": [{ "name": "Psychedelic Pron Crumpets" }],
+      "date": "2019-02-20",
+      "eventIdBts": "19625",
+      "id": "b18ca1e5-294e-473b-b91c-f50b9e451bc1",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£11.00",
+      "venue": "Bristol Thekla"
     },
     {
       "addedDate": "2018-09-23",
@@ -1348,6 +1674,69 @@
       "venue": "Rough Trade Bristol"
     },
     {
+      "addedDate": "2018-11-08",
+      "artists": [{ "name": "Cherry Glazerr" }],
+      "date": "2019-04-04",
+      "id": "fce1c2bc-9013-431a-9024-ed2b29ce00af",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Bristol Thekla"
+    },
+    {
+      "addedDate": "2018-11-30",
+      "artists": [{ "name": "Sleaford Mods" }],
+      "date": "2019-04-06",
+      "eventIdBts": "19876",
+      "id": "0803f04e-5df1-4a4b-8412-d191108f95d7",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£22.50",
+      "venue": "O2 Academy"
+    },
+    {
+      "addedDate": "2018-12-04",
+      "artists": [{ "name": "Todd Rundgren" }],
+      "date": "2019-04-06",
+      "id": "0c56d5e8-a358-4648-b4cf-4438f0429093",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "notes": "on sale Friday 07 December at 9am from Eventim AXS Ticketmaster",
+      "venue": "Eventim Apollo London "
+    },
+    {
+      "addedDate": "2018-12-13",
+      "artists": [{ "name": "William The Conqueror" }],
+      "date": "2019-04-17",
+      "eventIdBts": "19981",
+      "id": "e40ab589-9275-4fde-9349-6b7e37211dd6",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£11.00",
+      "venue": "Bristol Thekla"
+    },
+    {
+      "addedDate": "2018-11-29",
+      "artists": [{ "name": "Mike Krol" }],
+      "date": "2019-04-23",
+      "eventIdBts": "19888",
+      "id": "dc366e1a-3e1f-458b-a5af-e2d6f162d8a4",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£8.00",
+      "venue": "Crofters Rights"
+    },
+    {
+      "addedDate": "2018-11-17",
+      "artists": [{ "name": "The Sadies" }],
+      "date": "2019-05-08",
+      "eventIdBts": "19777",
+      "id": "0ab5977e-8765-4be0-a4d5-ba2dcddce11f",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£18.00",
+      "venue": "Hen And Chicken"
+    },
+    {
       "addedDate": "2018-10-11",
       "artists": [{ "name": "Wreckless Eric" }],
       "date": "2019-05-10",
@@ -1371,6 +1760,18 @@
       "venue": "The Exchange"
     },
     {
+      "addedDate": "2018-11-28",
+      "artists": [{ "name": "Gong" }],
+      "date": "2019-05-24",
+      "eventIdBts": "19859",
+      "id": "f6a7bd2d-d4bf-451d-8cab-5fdf319f8205",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "notes": "On Sale 9am Fri 30 Nov 2018",
+      "priceText": "£19.25",
+      "venue": "Bristol Thekla"
+    },
+    {
       "addedDate": "2018-10-25",
       "artists": [{ "name": "Let's Rock Bristol" }],
       "date": "2019-06-02",
@@ -1378,6 +1779,62 @@
       "isCancelled": false,
       "isSoldOut": false,
       "venue": "TBC"
+    },
+    {
+      "addedDate": "2018-11-21",
+      "artists": [{ "name": "Nick Lowe" }],
+      "date": "2019-06-03",
+      "id": "7fa93e19-c4d8-4c80-a6e8-ea9c5a2fea60",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "St Georges Bristol"
+    },
+    {
+      "addedDate": "2018-11-23",
+      "artists": [{ "name": "King Crimson" }],
+      "date": "2019-06-18",
+      "id": "3a500b0e-aa88-4ae9-9f12-c724b4fc9d20",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Albert Hall London"
+    },
+    {
+      "addedDate": "2018-11-23",
+      "artists": [{ "name": "King Crimson" }],
+      "date": "2019-06-19",
+      "id": "20c96ed5-b82e-4103-ae47-d5953ec3d0c2",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Albert Hall London"
+    },
+    {
+      "addedDate": "2018-11-23",
+      "artists": [{ "name": "King Crimson" }],
+      "date": "2019-06-20",
+      "id": "eeb836cf-dafe-4164-9d76-514b5f4175c8",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Albert Hall London"
+    },
+    {
+      "addedDate": "2018-12-13",
+      "artists": [{ "name": "Love Featuring Johnny Echols" }],
+      "date": "2019-07-04",
+      "eventIdBts": "19985",
+      "id": "e89cce9b-fac8-4771-b907-5be94e060720",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "priceText": "£20.00",
+      "venue": "The Fleece"
+    },
+    {
+      "addedDate": "2018-11-27",
+      "artists": [{ "name": "Squeeze" }, { "name": "Heaven 17" }],
+      "date": "2019-10-30",
+      "id": "5d0dd635-07fd-4b23-acbb-c0802236fc36",
+      "isCancelled": false,
+      "isSoldOut": false,
+      "venue": "Bath Forum"
     }
   ]
 }
